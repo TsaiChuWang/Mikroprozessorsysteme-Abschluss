@@ -1,0 +1,69 @@
+[1/5] Performing build step for 'bootloader'
+[1/1] cd /home/wtsaichu/esp/esp-idf/examples/protocols/http_request/build/bootloader/esp-idf/esptool_py && /home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/bin/python /home/wtsaichu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/wtsaichu/esp/esp-idf/examples/protocols/http_request/build/bootloader/bootloader.bin
+Bootloader binary size 0x5230 bytes. 0x2dd0 bytes (36%) free.
+[2/5] No install step for 'bootloader'
+[3/5] Completed 'bootloader'
+[4/5] cd /home/wtsaichu/esp/esp-idf/examples/protocols/http_request/build/esp-idf/esptool_py && /home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/bin/python /home/wtsaichu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/wtsaichu/esp/esp-idf/examples/protocols/http_request/build/partition_table/partition-table.bin /home/wtsaichu/esp/esp-idf/examples/protocols/http_request/build/http_request.bin
+http_request.bin binary size 0xbe8b0 bytes. Smallest app partition is 0x100000 bytes. 0x41750 bytes (26%) free.
+[4/5] cd /home/wtsaichu/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/wtsaichu/esp/esp-idf -D "SERIAL_TOOL=/home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/bin/python;;/home/wtsaichu/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/wtsaichu/esp/esp-idf/examples/protocols/http_request/build -P /home/wtsaichu/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32s3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 8MB 0x0 bootloader/bootloader.bin 0x10000 http_request.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev3
+Serial port /dev/ttyACM0
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.1)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: 34:85:18:a6:72:3c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x000cefff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21040 bytes to 13067...
+Writing at 0x00000000... (100 %)
+Wrote 21040 bytes (13067 compressed) at 0x00000000 in 0.6 seconds (effective 291.5 kbit/s)...
+Hash of data verified.
+Compressed 780464 bytes to 484343...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001d42e... (6 %)
+Writing at 0x0002618b... (10 %)
+Writing at 0x0002afe4... (13 %)
+Writing at 0x000368fa... (16 %)
+Writing at 0x0003cf6d... (20 %)
+Writing at 0x000432c6... (23 %)
+Writing at 0x00049664... (26 %)
+Writing at 0x0004f6e9... (30 %)
+Writing at 0x00054e96... (33 %)
+Writing at 0x0005abe4... (36 %)
+Writing at 0x00060833... (40 %)
+Writing at 0x000664bd... (43 %)
+Writing at 0x0006c2aa... (46 %)
+Writing at 0x0007191d... (50 %)
+Writing at 0x00076892... (53 %)
+Writing at 0x0007b96e... (56 %)
+Writing at 0x00080950... (60 %)
+Writing at 0x00085cb8... (63 %)
+Writing at 0x0008b154... (66 %)
+Writing at 0x00090f0d... (70 %)
+Writing at 0x000966b2... (73 %)
+Writing at 0x0009c2c7... (76 %)
+Writing at 0x000a2973... (80 %)
+Writing at 0x000a849d... (83 %)
+Writing at 0x000ad951... (86 %)
+Writing at 0x000b7a0a... (90 %)
+Writing at 0x000bef86... (93 %)
+Writing at 0x000c51e3... (96 %)
+Writing at 0x000cb285... (100 %)
+Wrote 780464 bytes (484343 compressed) at 0x00010000 in 10.8 seconds (effective 576.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 523.3 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
