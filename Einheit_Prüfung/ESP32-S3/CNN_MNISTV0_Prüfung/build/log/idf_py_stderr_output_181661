@@ -1,0 +1,2445 @@
+[0;33m--- esp-idf-monitor 1.3.3 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x42018458: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160 (discriminator 1)
+[0m
+[0;33m0x4201721e: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:159
+[0m
+[0;33m0x4201724c: __ieee754_sqrt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libm/math/e_sqrt.c:175
+[0m
+[0;33m0x42018455: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:160
+[0m
+[0;33m0x42018525: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+[0m
+[0;33m0x420094be: loadFilter at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/../include/network.h:71
+[0m
+[0;33m0x4200976b: loadNetwork at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/../include/model.h:45
+[0m
+[0;33m0x420097b5: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main/main.c:53
+[0m
+[0;33m0x4202ae9b: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037b0b1: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759b0: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0m
