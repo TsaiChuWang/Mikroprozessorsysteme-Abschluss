@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/C99_MNIST.dir/src/main.c.o -o /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/CNN/CNN_V1.0/bin/C99_MNIST  -lm 

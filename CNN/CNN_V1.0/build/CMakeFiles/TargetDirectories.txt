@@ -1,0 +1,4 @@
+/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/CNN/CNN_V1.0/build/CMakeFiles/C99_MNIST.dir
+/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/CNN/CNN_V1.0/build/CMakeFiles/C99_MNIST_Test.dir
+/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/CNN/CNN_V1.0/build/CMakeFiles/edit_cache.dir
+/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/CNN/CNN_V1.0/build/CMakeFiles/rebuild_cache.dir
