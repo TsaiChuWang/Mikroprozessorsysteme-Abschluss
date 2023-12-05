@@ -40,6 +40,20 @@ def healthcheck():
     # return some JSON
     return jsonify({'key': 'healthcheck', 'status': 200})
 
+@app.route('/isClassificate', methods=['GET'])
+def isClassificate():
+    isClassificate_flag = -1
+    image = []
+    with open('./configuration/config.json') as file:
+        data = json.load(file)
+        isClassificate_flag = data["classification"]
+        image = data["image"]
+    print("classification= "+str(isClassificate_flag))
+    if(isClassificate_flag == 0):
+        return str(isClassificate_flag)
+    else:
+        return jsonify({'classification': isClassificate_flag, 'image': image})
+
 # @app.route('/healthcheck', methods=['GET'])
 # def healthcheck():
 #     # return some JSON
