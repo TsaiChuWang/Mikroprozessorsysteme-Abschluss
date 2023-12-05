@@ -1,3 +1,4 @@
+-- Existing sdkconfig '/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/sdkconfig' renamed to '/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/sdkconfig.old'.
 -- Found Git: /usr/bin/git (found version "2.39.2") 
 -- The C compiler identification is GNU 13.2.0
 -- The CXX compiler identification is GNU 13.2.0
@@ -14,8 +15,6 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Building ESP-IDF components for target esp32s3
-Dependencies lock doesn't exist, solving dependencies.
-Updating lock file at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/dependencies.lock
 Processing 1 dependencies:
 [1/1] idf (5.3.0)
 -- Project sdkconfig file /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/sdkconfig
@@ -31,7 +30,7 @@ Processing 1 dependencies:
 -- Found Python3: /home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/bin/python (found version "3.11.2") found components: Interpreter 
 -- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
 -- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
--- App "main" version: 3f1dfb4-dirty
+-- App "main" version: e197ee9-dirty
 -- Adding linker script /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/build/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
 -- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld

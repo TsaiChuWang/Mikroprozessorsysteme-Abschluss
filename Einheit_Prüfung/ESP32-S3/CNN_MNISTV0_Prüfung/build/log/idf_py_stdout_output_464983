@@ -1,0 +1,138 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32s3
+Processing 1 dependencies:
+[1/1] idf (5.3.0)
+-- Project sdkconfig file /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "main" version: e197ee9-dirty
+-- Adding linker script /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp32-camera esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_gpio esp_driver_gptimer esp_driver_mcpwm esp_driver_pcnt esp_driver_sdmmc esp_driver_spi esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/wtsaichu/esp/esp-idf/components/app_trace /home/wtsaichu/esp/esp-idf/components/app_update /home/wtsaichu/esp/esp-idf/components/bootloader /home/wtsaichu/esp/esp-idf/components/bootloader_support /home/wtsaichu/esp/esp-idf/components/bt /home/wtsaichu/esp/esp-idf/components/cmock /home/wtsaichu/esp/esp-idf/components/console /home/wtsaichu/esp/esp-idf/components/cxx /home/wtsaichu/esp/esp-idf/components/driver /home/wtsaichu/esp/esp-idf/components/efuse /home/wtsaichu/esp/esp-idf/components/esp-tls /home/wtsaichu/esp/esp-idf/components/esp32-camera /home/wtsaichu/esp/esp-idf/components/esp_adc /home/wtsaichu/esp/esp-idf/components/esp_app_format /home/wtsaichu/esp/esp-idf/components/esp_bootloader_format /home/wtsaichu/esp/esp-idf/components/esp_coex /home/wtsaichu/esp/esp-idf/components/esp_common /home/wtsaichu/esp/esp-idf/components/esp_driver_gpio /home/wtsaichu/esp/esp-idf/components/esp_driver_gptimer /home/wtsaichu/esp/esp-idf/components/esp_driver_mcpwm /home/wtsaichu/esp/esp-idf/components/esp_driver_pcnt /home/wtsaichu/esp/esp-idf/components/esp_driver_sdmmc /home/wtsaichu/esp/esp-idf/components/esp_driver_spi /home/wtsaichu/esp/esp-idf/components/esp_eth /home/wtsaichu/esp/esp-idf/components/esp_event /home/wtsaichu/esp/esp-idf/components/esp_gdbstub /home/wtsaichu/esp/esp-idf/components/esp_hid /home/wtsaichu/esp/esp-idf/components/esp_http_client /home/wtsaichu/esp/esp-idf/components/esp_http_server /home/wtsaichu/esp/esp-idf/components/esp_https_ota /home/wtsaichu/esp/esp-idf/components/esp_https_server /home/wtsaichu/esp/esp-idf/components/esp_hw_support /home/wtsaichu/esp/esp-idf/components/esp_lcd /home/wtsaichu/esp/esp-idf/components/esp_local_ctrl /home/wtsaichu/esp/esp-idf/components/esp_mm /home/wtsaichu/esp/esp-idf/components/esp_netif /home/wtsaichu/esp/esp-idf/components/esp_netif_stack /home/wtsaichu/esp/esp-idf/components/esp_partition /home/wtsaichu/esp/esp-idf/components/esp_phy /home/wtsaichu/esp/esp-idf/components/esp_pm /home/wtsaichu/esp/esp-idf/components/esp_psram /home/wtsaichu/esp/esp-idf/components/esp_ringbuf /home/wtsaichu/esp/esp-idf/components/esp_rom /home/wtsaichu/esp/esp-idf/components/esp_system /home/wtsaichu/esp/esp-idf/components/esp_timer /home/wtsaichu/esp/esp-idf/components/esp_wifi /home/wtsaichu/esp/esp-idf/components/espcoredump /home/wtsaichu/esp/esp-idf/components/esptool_py /home/wtsaichu/esp/esp-idf/components/fatfs /home/wtsaichu/esp/esp-idf/components/freertos /home/wtsaichu/esp/esp-idf/components/hal /home/wtsaichu/esp/esp-idf/components/heap /home/wtsaichu/esp/esp-idf/components/http_parser /home/wtsaichu/esp/esp-idf/components/idf_test /home/wtsaichu/esp/esp-idf/components/ieee802154 /home/wtsaichu/esp/esp-idf/components/json /home/wtsaichu/esp/esp-idf/components/log /home/wtsaichu/esp/esp-idf/components/lwip /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/main /home/wtsaichu/esp/esp-idf/components/mbedtls /home/wtsaichu/esp/esp-idf/components/mqtt /home/wtsaichu/esp/esp-idf/components/newlib /home/wtsaichu/esp/esp-idf/components/nvs_flash /home/wtsaichu/esp/esp-idf/components/nvs_sec_provider /home/wtsaichu/esp/esp-idf/components/openthread /home/wtsaichu/esp/esp-idf/components/partition_table /home/wtsaichu/esp/esp-idf/components/perfmon /home/wtsaichu/esp/esp-idf/components/protobuf-c /home/wtsaichu/esp/esp-idf/components/protocomm /home/wtsaichu/esp/esp-idf/components/pthread /home/wtsaichu/esp/esp-idf/components/sdmmc /home/wtsaichu/esp/esp-idf/components/soc /home/wtsaichu/esp/esp-idf/components/spi_flash /home/wtsaichu/esp/esp-idf/components/spiffs /home/wtsaichu/esp/esp-idf/components/tcp_transport /home/wtsaichu/esp/esp-idf/components/touch_element /home/wtsaichu/esp/esp-idf/components/ulp /home/wtsaichu/esp/esp-idf/components/unity /home/wtsaichu/esp/esp-idf/components/usb /home/wtsaichu/esp/esp-idf/components/vfs /home/wtsaichu/esp/esp-idf/components/wear_levelling /home/wtsaichu/esp/esp-idf/components/wifi_provisioning /home/wtsaichu/esp/esp-idf/components/wpa_supplicant /home/wtsaichu/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/build
+[1/991] Generating project_elf_src_esp32s3.c
+[2/991] Generating memory.ld linker script...
+[3/991] Building C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/x25519.c.obj
+[4/991] Building C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/everest.c.obj
+[5/991] Generating ../../partition_table/partition-table.bin
+Partition table binary generated. Contents:
+*******************************************************************************
+# ESP-IDF Partition Table
+# Name, Type, SubType, Offset, Size, Flags
+nvs,data,nvs,0x9000,24K,
+phy_init,data,phy,0xf000,4K,
+factory,app,factory,0x10000,1M,
+*******************************************************************************
+[6/991] Building C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj
+[7/991] Building C object esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m/p256-m.c.obj
+[8/991] Building C object esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m_driver_entrypoints.c.obj
+[9/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesni.c.obj
+[10/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aes.c.obj
+[11/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesce.c.obj
+[12/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1parse.c.obj
+[13/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1write.c.obj
+[14/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aria.c.obj
+[15/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/base64.c.obj
+[16/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_core.c.obj
+[17/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod.c.obj
+[18/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod_raw.c.obj
+[19/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/camellia.c.obj
+[20/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chacha20.c.obj
+[21/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chachapoly.c.obj
+[22/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ccm.c.obj
+[23/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum.c.obj
+[24/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.obj
+[25/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher.c.obj
+[26/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/constant_time.c.obj
+[27/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/des.c.obj
+[28/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/dhm.c.obj
+[29/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cmac.c.obj
+[30/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.obj
+[31/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecjpake.c.obj
+[32/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdh.c.obj
+[33/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.obj
+[34/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves_new.c.obj
+[35/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy.c.obj
+[36/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.obj
+[37/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp.c.obj
+[38/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.obj
+[39/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/gcm.c.obj
+[40/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hkdf.c.obj
+[41/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/error.c.obj
+[42/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.obj
+[43/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/lmots.c.obj
+[44/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/lms.c.obj
+[45/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md.c.obj
+[46/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md5.c.obj
+[47/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.obj
+[48/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/nist_kw.c.obj
+[49/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/padlock.c.obj
+[50/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pem.c.obj
+[51/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk.c.obj
+[52/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/oid.c.obj
+[53/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.obj
+[54/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs12.c.obj
+[55/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs5.c.obj
+[56/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform.c.obj
+[57/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkwrite.c.obj
+[58/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkparse.c.obj
+[59/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/poly1305.c.obj
+[60/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform_util.c.obj
+[61/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.obj
+[62/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.obj
+[63/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers_no_static.c.obj
+[64/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.obj
+[65/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.obj
+[66/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ffdh.c.obj
+[67/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.obj
+[68/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.obj
+[69/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_pake.c.obj
+[70/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.obj
+[71/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.obj
+[72/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.obj
+[73/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.obj
+[74/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.obj
+[75/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.obj
+[76/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ripemd160.c.obj
+[77/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_util.c.obj
+[78/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha1.c.obj
+[79/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.obj
+[80/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha256.c.obj
+[81/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha512.c.obj
+[82/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/threading.c.obj
+[83/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/timing.c.obj
+[84/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version.c.obj
+[85/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha3.c.obj
+[86/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa.c.obj
+[87/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version_features.c.obj
+[88/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.obj
+[89/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj
+[90/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/esp_mem.c.obj
+[91/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/esp_hardware.c.obj
+[92/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj
+[93/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/esp_timing.c.obj
+[94/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
+[95/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
+[96/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
+[97/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.obj
+[98/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.obj
+[99/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.obj
+[100/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.obj
+[101/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.obj
+[102/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
+[103/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
+[104/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/md/esp_md.c.obj
+[105/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.obj
+[106/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/wtsaichu/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
+[107/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs7.c.obj
+[108/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.obj
+[109/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.obj
+[110/991] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.obj

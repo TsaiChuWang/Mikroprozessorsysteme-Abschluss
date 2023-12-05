@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "main",
-    "project_version":    "3f1dfb4-dirty",
+    "project_version":    "e197ee9-dirty",
     "project_path":       "/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung",
     "idf_path":           "/home/wtsaichu/esp/esp-idf",
     "build_dir":          "/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/build",
@@ -633,14 +633,14 @@
             "target": "___idf_esp_psram",
             "prefix": "idf",
             "dir": "/home/wtsaichu/esp/esp-idf/components/esp_psram",
-            "type": "LIBRARY",
+            "type": "CONFIG_ONLY",
             "lib": "__idf_esp_psram",
             "reqs": [],
             "priv_reqs": [ "heap", "spi_flash", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/CNN_MNISTV0_Prüfung/build/esp-idf/esp_psram/libesp_psram.a",
-            "sources": [ "/home/wtsaichu/esp/esp-idf/components/esp_psram/esp_psram.c", "/home/wtsaichu/esp/esp-idf/components/esp_psram/mmu_psram_flash.c", "/home/wtsaichu/esp/esp-idf/components/esp_psram/esp32s3/esp_psram_impl_octal.c" ],
+            "file": "",
+            "sources": [],
             "include_dirs": [ "include" ]
         },
         "esp_ringbuf": {

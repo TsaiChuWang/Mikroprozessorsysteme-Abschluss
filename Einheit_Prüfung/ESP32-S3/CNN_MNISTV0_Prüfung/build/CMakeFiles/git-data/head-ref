@@ -1,1 +1,9 @@
-3f1dfb477f61f42872378f76ece3eaa794019239
+0000000000000000000000000000000000000000 5073a4436b41de3350d8095d38ec27faf14d6bf3 TsaiChuWang <wtsaichu@gmail.com> 1701342832 +0800	clone: from https://github.com/TsaiChuWang/Mikroprozessorsysteme-Abschluss.git
+5073a4436b41de3350d8095d38ec27faf14d6bf3 1b71676cb84b38730e18fadfede75cdbbb5ce701 TsaiChuWang <wtsaichu@gmail.com> 1701342893 +0800	commit: README.md aktausilieren
+1b71676cb84b38730e18fadfede75cdbbb5ce701 3f1dfb477f61f42872378f76ece3eaa794019239 TsaiChuWang <wtsaichu@gmail.com> 1701421495 +0800	commit: esp32 erste prufung falsch
+3f1dfb477f61f42872378f76ece3eaa794019239 b5a9f0639210ac1f77e8f6b8e9d4117a6285f40d TsaiChuWang <wtsaichu@gmail.com> 1701512948 +0800	commit: CNN V0 failed
+b5a9f0639210ac1f77e8f6b8e9d4117a6285f40d be8d0a0db4f2d85520d668a708bdc0e9cc6f2705 TsaiChuWang <wtsaichu@gmail.com> 1701532983 +0800	commit: Wifi_Verbinden aktausilieren fertig
+be8d0a0db4f2d85520d668a708bdc0e9cc6f2705 244a5e8cbe4a6615e389fc14084386e2ac2a1617 TsaiChuWang <wtsaichu@gmail.com> 1701533300 +0800	commit: Server aktausilieren v0
+244a5e8cbe4a6615e389fc14084386e2ac2a1617 2cd2273ce3bff8ae19fcd048d797e6178c6f7800 TsaiChuWang <wtsaichu@gmail.com> 1701533391 +0800	commit: CNN V0 zum V0.2 aktausilieren
+2cd2273ce3bff8ae19fcd048d797e6178c6f7800 9437ad525bb1ed19769889743da7a4defe8cf977 TsaiChuWang <wtsaichu@gmail.com> 1701735641 +0800	commit: CNN V0.2
+9437ad525bb1ed19769889743da7a4defe8cf977 e197ee96e678f412a30e4dadd759ccea45464f03 TsaiChuWang <wtsaichu@gmail.com> 1701740807 +0800	commit: ESP32-S3 HTTP GET akyausilieren fertig
