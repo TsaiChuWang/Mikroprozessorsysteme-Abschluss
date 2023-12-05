@@ -1,4 +1,0 @@
-/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/C99_MNIST-master/build/CMakeFiles/C99_MNIST.dir
-/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/C99_MNIST-master/build/CMakeFiles/C99_MNIST_Test.dir
-/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/C99_MNIST-master/build/CMakeFiles/edit_cache.dir
-/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/C99_MNIST-master/build/CMakeFiles/rebuild_cache.dir

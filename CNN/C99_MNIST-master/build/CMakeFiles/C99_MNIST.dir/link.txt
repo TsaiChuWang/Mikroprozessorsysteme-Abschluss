@@ -1,1 +1,0 @@
-/usr/bin/cc -O3 -DNDEBUG CMakeFiles/C99_MNIST.dir/src/main.c.o -o /home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/C99_MNIST-master/bin/C99_MNIST  -lm 

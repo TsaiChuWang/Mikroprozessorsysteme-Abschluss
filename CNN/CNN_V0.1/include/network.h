@@ -84,6 +84,7 @@ int saveFilter(FILE * fp, CVLayer * layer) {
 CVLayer * loadFilter(FILE * fp) {
     CVLayer * layer = (CVLayer *)malloc(sizeof(CVLayer));
     layer->destroy = killCVLayer;
+    printf("%d\n", fread((char *)&layer->H, sizeof(int), 1, fp));
     _ = fread((char *)&layer->H, sizeof(int), 1, fp);
     _ = fread((char *)&layer->L, sizeof(int), 1, fp);
     _ = fread((char *)&layer->W, sizeof(int), 1, fp);
