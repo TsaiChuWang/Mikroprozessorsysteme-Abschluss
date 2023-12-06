@@ -132,8 +132,8 @@ int main(){
                 strcat(turn_gray_scale_command, " ");
                 strcat(turn_gray_scale_command, GRAYSCALE_FOLDER_PATH);
                 strcat(turn_gray_scale_command, filename);
-                printf("command=%s\n", turn_gray_scale_command);
-                // system(turn_gray_scale_command);
+                // printf("command=%s\n", turn_gray_scale_command);
+                system(turn_gray_scale_command);
 
                 char crop_gray_scale_command[300];
                 strcpy(crop_gray_scale_command, "../bin/crop ");
@@ -143,9 +143,7 @@ int main(){
                 strcat(crop_gray_scale_command, CROP_GRAYSCALE_FOLDER_PATH);
                 strcat(crop_gray_scale_command, filename);
                 // printf("command=%s\n", crop_gray_scale_command); 
-                
-                
-                // system(crop_gray_scale_command);
+                system(crop_gray_scale_command);
             }
         }
         closedir(dir);
