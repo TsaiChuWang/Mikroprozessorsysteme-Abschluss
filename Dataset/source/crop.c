@@ -99,15 +99,14 @@ void crop_image(png_bytep *src_rows, int src_width, int src_height,
 }
 
 int main(int argc, char *argv[]) {
-    char* input_filename;
-    char* output_filename;
 #ifdef TEST
-        input_filename = PNG_GRAYSCALE_FILE_PATH;
-        output_filename =  PNG_CROP_FILE_PATH;
+        const char* input_filename = PNG_GRAYSCALE_FILE_PATH;
+        const char* output_filename =  PNG_CROP_FILE_PATH;
 #else
-        input_filename = argv[1];
-        output_filename =  argv[2];       
+        const char* input_filename = argv[1];
+        const char* output_filename =  argv[2];       
 #endif
+
     int width, height;
     png_bytep *row_pointers;
 
@@ -138,6 +137,7 @@ int main(int argc, char *argv[]) {
     for (int y = 0; y < dest_height; y++)
         free(cropped_rows[y]);
     free(cropped_rows);
+    printf("Conversion completed successfully. form %s to %s \n\n", input_filename, output_filename);
 
     return 0;
 }

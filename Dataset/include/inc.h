@@ -3,7 +3,7 @@
 #define PNG_CROP_FILE_PATH "/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Dataset/test/test_grayscale_crop.png"
 #define GRY_FILE_PATH "/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Dataset/test/test.gry"
 
-#define TEST
+// #define TEST
 
 #define INPUT_FOLDER_PATH "/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/Dataset/Dataset_minimized/"
 #define GRAYSCALE_FOLDER_PATH "/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/Dataset/Dataset_GRAY/"
