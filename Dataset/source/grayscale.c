@@ -136,14 +136,15 @@ void write_png_file(const char *filename, uint8_t **pixels, int width, int heigh
 }
 
 int main(int argc, char *argv[]) {
-    char* input_filename, output_filename;
-    if(argc>2){
-        input_filename = PNG_FILE_PATH;
-        output_filename =  PNG_GRAYSCALE_FILE_PATH;
-    }else{
-        input_filename = argv[1];
-        output_filename =  argv[2];       
-    }
+    // const char* input_filename, output_filename;
+
+#ifdef TEST
+        const char* input_filename = PNG_FILE_PATH;
+        const char* output_filename =  PNG_GRAYSCALE_FILE_PATH;
+#else
+        const char* input_filename = argv[1];
+        const char* output_filename =  argv[2];       
+#endif
 
     uint8_t **pixels;
     int width, height;
@@ -160,7 +161,7 @@ int main(int argc, char *argv[]) {
     
     free(pixels);
 
-    printf("Conversion completed successfully.\n");
+    printf("Conversion completed successfully. form %s to %s \n", input_filename, output_filename);
 
     return EXIT_SUCCESS;
 }

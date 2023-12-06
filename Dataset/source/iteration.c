@@ -5,8 +5,11 @@
 
 #include <sys/types.h>
 #include <sys/stat.h>
+
+#include "../include/inc.h"
 const char *inputFolder = "/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/Dataset/Dataset_minimized/";
-const char *outputFolder = "/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/Dataset/Dataset_grayscale/";
+const char *grayscaleFolder = "/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/Dataset/Dataset_grayscale/";
+const char *crop_grayscaleFolder = "/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/Dataset/Dataset_crop/";
 
 #define LABEL_NUMBER 7
 enum Label {
@@ -18,6 +21,8 @@ enum Label {
     PALM_MOVED,
     THUMB
 };
+
+
 
 int main(){
     enum Label labels[]={
@@ -37,7 +42,7 @@ int main(){
         char pathName[100];
         char outputpathName[100];
         strcpy(pathName, inputFolder);
-        strcpy(outputpathName, outputFolder);
+        strcpy(outputpathName, grayscaleFolder);
         switch (labels[i])
         {
             case C:
@@ -119,11 +124,28 @@ int main(){
                 }
                 strcat(filename, entry->d_name);
                 printf("%s\n", filename);
-                char command[120];
-                strcpy(command, "../bin/grayscale ");
-                strcat(command, filename);
-                // printf("command=%s\n", command);
-                system(command);
+                
+                char turn_gray_scale_command[300];
+                strcpy(turn_gray_scale_command, "../bin/grayscale ");
+                strcat(turn_gray_scale_command, INPUT_FOLDER_PATH);
+                strcat(turn_gray_scale_command, filename);
+                strcat(turn_gray_scale_command, " ");
+                strcat(turn_gray_scale_command, GRAYSCALE_FOLDER_PATH);
+                strcat(turn_gray_scale_command, filename);
+                printf("command=%s\n", turn_gray_scale_command);
+                // system(turn_gray_scale_command);
+
+                char crop_gray_scale_command[300];
+                strcpy(crop_gray_scale_command, "../bin/crop ");
+                strcat(crop_gray_scale_command, GRAYSCALE_FOLDER_PATH);
+                strcat(crop_gray_scale_command, filename);
+                strcat(crop_gray_scale_command, " ");
+                strcat(crop_gray_scale_command, CROP_GRAYSCALE_FOLDER_PATH);
+                strcat(crop_gray_scale_command, filename);
+                // printf("command=%s\n", crop_gray_scale_command); 
+                
+                
+                // system(crop_gray_scale_command);
             }
         }
         closedir(dir);
