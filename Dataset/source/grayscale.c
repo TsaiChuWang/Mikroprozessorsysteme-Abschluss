@@ -1,167 +1,166 @@
-
 #include <stdio.h>
-#include <dirent.h>
-#include <string.h>
 #include <stdlib.h>
-#include <png.h>
 #include <stdint.h>
+#include <png.h>
 
+#include "../include/inc.h"
 
-const char *inputFolder = "/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/Dataset/Dataset_minimized/";
-const char *outputFolder = "/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/Dataset/Dataset_grayscale/";
-
-#define LABEL_NUMBER 7
-enum Label {
-    C,
-    FIRST,
-    I,  
-    OK,
-    PALM,
-    PALM_MOVED,
-    THUMB
-};
-
-char* transferFilePath(enum Label label, char* png){
-    char* filename = (char*)malloc(sizeof(char)*100);
-
-    strcpy(filename, outputFolder);
-    switch (label)
-    {
-        case C:
-            strcat(filename, "c/");
-            break;
-        case FIRST:
-            strcat(filename, "first/");
-            break;
-        case I:
-            strcat(filename, "I/");
-            break;
-        case OK:
-            strcat(filename, "ok/");
-            break;
-        case PALM:
-            strcat(filename, "palm/");
-            break;
-        case PALM_MOVED:
-            strcat(filename, "palm_moved/");
-            break;
-        case THUMB:
-            strcat(filename, "thumb/");
-            break;
-        default:
-            strcat(filename, "c/");
-            break;
-    }
-    strcat(filename, png);
-    *(filename+(strlen(filename)-1))='y';
-    *(filename+(strlen(filename)-2))='r';
-    *(filename+(strlen(filename)-3))='g';
-    // printf("name=%s\n", filename);
-
-    return filename;
-}
-
-void saveToGryFile(const char *filen, uint8_t **array, int width, int height) {
-    char filename[100];
-    strcpy(filename,outputFolder);
-    strcat(filename,filen);
-    *(filename+(strlen(filename)-1))='y';
-    *(filename+(strlen(filename)-2))='r';
-    *(filename+(strlen(filename)-3))='g';
-    printf("name=%s\n", filename);
-    FILE *file = fopen(filename, "wb");
+void read_png_file(const char *filename, uint8_t ***pixels, int *width, int *height) {
+    FILE *file = fopen(filename, "rb");
     if (!file) {
-        perror("Error opening .gry file for writing");
-        return;
+        perror("Error opening PNG file for reading");
+        exit(EXIT_FAILURE);
     }
 
-    // Write the width and height to the file
-    fwrite(&width, sizeof(int), 1, file);
-    fwrite(&height, sizeof(int), 1, file);
-
-    // Write each pixel value to the file
-    for (int i = 0; i < height; i++) {
-        fwrite(array[i], sizeof(uint8_t), width, file);
-    }
-
-    fclose(file);
-}
-
-void read_png_file(const char *file) {
-    char filename[100];
-    strcpy(filename,inputFolder);
-    strcat(filename,file);
-    FILE *fp = fopen(filename, "rb");
-    if (!fp) {
-        perror("Error opening PNG file");
-        return;
-    }
-
-    // Initialize PNG structures
     png_structp png = png_create_read_struct(PNG_LIBPNG_VER_STRING, NULL, NULL, NULL);
     if (!png) {
-        fclose(fp);
-        perror("Error creating PNG read struct");
-        return;
+        fclose(file);
+        fprintf(stderr, "Error creating PNG read struct\n");
+        exit(EXIT_FAILURE);
     }
 
     png_infop info = png_create_info_struct(png);
     if (!info) {
         png_destroy_read_struct(&png, NULL, NULL);
-        fclose(fp);
-        perror("Error creating PNG info struct");
-        return;
+        fclose(file);
+        fprintf(stderr, "Error creating PNG info struct\n");
+        exit(EXIT_FAILURE);
     }
 
-    // Set up error handling
     if (setjmp(png_jmpbuf(png))) {
         png_destroy_read_struct(&png, &info, NULL);
-        fclose(fp);
-        perror("Error during PNG file read");
-        return;
+        fclose(file);
+        fprintf(stderr, "Error during PNG file read\n");
+        exit(EXIT_FAILURE);
     }
 
-    // Initialize PNG file I/O
-    png_init_io(png, fp);
+    png_init_io(png, file);
     png_read_info(png, info);
 
-    // Get image information
-    int width = png_get_image_width(png, info);
-    int height = png_get_image_height(png, info);
+    *width = png_get_image_width(png, info);
+    *height = png_get_image_height(png, info);
+    png_byte color_type = png_get_color_type(png, info);
+    png_byte bit_depth = png_get_bit_depth(png, info);
 
-    // Ensure the image is in RGBA format
-    png_set_filler(png, 0, PNG_FILLER_AFTER);
-    png_set_gray_to_rgb(png);
+    if (bit_depth != 8) {
+        fprintf(stderr, "Unsupported bit depth in PNG file\n");
+        exit(EXIT_FAILURE);
+    }
 
-    // Read the image
-    png_bytep row_pointers[height];
-    for (int y = 0; y < height; y++) {
-        row_pointers[y] = (png_byte*)malloc(png_get_rowbytes(png, info));
+    if (color_type != PNG_COLOR_TYPE_GRAY) {
+        fprintf(stderr, "Error: Not a grayscale PNG\n");
+        exit(EXIT_FAILURE);
+    }
+
+    // Allocate memory for pixel values
+    *pixels = malloc(*height * sizeof(uint8_t *));
+    for (int i = 0; i < *height; i++) {
+        (*pixels)[i] = malloc(*width * sizeof(uint8_t));
+    }
+
+    png_bytep row_pointers[*height];
+    for (int i = 0; i < *height; i++) {
+        row_pointers[i] = malloc(png_get_rowbytes(png, info));
     }
 
     png_read_image(png, row_pointers);
-    uint8_t** gry_image=(uint8_t**)malloc(sizeof(uint8_t*)*height);
 
-    // Print the pixel values (R, G, B)
-    for (int y = 0; y < height; y++) {
-        *(gry_image+y) = (uint8_t*)malloc(sizeof(uint8_t)*width);
-        for (int x = 0; x < width; x++) {
-            png_byte *pixel = &row_pointers[y][x * 4];
-            uint8_t gray = (uint8_t)(0.299 * pixel[0] + 0.587 * pixel[1] + 0.114 * pixel[2]);
-            gry_image[y][x] = gray;
-            printf("Pixel at (%d, %d): R=%d, G=%d, B=%d, gray = %d\n", x, y, pixel[0], pixel[1], pixel[2], gray);
+    // Copy pixel values to the allocated memory
+    for (int i = 0; i < *height; i++) {
+        for (int j = 0; j < *width; j++) {
+            (*pixels)[i][j] = row_pointers[i][j];
         }
+        free(row_pointers[i]);
     }
-    saveToGryFile(file, gry_image, width, height);
-    // printf("cpath =%s\n",transferFilePath(C, filename));
-    // Clean up
-    // free(gry_image);
-    printf("name=%s\n", filename);
-    fclose(fp);
+
+    fclose(file);
     png_destroy_read_struct(&png, &info, NULL);
 }
 
+void write_png_file(const char *filename, uint8_t **pixels, int width, int height) {
+    FILE *file = fopen(filename, "wb");
+    if (!file) {
+        perror("Error opening PNG file for writing");
+        exit(EXIT_FAILURE);
+    }
+
+    png_structp png = png_create_write_struct(PNG_LIBPNG_VER_STRING, NULL, NULL, NULL);
+    if (!png) {
+        fclose(file);
+        fprintf(stderr, "Error creating PNG write struct\n");
+        exit(EXIT_FAILURE);
+    }
+
+    png_infop info = png_create_info_struct(png);
+    if (!info) {
+        png_destroy_write_struct(&png, NULL);
+        fclose(file);
+        fprintf(stderr, "Error creating PNG info struct\n");
+        exit(EXIT_FAILURE);
+    }
+
+    if (setjmp(png_jmpbuf(png))) {
+        png_destroy_write_struct(&png, &info);
+        fclose(file);
+        fprintf(stderr, "Error during PNG file write\n");
+        exit(EXIT_FAILURE);
+    }
+
+    png_init_io(png, file);
+
+    // Set the image information
+    png_set_IHDR(
+        png,
+        info,
+        width, height,
+        8, // 8 bits per channel
+        PNG_COLOR_TYPE_GRAY,
+        PNG_INTERLACE_NONE,
+        PNG_COMPRESSION_TYPE_DEFAULT,
+        PNG_FILTER_TYPE_DEFAULT
+    );
+
+    png_write_info(png, info);
+
+    // Write the image data
+    png_bytep row_pointers[height];
+    for (int i = 0; i < height; i++) {
+        row_pointers[i] = pixels[i];
+    }
+    png_write_image(png, row_pointers);
+    png_write_end(png, NULL);
+
+    // Clean up
+    png_destroy_write_struct(&png, &info);
+    fclose(file);
+}
+
 int main(int argc, char *argv[]) {
-    read_png_file(argv[1]);
-    return 0;
+    char* input_filename, output_filename;
+    if(argc>2){
+        input_filename = PNG_FILE_PATH;
+        output_filename =  PNG_GRAYSCALE_FILE_PATH;
+    }else{
+        input_filename = argv[1];
+        output_filename =  argv[2];       
+    }
+
+    uint8_t **pixels;
+    int width, height;
+
+    // Read the grayscale PNG file and get pixel values
+    read_png_file(input_filename, &pixels, &width, &height);
+
+    // Write pixel values to a new PNG file
+    write_png_file(output_filename, pixels, width, height);
+
+    // Clean up memory
+    for (int i = 0; i < height; i++) 
+        free(pixels[i]);
+    
+    free(pixels);
+
+    printf("Conversion completed successfully.\n");
+
+    return EXIT_SUCCESS;
 }
