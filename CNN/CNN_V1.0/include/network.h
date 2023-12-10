@@ -214,17 +214,27 @@ FCLayer * FCWeight_(int from, int to) {
 }
 
 void softmax(FCLayer * A) {
-    _type sum = 0.0; _type maxi = -100000000;
+    _type C = 1000000.0;
+    _type sum = 0.0; _type maxi = -10000000000;
     for (int i = 0; i < A->L; ++ i) {
+        // printf("maxi = %f, A->values[i] = %f->", maxi, A->values[i]);
         maxi = _max(maxi, A->values[i]);
+        // printf("maxi = %f, A->values[i] = %f\n", maxi, A->values[i]);
+        // printf("maxi = %f, A->values[i] = %f->%f\n", maxi, A->values[i],A->values[i]);
+        
     }
     for (int i = 0; i < A->L; ++ i) {
-        A->values[i] = exp(A->values[i]);
+        A->values[i] = exp((A->values[i]-maxi));
+        // printf("A->values[i] = %fsum = %f\n", A->values[i], sum);
         sum += A->values[i];
+        // printf("A->values[i] = %fsum = %f\n", A->values[i], sum);
     }
     for (int i = 0; i < A->L; ++ i) {
         A->values[i] /= sum;
+        // printf("A->values[i] = %fsum = %f\n", A->values[i], sum);
     }
+
+    
 }
 
 #endif //CNN_NETWORK_H

@@ -38,8 +38,8 @@ int test(Network * CNN) {
         if (show_flag) {
             printf("Index: %5d\n", i);
             int x = 0;
-            for (int a = 0; a < 28; ++ a) {
-                for (int b = 0; b < 28; ++ b)
+            for (int a = 0; a < 240; ++ a) {
+                for (int b = 0; b < 240; ++ b)
 //                    printf("%3d ", (int)(images_test.data[i][x ++] * 255));
                     printf("%c ", chs[(int)(images_test.data[i][x ++] * 32)]);
                 printf("\n");

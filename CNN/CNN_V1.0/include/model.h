@@ -1,5 +1,5 @@
 //
-// Created by MAC on 2019/12/28.
+// Created by MAC on 2019/12/ IMAGE_SIZE.
 //
 
 #ifndef CNN_MODEL_H
@@ -9,9 +9,9 @@
 #include <stdlib.h>
 #include <math.h>
 #include "../include/network.h"
-
+#define IMAGE_SIZE 96
 #define filter_num 5
-#define class_num 10
+#define class_num 7
 
 // 定义Network结构
 typedef struct Network {
@@ -51,7 +51,7 @@ Network * loadNetwork(const char * fileName) {
     FILE * fp = fopen(fileName, "rb");
     Network * CNN = (Network *)malloc(sizeof(Network));
     CNN->destroy = killNetwork;
-    CNN->input_layer = Convol2D_(1, 28, 28);
+    CNN->input_layer = Convol2D_(1,  IMAGE_SIZE,  IMAGE_SIZE);
     for (int i = 0; i < filter_num; ++ i)
         CNN->filter[i] = loadFilter(fp);
     CNN->conv_layer = Convol2D_(5, 24, 24);
@@ -66,14 +66,14 @@ Network * loadNetwork(const char * fileName) {
 Network * Network_() {
     Network * CNN = (Network *)malloc(sizeof(Network));
     CNN->destroy = killNetwork;
-    CNN->input_layer = Convol2D_(1, 28, 28);
+    CNN->input_layer = Convol2D_(1,  IMAGE_SIZE,  IMAGE_SIZE);
     for (int i = 0; i < filter_num; ++ i)
         CNN->filter[i] = Filter2D_(1, 5, 5);
-    CNN->conv_layer = Convol2D_(5, 24, 24);
-    CNN->pool_layer = Convol2D_(5, 12, 12);
-    CNN->fc_input = FCLayer_(720);
-    CNN->fc_weight = FCWeight_(720, 10);
-    CNN->fc_output = FCLayer_(10);
+    CNN->conv_layer = Convol2D_(5, 92, 92);
+    CNN->pool_layer = Convol2D_(5, 46, 46);
+    CNN->fc_input = FCLayer_(10580);
+    CNN->fc_weight = FCWeight_(10580, 7);
+    CNN->fc_output = FCLayer_(7);
     return CNN;
 }
 
@@ -85,11 +85,14 @@ Network * Network_() {
  */
 void convInput(int index, CVLayer * input, Vector2D images) {
     int x = 0;
+    // printf("input->H = %d input->L = %d input->W =%d \n",input->H, input->L, input->W);
     for (int k = 0; k < input->H; ++ k)
         for (int i = 0; i < input->L; ++ i)
-            for (int j = 0; j < input->W; ++ j)
+            for (int j = 0; j < input->W; ++ j){
                 input->values[k][i][j] = images.data[index][x ++];
-}
+                // printf("input->values[%d][%d][%d] = %f = images.data[%d][%d] = %f\n", k,i,j,input->values[k][i][j],index, x-1, images.data[index][x-1]);
+            }
+}                
 
 /**
  * input与filter做卷积
@@ -99,15 +102,20 @@ void convInput(int index, CVLayer * input, Vector2D images) {
  * 默认步长值为1
  */
 void conv(CVLayer * input, CVLayer * filter[], CVLayer * conv) {
+    // printf("conv->H = %d conv->L = %d conv->W =%d \n",conv->H, conv->L, conv->W);
     for (int p = 0; p < conv->H; ++ p) {
         for (int i = 0; i < conv->L; ++ i) {
             for (int j = 0; j < conv->W; ++ j) {
                 conv->values[p][i][j] = 0;
                 for (int k = 0; k < input->H; ++ k)
                     for (int a = 0; a < filter[0]->L; ++ a)
-                        for (int b = 0; b < filter[0]->W; ++ b)
+                        for (int b = 0; b < filter[0]->W; ++ b){
                             conv->values[p][i][j] += input->values[k][i + a][j + b] * filter[p]->values[k][a][b];
+                            // printf("onv->values[p][i][j] = %f\n", conv->values[p][i][j]);
+                        }
+                            
                 conv->values[p][i][j] = ConvActivate(conv->values[p][i][j] + filter[p]->bias);
+                // printf("conv->values[p][i][j] = %f\n", conv->values[p][i][j]);
             }
         }
     }
@@ -120,13 +128,16 @@ void conv(CVLayer * input, CVLayer * filter[], CVLayer * conv) {
  */
 // TODO: 池化窗口大小不通用
 void maxPooling(CVLayer * conv, CVLayer * pool) {
+    // printf("conv->H = %d conv->L = %d conv->W =%d \n",conv->H, conv->L, conv->W);
     for (int k = 0; k < conv->H; ++ k)
         for (int i = 0; i < conv->L; i += 2)
-            for (int j = 0; j < conv->W; j += 2)
+            for (int j = 0; j < conv->W; j += 2){
                 pool->values[k][i / 2][j / 2] = _max(
                     _max(conv->values[k][i][j], conv->values[k][i][j + 1]),
                     _max(conv->values[k][i + 1][j],conv->values[k][i + 1][j + 1])
                 );
+                // printf("pool->values[k][i / 2][j / 2] = %f\n", pool->values[k][i / 2][j / 2]);
+            }
 }
 
 /**
@@ -136,10 +147,13 @@ void maxPooling(CVLayer * conv, CVLayer * pool) {
  */
 void FCInput(CVLayer * pool, FCLayer * fcInput) {
     int x = 0;
+    // printf("pool->H = %d pool->L = %d pool->W =%d \n",pool->H, pool->L, pool->W);
     for (int k = 0; k < pool->H; ++ k)
         for (int i = 0; i < pool->L; ++ i)
-            for (int j = 0; j < pool->W; ++ j)
+            for (int j = 0; j < pool->W; ++ j){
                 fcInput->values[x ++] = poolActivate(pool->values[k][i][j]);
+                // printf("fcInput->values[x ++] = %f pool->values[k][i][j] = %f = %f\n", fcInput->values[x-1], pool->values[k][i][j], 1.0 / (1.0 + exp((-1.0)*pool->values[k][i][j])));
+            }   
 }
 
 /**
@@ -155,6 +169,8 @@ void FCMultiply(FCLayer * input, FCLayer * weight, FCLayer * output) {
         for (int j = 0; j < input->L; ++ j)
             output->values[i] += weight->weights[i][j] * input->values[j];
         output->values[i] += weight->bias[i];
+        // output->values[i] = (output->values[i]/10000);
+        // printf("output->values[i] = %f\n",output->values[i]);
     }
 }
 
@@ -238,6 +254,7 @@ void backPropagation(Network * CNN, int step, Alpha * alpha) {
         for (int j = 0; j < class_num; ++ j) {
             CNN->fc_input->deltas[i] += CNN->fc_input->values[i] * (1.0 - CNN->fc_input->values[i])
                 * CNN->fc_weight->weights[j][i] * CNN->fc_output->deltas[j];
+                printf("CNN->fc_input->deltas[%d] = %f\n", i ,CNN->fc_input->deltas[i]);
         }
     }
     for (int i = 0; i < CNN->fc_input->L; ++ i) {
@@ -265,5 +282,28 @@ void forePropagation(Network * CNN, int index, Vector2D images) {
     FCMultiply(CNN->fc_input, CNN->fc_weight, CNN->fc_output);
     softmax(CNN->fc_output);
 }
+
+// void forePropagation_ARRAY(Network * CNN, int index, Vector2D images) {
+//     convInput(index, CNN->input_layer, images);
+//     conv(CNN->input_layer, CNN->filter, CNN->conv_layer);
+//     maxPooling(CNN->conv_layer, CNN->pool_layer);
+//     FCInput(CNN->pool_layer, CNN->fc_input);
+//     FCMultiply(CNN->fc_input, CNN->fc_weight, CNN->fc_output);
+//     softmax(CNN->fc_output);
+// }
+
+// /**
+//  * 将从文件中读出的图像reshape到输入层
+//  * @param index  样本序号
+//  * @param A      神经网络的输入层
+//  * @param isTest 0代表训练，1代表测试
+//  */
+// void convInput_ARRAY(int index, CVLayer * input, Vector2D images) {
+//     int x = 0;
+//     for (int k = 0; k < input->H; ++ k)
+//         for (int i = 0; i < input->L; ++ i)
+//             for (int j = 0; j < input->W; ++ j)
+//                 input->values[k][i][j] = images.data[index][x ++];
+// }
 
 #endif //CNN_MODEL_H

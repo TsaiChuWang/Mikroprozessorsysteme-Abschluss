@@ -73,4 +73,11 @@ CMakeFiles/C99_MNIST.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/CNN/CNN_V1.0/src/../include/../include/vector.h \
  /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/CNN/CNN_V1.0/src/../include/model.h \
- /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/CNN/CNN_V1.0/src/../include/../include/network.h
+ /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/CNN/CNN_V1.0/src/../include/../include/network.h \
+ /usr/include/dirent.h /usr/include/x86_64-linux-gnu/bits/dirent.h \
+ /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
+ /usr/include/x86_64-linux-gnu/bits/dirent_ext.h
