@@ -8,15 +8,15 @@
 #include <time.h>
 #include <dirent.h>
 
-#define FOLDER_WEG "/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/Dataset/Dataset_V1.0/Binary/"
-#define FOLDER_TEXT_WEG "/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/Dataset/Dataset_V1.0/Text/"
+#define FOLDER_WEG "/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/Dataset/Dataset_V1.1/Binary/"
+#define FOLDER_TEXT_WEG "/home/wtsaichu/Dokumente/Arbeitsplatz/Dataset/Dataset/Dataset_V1.1/Text/"
 #define EINSTUFUNG_ZAHL 7
 
 // #define ANZEIGEN
 #define NICHT_GEFUNDEN -1
 #define EQAUL 0 
 
-#define IMAGE_SIZE 96
+#define IMAGE_SIZE 28
 #define TRAIN_SIZE 14000
 #define TEST_SIZE 14000
 enum labels{
@@ -552,8 +552,6 @@ int main(int argc, char * argv[]) {
     printf("\nlength = %d\n", labels_test.lens);
     printf("rows = %d, columns = %d \n",images_test.rows,images_test.cols);
     shuffle(labels_test, images_test);
-
-
 
     // // 训练
     // train(CNN, alpha, "../model.sav");

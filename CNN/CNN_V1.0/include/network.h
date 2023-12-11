@@ -224,7 +224,7 @@ void softmax(FCLayer * A) {
         
     }
     for (int i = 0; i < A->L; ++ i) {
-        A->values[i] = exp((A->values[i]-maxi));
+        A->values[i] = exp((A->values[i]));
         // printf("A->values[i] = %fsum = %f\n", A->values[i], sum);
         sum += A->values[i];
         // printf("A->values[i] = %fsum = %f\n", A->values[i], sum);

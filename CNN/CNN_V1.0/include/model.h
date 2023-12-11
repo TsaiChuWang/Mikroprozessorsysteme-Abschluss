@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include "../include/network.h"
-#define IMAGE_SIZE 96
+#define IMAGE_SIZE 28
 #define filter_num 5
 #define class_num 7
 
@@ -76,6 +76,20 @@ Network * Network_() {
     CNN->fc_output = FCLayer_(7);
     return CNN;
 }
+
+// Network * Network_() {
+//     Network * CNN = (Network *)malloc(sizeof(Network));
+//     CNN->destroy = killNetwork;
+//     CNN->input_layer = Convol2D_(1,  IMAGE_SIZE,  IMAGE_SIZE);
+//     for (int i = 0; i < filter_num; ++ i)
+//         CNN->filter[i] = Filter2D_(1, 5, 5);
+//     CNN->conv_layer = Convol2D_(5, 24, 24);
+//     CNN->pool_layer = Convol2D_(5, 12, 12);
+//     CNN->fc_input = FCLayer_(720);
+//     CNN->fc_weight = FCWeight_(720, 7);
+//     CNN->fc_output = FCLayer_(7);
+//     return CNN;
+// }
 
 /**
  * 将从文件中读出的图像reshape到输入层
