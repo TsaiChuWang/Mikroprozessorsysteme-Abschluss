@@ -1,0 +1,160 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:7140
+load:0x40078000,len:15512
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (28) boot: ESP-IDF v5.3-dev-422-ga7fbf452fa-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Dec 11 2023 22:58:44[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 80MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=26c8ch (158860) map[0m
+[0;32mI (149) esp_image: segment 1: paddr=00036cb4 vaddr=3ffb0000 size=03c08h ( 15368) load[0m
+[0;32mI (154) esp_image: segment 2: paddr=0003a8c4 vaddr=40080000 size=05754h ( 22356) load[0m
+[0;32mI (162) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=8ab70h (568176) map[0m
+[0;32mI (324) esp_image: segment 4: paddr=000cab98 vaddr=40085754 size=15080h ( 86144) load[0m
+[0;32mI (365) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (366) boot: Disabling RNG early entropy source...[0m
+[0;32mI (377) cpu_start: Multicore app[0m
+[0;32mI (377) quad_psram: This chip is ESP32-D0WD[0m
+[0;32mI (378) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (379) esp_psram: Speed: 40MHz[0m
+[0;32mI (383) esp_psram: PSRAM initialized, cache is in low/high (2-core) mode.[0m
+[0;33mW (391) esp_psram: Virtual address not enough for PSRAM, map as much as we can. 4MB is mapped[0m
+[0;32mI (1302) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1309) cpu_start: Pro cpu start user code[0m
+[0;32mI (1309) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (1310) cpu_start: Application information:[0m
+[0;32mI (1313) cpu_start: Project name:     http_request[0m
+[0;32mI (1318) cpu_start: App version:      9d69670-dirty[0m
+[0;32mI (1324) cpu_start: Compile time:     Dec 11 2023 22:58:25[0m
+[0;32mI (1330) cpu_start: ELF file SHA256:  0625ee834...[0m
+[0;32mI (1335) cpu_start: ESP-IDF:          v5.3-dev-422-ga7fbf452fa-dirty[0m
+[0;32mI (1342) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (1347) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (1352) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (1357) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1364) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (1370) heap_init: At 3FFB8290 len 00027D70 (159 KiB): DRAM[0m
+[0;32mI (1377) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (1383) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (1390) heap_init: At 4009A7D4 len 0000582C (22 KiB): IRAM[0m
+[0;32mI (1396) esp_psram: Adding pool of 4096K of PSRAM memory to heap allocator[0m
+[0;32mI (1405) spi_flash: detected chip: generic[0m
+[0;32mI (1408) spi_flash: flash io: dio[0m
+[0;32mI (1413) main_task: Started on CPU0[0m
+[0;32mI (1423) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1423) main_task: Calling app_main()[0m
+[0;32mI (1453) example_connect: Start example_connect.[0m
+I (1473) wifi:wifi driver task: 3ffc7fb0, prio:23, stack:6656, core=0
+I (1473) wifi:wifi firmware version: 639ccf2
+I (1473) wifi:wifi certification version: v7.0
+I (1473) wifi:config NVS flash: enabled
+I (1473) wifi:config nano formating: disabled
+I (1483) wifi:Init data frame dynamic rx buffer num: 32
+I (1483) wifi:Init static rx mgmt buffer num: 5
+I (1493) wifi:Init management short buffer num: 32
+I (1493) wifi:Init static tx buffer num: 16
+I (1493) wifi:Init tx cache buffer num: 32
+I (1503) wifi:Init static rx buffer size: 1600
+I (1503) wifi:Init static rx buffer num: 10
+I (1513) wifi:Init dynamic rx buffer num: 32
+[0;32mI (1513) wifi_init: rx ba win: 6[0m
+[0;32mI (1513) wifi_init: tcpip mbox: 32[0m
+[0;32mI (1523) wifi_init: udp mbox: 6[0m
+[0;32mI (1523) wifi_init: tcp mbox: 6[0m
+[0;32mI (1533) wifi_init: tcp tx win: 5760[0m
+[0;32mI (1533) wifi_init: tcp rx win: 5760[0m
+[0;32mI (1533) wifi_init: tcp mss: 1440[0m
+[0;32mI (1543) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (1543) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1553) phy_init: phy_version 4780,16b31a7,Sep 22 2023,20:42:16[0m
+[0;33mW (1553) phy_init: failed to load RF calibration data (0xffffffff), falling back to full calibration[0m
+I (1653) wifi:mode : sta (c4:dd:57:c5:85:c0)
+I (1653) wifi:enable tsf
+[0;32mI (1653) example_connect: Connecting to 513handsome_man...[0m
+[0;32mI (1663) example_connect: Waiting for IP(s)[0m
+I (4063) wifi:new:<4,1>, old:<1,0>, ap:<255,255>, sta:<4,1>, prof:1
+I (4323) wifi:state: init -> auth (b0)
+I (4323) wifi:state: auth -> assoc (0)
+I (4333) wifi:state: assoc -> run (10)
+I (4333) wifi:<ba-add>idx:0 (ifx:0, 40:b0:76:c5:4d:48), tid:0, ssn:0, winSize:64
+I (4353) wifi:connected with 513handsome_man, aid = 2, channel 4, 40U, bssid = 40:b0:76:c5:4d:48
+I (4353) wifi:security: WPA2-PSK, phy: bgn, rssi: -44
+I (4353) wifi:pm start, type: 1
+
+I (4353) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (4383) wifi:AP's beacon interval = 102400 us, DTIM period = 3
+[0;32mI (5453) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:c6dd:57ff:fec5:85c0, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (8363) esp_netif_handlers: example_netif_sta ip: 192.168.50.151, mask: 255.255.255.0, gw: 192.168.50.1[0m
+[0;32mI (8363) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 192.168.50.151[0m
+[0;32mI (8373) example_common: Connected to example_netif_sta[0m
+[0;32mI (8373) example_common: - IPv4 address: 192.168.50.151,[0m
+[0;32mI (8383) example_common: - IPv6 address: fe80:0000:0000:0000:c6dd:57ff:fec5:85c0, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (8393) example: DNS lookup succeeded. IP=192.168.50.120[0m
+[0;32mI (8393) example: ... allocated socket[0m
+[0;32mI (8403) main_task: Returned from app_main()[0m
+[0;32mI (8413) example: ... connected[0m
+[0;32mI (8413) example: ... socket send success[0m
+[0;32mI (8413) example: ... set socket receiving timeout success[0m
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.1 Python/3.11.2
+Date: Mon, 11 Dec 2023 15:02:50 GMT
+Content-Type: application/json
+Content-Length: 44
+Connection: close
+
+{
+  "key": "healthcheck",
+  "status": 200
+}
+[0;32mI (8443) example: ... done reading from socket. Last read return=0 errno=128.[0m
+[0;32mI (8453) example: 10... [0m
+[0;32mI (9453) example: 9... [0m
+[0;32mI (10453) example: 8... [0m
+[0;32mI (11453) example: 7... [0m
+[0;32mI (12453) example: 6... [0m
+[0;32mI (13453) example: 5... [0m
+[0;32mI (14453) example: 4... [0m
+[0;32mI (15453) example: 3... [0m
+[0;32mI (16453) example: 2... [0m
+[0;32mI (17453) example: 1... [0m
+[0;32mI (18453) example: 0... [0m
+[0;32mI (19453) example: Starting again![0m
+[0;32mI (19453) example: DNS lookup succeeded. IP=192.168.50.120[0m
+[0;32mI (19453) example: ... allocated socket[0m
+[0;32mI (19453) example: ... connected[0m
+[0;32mI (19453) example: ... socket send success[0m
+[0;32mI (19463) example: ... set socket receiving timeout success[0m
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.1 Python/3.11.2
+Date: Mon, 11 Dec 2023 15:03:01 GMT
+Content-Type: application/json
+Content-Length: 44
+Connection: close
+
+{
+  "key": "healthcheck",
+  "status": 200
+}
+[0;32mI (19483) example: ... done reading from socket. Last read return=0 errno=128.[0m
+[0;32mI (19493) example: 10... [0m
+[0;32mI (20493) example: 9... [0m
+[0;32mI (21493) example: 8... [0m
+[0;32mI (22493) example: 7... [0m
+[0;32mI (23493) example: 6... [0m

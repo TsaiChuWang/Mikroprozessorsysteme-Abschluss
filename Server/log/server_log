@@ -1857,3 +1857,24 @@
 2023-12-05 09:52:58,230 - INFO - 192.168.50.121 - - [05/Dec/2023 09:52:58] "GET /isClassificate HTTP/1.0" 200 -
 2023-12-05 09:52:59,259 - INFO - 192.168.50.121 - - [05/Dec/2023 09:52:59] "GET /isClassificate HTTP/1.0" 200 -
 2023-12-05 09:53:00,304 - INFO - 192.168.50.121 - - [05/Dec/2023 09:53:00] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-11 22:55:01,169 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-11 22:55:01,170 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-11 22:55:01,173 - INFO -  * Restarting with stat
+2023-12-11 22:55:01,352 - WARNING -  * Debugger is active!
+2023-12-11 22:55:01,353 - INFO -  * Debugger PIN: 381-345-069
+2023-12-11 22:58:37,467 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-11 22:58:37,469 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-11 22:58:37,479 - INFO -  * Restarting with stat
+2023-12-11 22:58:38,097 - WARNING -  * Debugger is active!
+2023-12-11 22:58:38,098 - INFO -  * Debugger PIN: 381-345-069
+2023-12-11 23:02:50,384 - INFO - 192.168.50.151 - - [11/Dec/2023 23:02:50] "GET /healthcheck HTTP/1.0" 200 -
+2023-12-11 23:03:01,424 - INFO - 192.168.50.151 - - [11/Dec/2023 23:03:01] "GET /healthcheck HTTP/1.0" 200 -
+2023-12-12 13:26:05,701 - INFO - 192.168.50.151 - - [12/Dec/2023 13:26:05] "GET /healthcheck HTTP/1.0" 200 -
+2023-12-12 13:26:53,180 - INFO - 192.168.50.151 - - [12/Dec/2023 13:26:53] "GET /healthcheck HTTP/1.0" 200 -
+2023-12-12 13:27:04,224 - INFO - 192.168.50.151 - - [12/Dec/2023 13:27:04] "GET /healthcheck HTTP/1.0" 200 -
