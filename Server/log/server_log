@@ -1878,3 +1878,128 @@
 2023-12-12 13:26:05,701 - INFO - 192.168.50.151 - - [12/Dec/2023 13:26:05] "GET /healthcheck HTTP/1.0" 200 -
 2023-12-12 13:26:53,180 - INFO - 192.168.50.151 - - [12/Dec/2023 13:26:53] "GET /healthcheck HTTP/1.0" 200 -
 2023-12-12 13:27:04,224 - INFO - 192.168.50.151 - - [12/Dec/2023 13:27:04] "GET /healthcheck HTTP/1.0" 200 -
+2023-12-12 13:33:26,442 - INFO -  * Detected change in '/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Server/Server.py', reloading
+2023-12-12 13:33:26,493 - INFO -  * Restarting with stat
+2023-12-12 13:37:25,556 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-12 13:37:25,557 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-12 13:37:25,563 - INFO -  * Restarting with stat
+2023-12-12 13:37:25,761 - WARNING -  * Debugger is active!
+2023-12-12 13:37:25,762 - INFO -  * Debugger PIN: 381-345-069
+2023-12-12 14:19:34,896 - INFO - 192.168.50.151 - - [12/Dec/2023 14:19:34] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:19:50,914 - INFO - 192.168.50.151 - - [12/Dec/2023 14:19:50] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:20:06,042 - INFO -  * Detected change in '/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Server/Server.py', reloading
+2023-12-12 14:20:06,090 - INFO -  * Restarting with stat
+2023-12-12 14:20:06,507 - WARNING -  * Debugger is active!
+2023-12-12 14:20:06,508 - INFO -  * Debugger PIN: 381-345-069
+2023-12-12 14:20:22,356 - INFO - 192.168.50.151 - - [12/Dec/2023 14:20:22] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:20:28,562 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-12 14:20:28,562 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-12 14:20:28,564 - INFO -  * Restarting with stat
+2023-12-12 14:20:28,744 - WARNING -  * Debugger is active!
+2023-12-12 14:20:28,745 - INFO -  * Debugger PIN: 381-345-069
+2023-12-12 14:20:38,371 - INFO - 192.168.50.151 - - [12/Dec/2023 14:20:38] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:20:54,381 - INFO - 192.168.50.151 - - [12/Dec/2023 14:20:54] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:21:10,406 - INFO - 192.168.50.151 - - [12/Dec/2023 14:21:10] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:21:26,406 - INFO - 192.168.50.151 - - [12/Dec/2023 14:21:26] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:21:42,415 - INFO - 192.168.50.151 - - [12/Dec/2023 14:21:42] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:21:58,435 - INFO - 192.168.50.151 - - [12/Dec/2023 14:21:58] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:22:14,518 - INFO - 192.168.50.151 - - [12/Dec/2023 14:22:14] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:22:30,530 - INFO - 192.168.50.151 - - [12/Dec/2023 14:22:30] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:26:11,854 - INFO - 192.168.50.151 - - [12/Dec/2023 14:26:11] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:26:24,067 - INFO - 192.168.50.151 - - [12/Dec/2023 14:26:24] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:27:44,480 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-12 14:27:44,481 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-12 14:27:44,483 - INFO -  * Restarting with stat
+2023-12-12 14:27:44,673 - WARNING -  * Debugger is active!
+2023-12-12 14:27:44,674 - INFO -  * Debugger PIN: 381-345-069
+2023-12-12 14:30:35,343 - INFO - 192.168.50.151 - - [12/Dec/2023 14:30:35] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:31:13,863 - INFO - 192.168.50.151 - - [12/Dec/2023 14:31:13] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:31:26,084 - INFO - 192.168.50.151 - - [12/Dec/2023 14:31:26] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:31:38,308 - INFO - 192.168.50.151 - - [12/Dec/2023 14:31:38] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:32:04,285 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-12 14:32:04,285 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-12 14:32:04,288 - INFO -  * Restarting with stat
+2023-12-12 14:32:04,481 - WARNING -  * Debugger is active!
+2023-12-12 14:32:04,482 - INFO -  * Debugger PIN: 381-345-069
+2023-12-12 14:33:38,623 - INFO - 192.168.50.151 - - [12/Dec/2023 14:33:38] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:33:50,839 - INFO - 192.168.50.151 - - [12/Dec/2023 14:33:50] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:34:03,051 - INFO - 192.168.50.151 - - [12/Dec/2023 14:34:03] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:34:15,276 - INFO - 192.168.50.151 - - [12/Dec/2023 14:34:15] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:36:43,164 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-12 14:36:43,165 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-12 14:36:43,167 - INFO -  * Restarting with stat
+2023-12-12 14:36:43,720 - WARNING -  * Debugger is active!
+2023-12-12 14:36:43,721 - INFO -  * Debugger PIN: 381-345-069
+2023-12-12 14:38:56,361 - INFO - 192.168.50.151 - - [12/Dec/2023 14:38:56] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:39:08,568 - INFO - 192.168.50.151 - - [12/Dec/2023 14:39:08] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:39:20,785 - INFO - 192.168.50.151 - - [12/Dec/2023 14:39:20] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:39:32,995 - INFO - 192.168.50.151 - - [12/Dec/2023 14:39:32] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:39:45,209 - INFO - 192.168.50.151 - - [12/Dec/2023 14:39:45] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:39:57,428 - INFO - 192.168.50.151 - - [12/Dec/2023 14:39:57] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:40:09,636 - INFO - 192.168.50.151 - - [12/Dec/2023 14:40:09] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:40:21,859 - INFO - 192.168.50.151 - - [12/Dec/2023 14:40:21] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 14:40:27,606 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-12 14:40:27,608 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-12 14:40:27,620 - INFO -  * Restarting with stat
+2023-12-12 14:40:28,278 - WARNING -  * Debugger is active!
+2023-12-12 14:40:28,280 - INFO -  * Debugger PIN: 381-345-069
+2023-12-12 14:57:59,823 - INFO - 192.168.50.151 - - [12/Dec/2023 14:57:59] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 15:03:07,699 - INFO - 192.168.50.151 - - [12/Dec/2023 15:03:07] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 15:06:20,002 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-12 15:06:20,002 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-12 15:06:20,007 - INFO -  * Restarting with stat
+2023-12-12 15:06:20,217 - WARNING -  * Debugger is active!
+2023-12-12 15:06:20,217 - INFO -  * Debugger PIN: 381-345-069
+2023-12-12 16:18:07,061 - INFO - 192.168.50.151 - - [12/Dec/2023 16:18:07] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 16:33:17,962 - INFO - 192.168.50.151 - - [12/Dec/2023 16:33:17] "[35m[1mPOST /post_test HTTP/1.0[0m" 500 -
+2023-12-12 17:03:57,558 - INFO -  * Detected change in '/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Server/Server.py', reloading
+2023-12-12 17:03:57,841 - INFO -  * Restarting with stat
+2023-12-12 17:03:58,433 - WARNING -  * Debugger is active!
+2023-12-12 17:03:58,434 - INFO -  * Debugger PIN: 381-345-069
+2023-12-12 17:04:16,672 - INFO -  * Detected change in '/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Server/Server.py', reloading
+2023-12-12 17:04:16,729 - INFO -  * Restarting with stat
+2023-12-12 17:04:16,982 - WARNING -  * Debugger is active!
+2023-12-12 17:04:16,982 - INFO -  * Debugger PIN: 381-345-069
+2023-12-12 17:19:09,015 - INFO - 192.168.50.151 - - [12/Dec/2023 17:19:09] "POST /post HTTP/1.1" 200 -
+2023-12-12 17:25:04,088 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-12 17:25:04,088 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-12 17:25:04,092 - INFO -  * Restarting with stat
+2023-12-12 17:25:04,271 - WARNING -  * Debugger is active!
+2023-12-12 17:25:04,272 - INFO -  * Debugger PIN: 381-345-069
+2023-12-12 17:29:00,043 - INFO - 192.168.50.151 - - [12/Dec/2023 17:29:00] "POST /post HTTP/1.1" 200 -
+2023-12-12 17:33:27,026 - INFO -  * Detected change in '/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Server/Server.py', reloading
+2023-12-12 17:33:27,128 - INFO -  * Restarting with stat
+2023-12-12 17:33:30,198 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-12 17:33:30,198 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-12 17:33:30,200 - INFO -  * Restarting with stat
+2023-12-12 17:33:30,374 - WARNING -  * Debugger is active!
+2023-12-12 17:33:30,375 - INFO -  * Debugger PIN: 381-345-069
+2023-12-12 17:37:04,741 - INFO - 192.168.50.151 - - [12/Dec/2023 17:37:04] "POST /post HTTP/1.1" 200 -
+2023-12-12 17:37:27,172 - INFO - 192.168.50.151 - - [12/Dec/2023 17:37:27] "POST /post HTTP/1.1" 200 -

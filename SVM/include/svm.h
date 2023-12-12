@@ -22,7 +22,7 @@
 
 #define HOG_FEATURE_SIZE 1296
 #define NUM_SAMPLES 14000
-#define LEARNING_RATE 0.00000000001
+#define LEARNING_RATE 0.000000000001
 #define EPOCHS 1000
 
 typedef struct {
@@ -61,9 +61,9 @@ void trainSVM(SVM *svm, Sample trainingData[]) {
     // Training the SVM model
     __type sum = 0;
     for (int epoch = 0; epoch < EPOCHS; ++epoch) {
-        for (int i = 0; i < NUM_SAMPLES; ++i) {
+        for (int i = 0; i < 14000; ++i) {
             Sample *sample = &trainingData[i];
-            // // printf("dotProduct(svm->weights, sample->hogFeatures, HOG_FEATURE_SIZE) = %f\n", dotProduct(svm->weights, sample->hogFeatures, HOG_FEATURE_SIZE));
+            // printf("dotProduct(svm->weights, sample->hogFeatures, HOG_FEATURE_SIZE) = %f\n", dotProduct(svm->weights, sample->hogFeatures, HOG_FEATURE_SIZE));
             __type predicted = dotProduct(svm->weights, sample->hogFeatures, HOG_FEATURE_SIZE) + svm->bias;
             __type error = (sample->label == 1) ? 1.0 : -1.0;
             // // printf("")
@@ -80,18 +80,18 @@ void trainSVM(SVM *svm, Sample trainingData[]) {
         }
         // printf("sum = %f, avg = %f\n",sum ,sum/NUM_SAMPLES);
     }
-    
 }
 
-int classifySample(__type testHogFeatures[HOG_FEATURE_SIZE], SVM *svm) {
+float classifySample(__type testHogFeatures[HOG_FEATURE_SIZE], SVM *svm) {
     // Classifying a test sample using the trained SVM model
     __type score = dotProduct(svm->weights, testHogFeatures, HOG_FEATURE_SIZE) + svm->bias;
-    printf("score = %f\n", score);
+    printf("score = %f decision = %f\n", score, sigmoid(score));
     // printf("svm->bias = %f\n", svm->bias);
     //  printf("dotProduct(svm->weights, testHogFeatures, HOG_FEATURE_SIZE) = %f\n", dotProduct(svm->weights, testHogFeatures, HOG_FEATURE_SIZE));
-    // printf("decision = %f\n", sigmoid(score));
+    
     // return (score > 0) ? 1 : 0;
-    return score;
+    // return (sigmoid(score) > 0.5) ? 1 : 0;
+    return sigmoid(score);
 }
 
 // int main() {

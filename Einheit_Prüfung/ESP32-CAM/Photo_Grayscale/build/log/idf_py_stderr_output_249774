@@ -1,0 +1,87 @@
+[0;33m--- esp-idf-monitor 1.3.3 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081534: call_start_cpu1 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:182
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m0x400face8: _GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_alloc.cc:462
+[0m
+[0;33m0x400fa75c: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m0x400f6bb4: check_i2c_driver_conflict at /home/wtsaichu/esp/esp-idf/components/driver/i2c/i2c.c:1679
+[0m
+[0;33m0x400eec58: esp_ipc_init at /home/wtsaichu/esp/esp-idf/components/esp_system/esp_ipc.c:114
+[0m
+[0;33m0x4008d128: enable_timer_group0_for_calibration at /home/wtsaichu/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:194
+[0m
+[0;33m0x400d2dc4: __esp_stack_guard_setup at /home/wtsaichu/esp/esp-idf/components/esp_system/stack_check.c:21
+[0m
+[0;33m0x400d2588: esp_app_format_init_elf_sha256 at /home/wtsaichu/esp/esp-idf/components/esp_app_format/esp_app_desc.c:68
+[0m
+[0;33m0x400d6a3c: __esp_system_init_fn_esp_timer_startup_init at /home/wtsaichu/esp/esp-idf/components/esp_timer/src/esp_timer.c:578
+[0m
+[0;33m0x4010ab8c: __esp_system_init_fn_init_components0 at /home/wtsaichu/esp/esp-idf/components/esp_system/startup.c:470
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081534: call_start_cpu1 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:182
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m0x400face8: _GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_alloc.cc:462
+[0m
+[0;33m0x400fa75c: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m0x400f6bb4: check_i2c_driver_conflict at /home/wtsaichu/esp/esp-idf/components/driver/i2c/i2c.c:1679
+[0m
+[0;33m0x400eec58: esp_ipc_init at /home/wtsaichu/esp/esp-idf/components/esp_system/esp_ipc.c:114
+[0m
+[0;33m0x4008d128: enable_timer_group0_for_calibration at /home/wtsaichu/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:194
+[0m
+[0;33m0x400d2dc4: __esp_stack_guard_setup at /home/wtsaichu/esp/esp-idf/components/esp_system/stack_check.c:21
+[0m
+[0;33m0x400d2588: esp_app_format_init_elf_sha256 at /home/wtsaichu/esp/esp-idf/components/esp_app_format/esp_app_desc.c:68
+[0m
+[0;33m0x400d6a3c: __esp_system_init_fn_esp_timer_startup_init at /home/wtsaichu/esp/esp-idf/components/esp_timer/src/esp_timer.c:578
+[0m
+[0;33m0x4010ab8c: __esp_system_init_fn_init_components0 at /home/wtsaichu/esp/esp-idf/components/esp_system/startup.c:470
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081534: call_start_cpu1 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:182
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m0x400face8: _GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_alloc.cc:462
+[0m
+[0;33m0x400fa75c: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m0x400f6bb4: check_i2c_driver_conflict at /home/wtsaichu/esp/esp-idf/components/driver/i2c/i2c.c:1679
+[0m
+[0;33m0x400eec58: esp_ipc_init at /home/wtsaichu/esp/esp-idf/components/esp_system/esp_ipc.c:114
+[0m
+[0;33m0x4008d128: enable_timer_group0_for_calibration at /home/wtsaichu/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:194
+[0m
+[0;33m0x400d2dc4: __esp_stack_guard_setup at /home/wtsaichu/esp/esp-idf/components/esp_system/stack_check.c:21
+[0m
+[0;33m0x400d2588: esp_app_format_init_elf_sha256 at /home/wtsaichu/esp/esp-idf/components/esp_app_format/esp_app_desc.c:68
+[0m
+[0;33m0x400d6a3c: __esp_system_init_fn_esp_timer_startup_init at /home/wtsaichu/esp/esp-idf/components/esp_timer/src/esp_timer.c:578
+[0m
+[0;33m0x4010ab8c: __esp_system_init_fn_init_components0 at /home/wtsaichu/esp/esp-idf/components/esp_system/startup.c:470
+[0m
+[0m

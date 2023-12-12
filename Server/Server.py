@@ -24,11 +24,17 @@ def post():
     if not request.json:
         return 'No JSON payload! Expecting POST!'
     # return the literal POST-ed payload
+    print(request.json)
     return jsonify(
         {
             'payload': request.json,
         }
     )
+@app.route('/get', methods=['GET'])
+def get():
+    # return some JSON
+    print("ok")
+    return jsonify({'key': 'healthcheck', 'status': 200})
 
 @app.route('/users/<gid>', methods=['GET', 'POST'])
 def users(gid):
@@ -59,6 +65,11 @@ def isClassificate():
 #     # return some JSON
 #     return jsonify({'key': 'healthcheck', 'status': 200})
 
+@app.route('/post_test', methods=['POST'])
+def post_test():
+    # return a JSON list of users in a group
+    print("request = "+str(request))
+    return 0
 
 if __name__ == "__main__":
     with app.test_request_context():
