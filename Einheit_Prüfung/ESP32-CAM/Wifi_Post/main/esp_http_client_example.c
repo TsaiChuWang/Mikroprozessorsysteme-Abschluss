@@ -187,54 +187,54 @@ static void http_rest_with_url(void)
         ESP_LOGE(TAG, "HTTP POST request failed: %s", esp_err_to_name(err));
     }
 
-    // //PUT
-    // esp_http_client_set_url(client, "http://"CONFIG_EXAMPLE_HTTP_ENDPOINT"/put");
-    // esp_http_client_set_method(client, HTTP_METHOD_PUT);
-    // err = esp_http_client_perform(client);
-    // if (err == ESP_OK) {
-    //     ESP_LOGI(TAG, "HTTP PUT Status = %d, content_length = %"PRId64,
-    //             esp_http_client_get_status_code(client),
-    //             esp_http_client_get_content_length(client));
-    // } else {
-    //     ESP_LOGE(TAG, "HTTP PUT request failed: %s", esp_err_to_name(err));
-    // }
+    //PUT
+    esp_http_client_set_url(client, "http://"CONFIG_EXAMPLE_HTTP_ENDPOINT"/put");
+    esp_http_client_set_method(client, HTTP_METHOD_PUT);
+    err = esp_http_client_perform(client);
+    if (err == ESP_OK) {
+        ESP_LOGI(TAG, "HTTP PUT Status = %d, content_length = %"PRId64,
+                esp_http_client_get_status_code(client),
+                esp_http_client_get_content_length(client));
+    } else {
+        ESP_LOGE(TAG, "HTTP PUT request failed: %s", esp_err_to_name(err));
+    }
 
-    // //PATCH
-    // esp_http_client_set_url(client, "http://"CONFIG_EXAMPLE_HTTP_ENDPOINT"/patch");
-    // esp_http_client_set_method(client, HTTP_METHOD_PATCH);
-    // esp_http_client_set_post_field(client, NULL, 0);
-    // err = esp_http_client_perform(client);
-    // if (err == ESP_OK) {
-    //     ESP_LOGI(TAG, "HTTP PATCH Status = %d, content_length = %"PRId64,
-    //             esp_http_client_get_status_code(client),
-    //             esp_http_client_get_content_length(client));
-    // } else {
-    //     ESP_LOGE(TAG, "HTTP PATCH request failed: %s", esp_err_to_name(err));
-    // }
+    //PATCH
+    esp_http_client_set_url(client, "http://"CONFIG_EXAMPLE_HTTP_ENDPOINT"/patch");
+    esp_http_client_set_method(client, HTTP_METHOD_PATCH);
+    esp_http_client_set_post_field(client, NULL, 0);
+    err = esp_http_client_perform(client);
+    if (err == ESP_OK) {
+        ESP_LOGI(TAG, "HTTP PATCH Status = %d, content_length = %"PRId64,
+                esp_http_client_get_status_code(client),
+                esp_http_client_get_content_length(client));
+    } else {
+        ESP_LOGE(TAG, "HTTP PATCH request failed: %s", esp_err_to_name(err));
+    }
 
-    // //DELETE
-    // esp_http_client_set_url(client, "http://"CONFIG_EXAMPLE_HTTP_ENDPOINT"/delete");
-    // esp_http_client_set_method(client, HTTP_METHOD_DELETE);
-    // err = esp_http_client_perform(client);
-    // if (err == ESP_OK) {
-    //     ESP_LOGI(TAG, "HTTP DELETE Status = %d, content_length = %"PRId64,
-    //             esp_http_client_get_status_code(client),
-    //             esp_http_client_get_content_length(client));
-    // } else {
-    //     ESP_LOGE(TAG, "HTTP DELETE request failed: %s", esp_err_to_name(err));
-    // }
+    //DELETE
+    esp_http_client_set_url(client, "http://"CONFIG_EXAMPLE_HTTP_ENDPOINT"/delete");
+    esp_http_client_set_method(client, HTTP_METHOD_DELETE);
+    err = esp_http_client_perform(client);
+    if (err == ESP_OK) {
+        ESP_LOGI(TAG, "HTTP DELETE Status = %d, content_length = %"PRId64,
+                esp_http_client_get_status_code(client),
+                esp_http_client_get_content_length(client));
+    } else {
+        ESP_LOGE(TAG, "HTTP DELETE request failed: %s", esp_err_to_name(err));
+    }
 
-    // //HEAD
-    // esp_http_client_set_url(client, "http://"CONFIG_EXAMPLE_HTTP_ENDPOINT"/get");
-    // esp_http_client_set_method(client, HTTP_METHOD_HEAD);
-    // err = esp_http_client_perform(client);
-    // if (err == ESP_OK) {
-    //     ESP_LOGI(TAG, "HTTP HEAD Status = %d, content_length = %"PRId64,
-    //             esp_http_client_get_status_code(client),
-    //             esp_http_client_get_content_length(client));
-    // } else {
-    //     ESP_LOGE(TAG, "HTTP HEAD request failed: %s", esp_err_to_name(err));
-    // }
+    //HEAD
+    esp_http_client_set_url(client, "http://"CONFIG_EXAMPLE_HTTP_ENDPOINT"/get");
+    esp_http_client_set_method(client, HTTP_METHOD_HEAD);
+    err = esp_http_client_perform(client);
+    if (err == ESP_OK) {
+        ESP_LOGI(TAG, "HTTP HEAD Status = %d, content_length = %"PRId64,
+                esp_http_client_get_status_code(client),
+                esp_http_client_get_content_length(client));
+    } else {
+        ESP_LOGE(TAG, "HTTP HEAD request failed: %s", esp_err_to_name(err));
+    }
 
     esp_http_client_cleanup(client);
 }
@@ -544,6 +544,7 @@ static void http_redirect_to_https(void)
     }
     esp_http_client_cleanup(client);
 }
+
 
 static void http_download_chunk(void)
 {

@@ -1,4 +1,4 @@
-/* * Data converted from /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Wifi_Post/main/postman_root_cert.pem
+/* * Data converted from /home/wtsaichu/esp/esp-idf/examples/protocols/esp_http_client/main/postman_root_cert.pem
  * (null byte appended)
  */
 .data

@@ -4,10 +4,11 @@
 #define WIDERHOLUNG_ZAHL 1000
 #define LERNRATE 0.01
 
+#include "../include/configuration.h"
+
 #ifdef BESONDERHEIT_ZAHL
 #define HOG_FEATURE_SIZE BESONDERHEIT_ZAHL
 #else
-#include "../include/configuration.h"
 #include "../include/dataset.h"
 #include "../include/histogram.h"
 #define HOG_FEATURE_SIZE (IMAGE_SIZE /CELL_SIZE)*(IMAGE_SIZE/CELL_SIZE)*NUM_BINS
@@ -61,7 +62,14 @@ void trainSVM(SVM *svm, Sample trainingData[]) {
     // Training the SVM model
     __type sum = 0;
     for (int epoch = 0; epoch < EPOCHS; ++epoch) {
-        for (int i = 0; i < 14000; ++i) {
+        int a;
+#ifdef PAIR
+    a = 4000;
+#else
+    a = 14000;
+#endif
+    // printf("a = %d\n", a);
+        for (int i = 0; i < a; ++i) {
             Sample *sample = &trainingData[i];
             // printf("dotProduct(svm->weights, sample->hogFeatures, HOG_FEATURE_SIZE) = %f\n", dotProduct(svm->weights, sample->hogFeatures, HOG_FEATURE_SIZE));
             __type predicted = dotProduct(svm->weights, sample->hogFeatures, HOG_FEATURE_SIZE) + svm->bias;
@@ -78,14 +86,14 @@ void trainSVM(SVM *svm, Sample trainingData[]) {
             // // printf("svm->bias = %f\n",svm->bias);
             sum += svm->bias;
         }
-        // printf("sum = %f, avg = %f\n",sum ,sum/NUM_SAMPLES);
+//         // printf("sum = %f, avg = %f\n",sum ,sum/NUM_SAMPLES);
     }
 }
 
 float classifySample(__type testHogFeatures[HOG_FEATURE_SIZE], SVM *svm) {
     // Classifying a test sample using the trained SVM model
     __type score = dotProduct(svm->weights, testHogFeatures, HOG_FEATURE_SIZE) + svm->bias;
-    printf("score = %f decision = %f\n", score, sigmoid(score));
+    // printf("score = %f decision = %f\n", score, sigmoid(score));
     // printf("svm->bias = %f\n", svm->bias);
     //  printf("dotProduct(svm->weights, testHogFeatures, HOG_FEATURE_SIZE) = %f\n", dotProduct(svm->weights, testHogFeatures, HOG_FEATURE_SIZE));
     

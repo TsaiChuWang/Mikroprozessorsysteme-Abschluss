@@ -57,6 +57,8 @@ menu "Pin Configuration"
     default "32"
 endmenu
 
+
+
 config OV2640_SUPPORT
   bool "OV2640 Support"
   default y

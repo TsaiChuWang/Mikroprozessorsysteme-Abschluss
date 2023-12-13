@@ -30,6 +30,9 @@
 #define _type uint8_t
 #define __type float
 
+// #define EACH
+#define PAIR
+// #define SINGLE
 
 #define delete_p(x) do{(x)->destroy(x);free_p(x);}while(0)
 #define delete(x) (x).destroy(&(x))

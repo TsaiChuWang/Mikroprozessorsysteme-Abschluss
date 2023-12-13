@@ -1,4 +1,4 @@
-/* * Data converted from /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Wifi_Post/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/wtsaichu/esp/esp-idf/examples/protocols/esp_http_client/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
