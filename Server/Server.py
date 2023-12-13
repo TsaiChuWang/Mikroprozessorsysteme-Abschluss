@@ -24,12 +24,12 @@ def post():
     if not request.json:
         return 'No JSON payload! Expecting POST!'
     # return the literal POST-ed payload
-    print(request.json)
-    return jsonify(
-        {
-            'payload': request.json,
-        }
-    )
+    # print(request.json[img])
+    for i in range(96):
+        for j in range(96):
+            print(str(request.json["img"])[(i*96+j)], end = '')
+        print()
+    return "ok"
 @app.route('/get', methods=['GET'])
 def get():
     # return some JSON

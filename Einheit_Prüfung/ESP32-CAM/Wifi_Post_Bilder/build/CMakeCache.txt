@@ -594,8 +594,6 @@ _Python3_EXECUTABLE:INTERNAL=/home/wtsaichu/.espressif/python_env/idf5.3_py3.11_
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;2;32;;;/usr/lib/python3.11;/usr/lib/python3.11;/home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/lib/python3.11/site-packages;/home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/lib/python3.11/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=bafb8b00d06ceafa0c48778b15e6f88e
-//Interpreter reason failure
-_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 

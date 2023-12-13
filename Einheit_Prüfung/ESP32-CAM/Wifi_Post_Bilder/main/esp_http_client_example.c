@@ -64,11 +64,24 @@ static camera_config_t camera_config = {
     .ledc_channel = LEDC_CHANNEL_0,
 
     .pixel_format = PIXFORMAT_GRAYSCALE, //YUV422,GRAYSCALE,RGB565,JPEG
-    .frame_size = FRAMESIZE_VGA,   //QQVGA-UXGA Do not use sizes above QVGA when not JPEG
+    .frame_size = FRAMESIZE_96X96,   //QQVGA-UXGA Do not use sizes above QVGA when not JPEG
 
     .jpeg_quality = 12, //0-63 lower number means higher quality
     .fb_count = 1       //if more than one, i2s runs in continuous mode. Use only with JPEG
 };
+
+static esp_err_t init_camera()
+{
+  //initialize the camera
+  esp_err_t err = esp_camera_init(&camera_config);
+  if (err != ESP_OK)
+  {
+    ESP_LOGE(TAG, "Camera Init Failed");
+    return err;
+  }
+
+  return ESP_OK;
+}
 
 esp_err_t _http_event_handler(esp_http_client_event_t *evt)
 {
@@ -161,8 +174,6 @@ esp_err_t _http_event_handler(esp_http_client_event_t *evt)
     return ESP_OK;
 }
 
-
-
 static void http_rest_with_url(void)
 {
     char local_response_buffer[MAX_HTTP_OUTPUT_BUFFER + 1] = {0};
@@ -174,7 +185,30 @@ static void http_rest_with_url(void)
         .user_data = local_response_buffer,        // Pass address of local buffer to get response
         .disable_auto_redirect = true,
     };
+
+    char *post_data = (char*)malloc(sizeof(char)*9230);;
+    char *post_data_ = (char*)malloc(sizeof(char)*9217);
+    memset(post_data_, '\0', 9217);
+
     esp_http_client_handle_t client = esp_http_client_init(&config);
+    init_camera();
+    ESP_LOGI(TAG, "Iit camera success, Taking picture...\n");
+    camera_fb_t *pic = esp_camera_fb_get();
+    printf("pic->len = %d\n", pic->len);
+    for(int i=0;i<96;i++){
+        for(int j=0;j<96;j++){
+            if(*(pic->buf+(i*96+j))<50){
+                printf("%d", 0);
+                *(post_data_+(i*96+j)) = '0';
+            }     
+            else{
+                printf("%d", 1);
+                *(post_data_+(i*96+j)) = '1';
+            }
+        }
+        printf("\n");
+    }
+    int charsWritten = snprintf(post_data, 9230, "{\"img\":\"%s\"}", post_data_);
 
     // // GET
     // esp_err_t err = esp_http_client_perform(client);
@@ -188,7 +222,7 @@ static void http_rest_with_url(void)
     // ESP_LOG_BUFFER_HEX(TAG, local_response_buffer, strlen(local_response_buffer));
 
     // POST
-    const char *post_data = "{\"field1\":\"value1\"}";
+    
     esp_http_client_set_url(client, "http://"CONFIG_EXAMPLE_HTTP_ENDPOINT"/post");
     esp_http_client_set_method(client, HTTP_METHOD_POST);
     esp_http_client_set_header(client, "Content-Type", "application/json");
@@ -201,7 +235,7 @@ static void http_rest_with_url(void)
     } else {
         ESP_LOGE(TAG, "HTTP POST request failed: %s", esp_err_to_name(err));
     }
-
+    
     esp_http_client_cleanup(client);
 }
 

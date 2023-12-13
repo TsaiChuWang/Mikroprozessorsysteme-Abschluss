@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "esp_http_client_example",
-    "project_version":    "e64f9da-dirty",
+    "project_version":    "fe40331-dirty",
     "project_path":       "/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Wifi_Post_Bilder",
     "idf_path":           "/home/wtsaichu/esp/esp-idf",
     "build_dir":          "/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Wifi_Post_Bilder/build",

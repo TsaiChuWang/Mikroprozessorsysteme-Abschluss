@@ -1,1 +1,27 @@
-e64f9dabf1d8f55a2ebdc1bf596f03760f1cb3e4
+0000000000000000000000000000000000000000 5073a4436b41de3350d8095d38ec27faf14d6bf3 TsaiChuWang <wtsaichu@gmail.com> 1701342832 +0800	clone: from https://github.com/TsaiChuWang/Mikroprozessorsysteme-Abschluss.git
+5073a4436b41de3350d8095d38ec27faf14d6bf3 1b71676cb84b38730e18fadfede75cdbbb5ce701 TsaiChuWang <wtsaichu@gmail.com> 1701342893 +0800	commit: README.md aktausilieren
+1b71676cb84b38730e18fadfede75cdbbb5ce701 3f1dfb477f61f42872378f76ece3eaa794019239 TsaiChuWang <wtsaichu@gmail.com> 1701421495 +0800	commit: esp32 erste prufung falsch
+3f1dfb477f61f42872378f76ece3eaa794019239 b5a9f0639210ac1f77e8f6b8e9d4117a6285f40d TsaiChuWang <wtsaichu@gmail.com> 1701512948 +0800	commit: CNN V0 failed
+b5a9f0639210ac1f77e8f6b8e9d4117a6285f40d be8d0a0db4f2d85520d668a708bdc0e9cc6f2705 TsaiChuWang <wtsaichu@gmail.com> 1701532983 +0800	commit: Wifi_Verbinden aktausilieren fertig
+be8d0a0db4f2d85520d668a708bdc0e9cc6f2705 244a5e8cbe4a6615e389fc14084386e2ac2a1617 TsaiChuWang <wtsaichu@gmail.com> 1701533300 +0800	commit: Server aktausilieren v0
+244a5e8cbe4a6615e389fc14084386e2ac2a1617 2cd2273ce3bff8ae19fcd048d797e6178c6f7800 TsaiChuWang <wtsaichu@gmail.com> 1701533391 +0800	commit: CNN V0 zum V0.2 aktausilieren
+2cd2273ce3bff8ae19fcd048d797e6178c6f7800 9437ad525bb1ed19769889743da7a4defe8cf977 TsaiChuWang <wtsaichu@gmail.com> 1701735641 +0800	commit: CNN V0.2
+9437ad525bb1ed19769889743da7a4defe8cf977 e197ee96e678f412a30e4dadd759ccea45464f03 TsaiChuWang <wtsaichu@gmail.com> 1701740807 +0800	commit: ESP32-S3 HTTP GET akyausilieren fertig
+e197ee96e678f412a30e4dadd759ccea45464f03 e2fb9f30e49aaee1aa121514dfd2347e44017c37 TsaiChuWang <wtsaichu@gmail.com> 1701741454 +0800	commit: ESP32-S3 CNN erneut fehlgeschlagen
+e2fb9f30e49aaee1aa121514dfd2347e44017c37 9910fe42cfd59b5f1a1a4b705af50b825df31f66 TsaiChuWang <wtsaichu@gmail.com> 1701763765 +0800	commit: aktausilieren
+9910fe42cfd59b5f1a1a4b705af50b825df31f66 c225fb02bb29d45db9c71880206f5e08c4f0503a TsaiChuWang <wtsaichu@gmail.com> 1701763995 +0800	commit: Fügen grayscale.c hinzu
+c225fb02bb29d45db9c71880206f5e08c4f0503a 356b07c5e4079e4ec7a63544e6038690ec90b162 TsaiChuWang <wtsaichu@gmail.com> 1701764438 +0800	commit: CNN V1.0 aktausilieren
+356b07c5e4079e4ec7a63544e6038690ec90b162 39db84a98f78575b67fb48872a5eca602b3f26da TsaiChuWang <wtsaichu@gmail.com> 1701822525 +0800	commit: grayscale iteration aktausilieren fertig
+39db84a98f78575b67fb48872a5eca602b3f26da 356b07c5e4079e4ec7a63544e6038690ec90b162 TsaiChuWang <wtsaichu@gmail.com> 1701835749 +0800	reset: moving to HEAD~
+356b07c5e4079e4ec7a63544e6038690ec90b162 99d0087c48bb72fbda327925cacf21dacc07bdf8 TsaiChuWang <wtsaichu@gmail.com> 1701835753 +0800	commit: grayscale iteration aktausilieren fertig
+99d0087c48bb72fbda327925cacf21dacc07bdf8 97a0f729535c9419cfd47dc316edb0d9e7a9e829 TsaiChuWang <wtsaichu@gmail.com> 1701861984 +0800	pull --tags origin main: Merge made by the 'ort' strategy.
+97a0f729535c9419cfd47dc316edb0d9e7a9e829 5f4c6cd3eb4246c1112b7a7060a779707950eb48 TsaiChuWang <wtsaichu@gmail.com> 1701862157 +0800	commit: grayscale.c aktausilieren fertig
+5f4c6cd3eb4246c1112b7a7060a779707950eb48 a130ca31d0c32e8ae93966b0747d792b2b5e5d9a TsaiChuWang <wtsaichu@gmail.com> 1701862678 +0800	commit: crop.c aktausilieren fertig
+a130ca31d0c32e8ae93966b0747d792b2b5e5d9a 5e5eaaf151c08b09421735d50aa0fbf1e5055a76 TsaiChuWang <wtsaichu@gmail.com> 1701864377 +0800	commit: grayscale aktausilieren fertig
+5e5eaaf151c08b09421735d50aa0fbf1e5055a76 49395412a6be140e080a81c746789a0f8808681b TsaiChuWang <wtsaichu@gmail.com> 1701864691 +0800	commit: crop.c aktausilieren fertig
+49395412a6be140e080a81c746789a0f8808681b bd70855008ced160edca162ee98071a69c177d17 TsaiChuWang <wtsaichu@gmail.com> 1701866493 +0800	commit: Preprozess fertig
+bd70855008ced160edca162ee98071a69c177d17 951e4d131fae25fad451ba0a07435693687d8ffc TsaiChuWang <wtsaichu@gmail.com> 1702210333 +0800	commit: CNN fertig
+951e4d131fae25fad451ba0a07435693687d8ffc 9d69670ec4bffb3802014d5b41f891a1a29a2512 TsaiChuWang <wtsaichu@gmail.com> 1702300394 +0800	commit: SVM erste sucess
+9d69670ec4bffb3802014d5b41f891a1a29a2512 21214089e93c9f9698489722db3d81abcd60932d TsaiChuWang <wtsaichu@gmail.com> 1702359149 +0800	commit: esp32 cam aktausilieren
+21214089e93c9f9698489722db3d81abcd60932d e64f9dabf1d8f55a2ebdc1bf596f03760f1cb3e4 TsaiChuWang <wtsaichu@gmail.com> 1702377940 +0800	commit: Wifi_Post auf ESP32-CMA fertig aktausilieren
+e64f9dabf1d8f55a2ebdc1bf596f03760f1cb3e4 fe40331b0e492edd99bfe4cd0af96ce49328eac3 TsaiChuWang <wtsaichu@gmail.com> 1702466404 +0800	commit: SVM aktausilieren fertig
