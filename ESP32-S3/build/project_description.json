@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "http_request",
-    "project_version":    "9437ad5-dirty",
+    "project_version":    "032572f-dirty",
     "project_path":       "/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/ESP32-S3",
     "idf_path":           "/home/wtsaichu/esp/esp-idf",
     "build_dir":          "/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/ESP32-S3/build",

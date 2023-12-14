@@ -2100,3 +2100,95 @@
 2023-12-13 23:37:52,508 - INFO - 192.168.50.151 - - [13/Dec/2023 23:37:52] "POST /post HTTP/1.1" 200 -
 2023-12-14 11:59:09,870 - INFO -  * Detected change in '/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Server/Server.py', reloading
 2023-12-14 11:59:09,973 - INFO -  * Restarting with stat
+2023-12-14 12:33:07,554 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-14 12:33:07,554 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-14 12:33:07,560 - INFO -  * Restarting with stat
+2023-12-14 12:33:08,267 - WARNING -  * Debugger is active!
+2023-12-14 12:33:08,275 - INFO -  * Debugger PIN: 381-345-069
+2023-12-14 12:42:46,012 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:46] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:47,199 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:47] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:48,220 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:48] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:49,250 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:49] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:50,272 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:50] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:51,290 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:51] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:52,338 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:52] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:53,360 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:53] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:54,384 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:54] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:55,412 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:55] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:56,433 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:56] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:57,496 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:57] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:58,512 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:58] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:42:59,522 - INFO - 192.168.50.121 - - [14/Dec/2023 12:42:59] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:00,534 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:00] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:01,557 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:01] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:02,580 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:02] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:03,597 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:03] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:04,625 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:04] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:05,644 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:05] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:06,668 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:06] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:07,686 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:07] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:08,712 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:08] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:09,745 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:09] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:10,765 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:10] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:11,791 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:11] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:12,830 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:12] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:13,845 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:13] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:14,874 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:14] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:15,925 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:15] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:16,947 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:16] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:17,970 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:17] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:18,999 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:18] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:20,029 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:20] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:21,056 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:21] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:22,094 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:22] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:23,113 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:23] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:24,291 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:24] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:25,305 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:25] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:26,325 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:26] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:27,350 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:27] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:28,379 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:28] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:29,410 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:29] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:30,435 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:30] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:31,472 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:31] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:32,489 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:32] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:33,539 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:33] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:34,570 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:34] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:35,584 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:35] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:36,613 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:36] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:37,719 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:37] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:38,807 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:38] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:39,839 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:39] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:40,859 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:40] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:42,158 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:42] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:43,177 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:43] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:44,197 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:44] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:45,217 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:45] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:46,248 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:46] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:47,268 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:47] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:48,283 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:48] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:49,300 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:49] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:50,316 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:50] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:51,335 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:51] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:52,355 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:52] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:53,387 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:53] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:54,410 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:54] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:55,435 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:55] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:56,458 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:56] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:57,473 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:57] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:58,500 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:58] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:43:59,533 - INFO - 192.168.50.121 - - [14/Dec/2023 12:43:59] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:44:00,565 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:00] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:44:01,587 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:01] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:44:02,609 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:02] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:44:03,624 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:03] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:44:04,650 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:04] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:44:05,723 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:05] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:44:07,075 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:07] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:44:08,098 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:08] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:44:09,178 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:09] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:44:10,473 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:10] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:44:11,528 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:11] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-14 12:44:12,549 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:12] "GET /isClassificate HTTP/1.0" 200 -
