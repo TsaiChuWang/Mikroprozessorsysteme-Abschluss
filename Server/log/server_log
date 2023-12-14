@@ -2098,3 +2098,5 @@
 2023-12-13 23:37:32,398 - WARNING -  * Debugger is active!
 2023-12-13 23:37:32,398 - INFO -  * Debugger PIN: 381-345-069
 2023-12-13 23:37:52,508 - INFO - 192.168.50.151 - - [13/Dec/2023 23:37:52] "POST /post HTTP/1.1" 200 -
+2023-12-14 11:59:09,870 - INFO -  * Detected change in '/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Server/Server.py', reloading
+2023-12-14 11:59:09,973 - INFO -  * Restarting with stat

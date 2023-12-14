@@ -30,6 +30,24 @@ def post():
             print(str(request.json["img"])[(i*96+j)], end = '')
         print()
     return "ok"
+
+@app.route('/post_image', methods=['POST'])
+def post_image():
+    # Wenn Ich der Bilder anzeigen möchte
+    image_size = 96
+    for i in range(image_size):
+        for j in range(image_size):
+            print(str(request.json["img"])[(i*image_size+j)], end = '')
+        print()
+    print("Recieve entire picture.")
+
+    # Schreiben der Bilder auf Puffer
+    with open("./configuration/config.txt", 'w') as file:
+        file.write(str(request.json["img"]))
+    print("Write to the buffer.")
+    
+    return "ok"
+
 @app.route('/get', methods=['GET'])
 def get():
     # return some JSON
