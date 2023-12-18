@@ -2192,3 +2192,48 @@
 2023-12-14 12:44:10,473 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:10] "GET /isClassificate HTTP/1.0" 200 -
 2023-12-14 12:44:11,528 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:11] "GET /isClassificate HTTP/1.0" 200 -
 2023-12-14 12:44:12,549 - INFO - 192.168.50.121 - - [14/Dec/2023 12:44:12] "GET /isClassificate HTTP/1.0" 200 -
+2023-12-18 14:30:22,932 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://140.123.91.93:8000
+2023-12-18 14:30:22,933 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-18 14:30:22,935 - INFO -  * Restarting with stat
+2023-12-18 14:30:23,109 - WARNING -  * Debugger is active!
+2023-12-18 14:30:23,110 - INFO -  * Debugger PIN: 200-100-228
+2023-12-18 17:09:07,458 - INFO - 192.168.50.151 - - [18/Dec/2023 17:09:07] "[31m[1mPOST /post_image HTTP/1.1[0m" 400 -
+2023-12-18 17:26:31,346 - INFO - 192.168.50.151 - - [18/Dec/2023 17:26:31] "[31m[1mPOST /post_image HTTP/1.1[0m" 400 -
+2023-12-18 17:33:02,834 - INFO - 192.168.50.151 - - [18/Dec/2023 17:33:02] "[31m[1mPOST /post_image HTTP/1.1[0m" 400 -
+2023-12-18 17:35:29,305 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-18 17:35:29,305 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-18 17:35:29,308 - INFO -  * Restarting with stat
+2023-12-18 17:35:29,622 - WARNING -  * Debugger is active!
+2023-12-18 17:35:29,622 - INFO -  * Debugger PIN: 381-345-069
+2023-12-18 17:36:26,906 - INFO - 192.168.50.151 - - [18/Dec/2023 17:36:26] "[31m[1mPOST /post_image HTTP/1.1[0m" 400 -
+2023-12-18 17:44:46,535 - INFO - 192.168.50.151 - - [18/Dec/2023 17:44:46] "[31m[1mPOST /post_image HTTP/1.1[0m" 400 -
+2023-12-18 17:51:39,660 - INFO - 192.168.50.151 - - [18/Dec/2023 17:51:39] "[31m[1mPOST /post_image HTTP/1.1[0m" 400 -
+2023-12-18 18:02:11,253 - INFO - 192.168.50.151 - - [18/Dec/2023 18:02:11] "[31m[1mPOST /post_image HTTP/1.1[0m" 400 -
+2023-12-18 18:26:38,189 - INFO - 192.168.50.151 - - [18/Dec/2023 18:26:38] "[31m[1mPOST /post_image HTTP/1.1[0m" 400 -
+2023-12-18 18:31:02,792 - INFO - 192.168.50.151 - - [18/Dec/2023 18:31:02] "[31m[1mPOST /post_image HTTP/1.1[0m" 400 -
+2023-12-18 18:33:49,742 - INFO - 192.168.50.151 - - [18/Dec/2023 18:33:49] "[31m[1mPOST /post HTTP/1.1[0m" 400 -
+2023-12-18 18:35:22,928 - INFO - 192.168.50.151 - - [18/Dec/2023 18:35:22] "[31m[1mPOST /post HTTP/1.1[0m" 400 -
+2023-12-18 18:38:17,149 - INFO - 192.168.50.151 - - [18/Dec/2023 18:38:17] "[31m[1mPOST /post HTTP/1.1[0m" 400 -
+2023-12-18 18:42:21,163 - INFO - 192.168.50.151 - - [18/Dec/2023 18:42:21] "[31m[1mPOST /post HTTP/1.1[0m" 400 -
+2023-12-18 18:46:47,672 - INFO - 192.168.50.151 - - [18/Dec/2023 18:46:47] "POST /post HTTP/1.1" 200 -
+2023-12-18 18:51:34,304 - INFO - 192.168.50.151 - - [18/Dec/2023 18:51:34] "[31m[1mPOST /post_image HTTP/1.1[0m" 400 -
+2023-12-18 18:51:49,201 - INFO - 192.168.50.151 - - [18/Dec/2023 18:51:49] "[31m[1mPOST /post_image HTTP/1.1[0m" 400 -
+2023-12-18 18:57:02,508 - INFO - 192.168.50.151 - - [18/Dec/2023 18:57:02] "[31m[1mPOST /post_image HTTP/1.1[0m" 400 -
+2023-12-18 18:58:53,127 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.50.120:8000
+2023-12-18 18:58:53,128 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-18 18:58:53,130 - INFO -  * Restarting with stat
+2023-12-18 18:58:53,326 - WARNING -  * Debugger is active!
+2023-12-18 18:58:53,326 - INFO -  * Debugger PIN: 381-345-069
+2023-12-18 19:01:37,144 - INFO - 192.168.50.151 - - [18/Dec/2023 19:01:37] "POST /post_image HTTP/1.1" 200 -
+2023-12-18 19:31:42,749 - INFO - 192.168.50.151 - - [18/Dec/2023 19:31:42] "POST /post_image HTTP/1.1" 200 -
+2023-12-18 19:39:20,362 - INFO - 192.168.50.151 - - [18/Dec/2023 19:39:20] "POST /post_image HTTP/1.1" 200 -
+2023-12-18 19:41:07,880 - INFO - 192.168.50.151 - - [18/Dec/2023 19:41:07] "POST /post_image HTTP/1.1" 200 -

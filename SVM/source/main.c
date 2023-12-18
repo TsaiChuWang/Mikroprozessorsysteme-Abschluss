@@ -138,7 +138,7 @@ int main(int argc, char * argv[]) {
 
                 if(predictedClass <(zavg - zvar) && predictedClass > (zavg + zvar) && *(prufung_daten.labels+i)== type_2){
                     sum++;
-                    tickets[i][type_1] += 0.14;
+                    tickets[i][type_2] += 0.014;
                 }
 
                 if(*(prufung_daten.labels+i)== type_2 || *(prufung_daten.labels+i)== type_1)

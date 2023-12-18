@@ -36,7 +36,7 @@ __type* berechnenHOG(_type* bilder) {
                     int x = j * CELL_SIZE + n;
                     int y = i * CELL_SIZE + m;
 
-                    // Calculate gradient magnitude and orientation
+                    // Berechnen Sie die Größe und Ausrichtung des Gradienten
                     __type gradientMagnitude = sqrt(pow(bilder[y*IMAGE_SIZE+x + 1] - bilder[y*IMAGE_SIZE+x - 1], 2) +
                                                      pow(bilder[(y + 1)*IMAGE_SIZE+x] - bilder[(y - 1)*IMAGE_SIZE+x], 2));
                     __type gradientOrientation = atan2(bilder[(y + 1)*IMAGE_SIZE+x] - bilder[(y - 1)*IMAGE_SIZE+x],

@@ -1,0 +1,61 @@
+[0;33m--- esp-idf-monitor 1.3.3 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081d69: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4008ea15: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008f9a2: vApplicationStackOverflowHook at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+[0m
+[0;33m0x40090d1f: vTaskSwitchContext at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3624 (discriminator 7)
+[0m
+[0;33m0x4008faac: _frxt_dispatch at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+[0m
+[0;33m0x4008fa5e: _frxt_int_exit at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081d69: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4008ea15: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008f9a2: vApplicationStackOverflowHook at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+[0m
+[0;33m0x40090d1f: vTaskSwitchContext at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3624 (discriminator 7)
+[0m
+[0;33m0x4008faac: _frxt_dispatch at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+[0m
+[0;33m0x4008fa5e: _frxt_int_exit at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081d69: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4008ea15: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008f9a2: vApplicationStackOverflowHook at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+[0m
+[0;33m0x40090d1f: vTaskSwitchContext at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3624 (discriminator 7)
+[0m
+[0;33m0x4008faac: _frxt_dispatch at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+[0m
+[0;33m0x4008fa5e: _frxt_int_exit at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081d69: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4008ea15: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008f9a2: vApplicationStackOverflowHook at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+[0m
+[0;33m0x40090d1f: vTaskSwitchContext at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3624 (discriminator 7)
+[0m
+[0;33m0x4008faac: _frxt_dispatch at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+[0m
+[0;33m0x4008fa5e: _frxt_int_exit at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m
