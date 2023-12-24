@@ -1,0 +1,22 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_Grayscale/build/bootloader/esp-idf/esptool_py && /home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/bin/python /home/wtsaichu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_Grayscale/build/bootloader/bootloader.bin
+Bootloader binary size 0x6820 bytes. 0x7e0 bytes (7%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_Grayscale/main/main.c: In function 'init_sdcard':
+/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_Grayscale/main/main.c:66:13: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   66 |   esp_err_t ret = ESP_FAIL;
+      |             ^~~
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Building C object CMakeFiles/esp32_cam_sd_jpg.elf.dir/project_elf_src_esp32.c.obj
+[8/10] Linking CXX executable esp32_cam_sd_jpg.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.7.dev3
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_Grayscale/build/esp32_cam_sd_jpg.bin
+[10/10] cd /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_Grayscale/build/esp-idf/esptool_py && /home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/bin/python /home/wtsaichu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_Grayscale/build/partition_table/partition-table.bin /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_Grayscale/build/esp32_cam_sd_jpg.bin
+esp32_cam_sd_jpg.bin binary size 0x72470 bytes. Smallest app partition is 0x100000 bytes. 0x8db90 bytes (55%) free.

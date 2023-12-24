@@ -42,7 +42,7 @@ static camera_config_t camera_config = {
     .ledc_channel = LEDC_CHANNEL_0,
 
     .pixel_format = PIXFORMAT_GRAYSCALE, //YUV422,GRAYSCALE,RGB565,JPEG
-    .frame_size = FRAMESIZE_VGA,   //QQVGA-UXGA Do not use sizes above QVGA when not JPEG
+    .frame_size = FRAMESIZE_96X96,   //QQVGA-UXGA Do not use sizes above QVGA when not JPEG
 
     .jpeg_quality = 12, //0-63 lower number means higher quality
     .fb_count = 1       //if more than one, i2s runs in continuous mode. Use only with JPEG
@@ -75,14 +75,14 @@ static void init_sdcard()
   ESP_LOGI(TAG, "Mounting SD card...");
   ret = esp_vfs_fat_sdmmc_mount("/sdcard", &host, &slot_config, &mount_config, &card);
 
-  if (ret == ESP_OK)
-  {
-    ESP_LOGI(TAG, "SD card mount successfully!");
-  }
-  else
-  {
-    ESP_LOGE(TAG, "Failed to mount SD card VFAT filesystem. Error: %s", esp_err_to_name(ret));
-  }
+  // if (ret == ESP_OK)
+  // {
+  //   // ESP_LOGI(TAG, "SD card mount successfully!");
+  // }
+  // else
+  // {
+  //   // ESP_LOGE(TAG, "Failed to mount SD card VFAT filesystem. Error: %s", esp_err_to_name(ret));
+  // }
 }
 
 void app_main()
@@ -94,16 +94,22 @@ void app_main()
 
   camera_fb_t *pic = esp_camera_fb_get();
   char *pic_name = malloc(17 + sizeof(int64_t));
-  sprintf(pic_name, "/sdcard/b.bmp");
-  FILE *file = fopen(pic_name, "w");
+
+  for(int i=0;i<96;i++){
+    for(int j=0;j<96;j++)
+      printf(" %3d ", *(pic->buf+(i*96+j)));
+    printf("\n");
+  }
+  // sprintf(pic_name, "/sdcard/test.bmp");
+  // FILE *file = fopen(pic_name, "w");
 
   sprintf(pic_name, "/sdcard/b.gry");
-  file = fopen(pic_name, "w");
+  FILE *file = fopen(pic_name, "w");
 
   if (file != NULL)
   {
     fwrite(pic->buf, 1, pic->len, file);
-    ESP_LOGI(TAG, "File saved: %s", pic_name);
+    // ESP_LOGI(TAG, "File saved: %s", pic_name);
   }else
     ESP_LOGE(TAG, "Could not open file =(");
 

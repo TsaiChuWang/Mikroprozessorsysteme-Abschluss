@@ -29,4 +29,4 @@
 #define HTTP_ENDPOINT "192.168.50.120:8000"
 
 #define IMAGE_GRÖẞE 96
-#define SCHWELLE 50
+#define SCHWELLE 100

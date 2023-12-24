@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "esp32_cam_sd_jpg",
-    "project_version":    "9d69670-dirty",
+    "project_version":    "f78be4c-dirty",
     "project_path":       "/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_Grayscale",
     "idf_path":           "/home/wtsaichu/esp/esp-idf",
     "build_dir":          "/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_Grayscale/build",
