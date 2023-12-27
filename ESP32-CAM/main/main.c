@@ -192,7 +192,8 @@ static void bilder_pfosten(void)
                 *(post_data+8+(index*IMAGE_GRÖẞE+jndex)) = '0';
             else *(post_data+8+(index*IMAGE_GRÖẞE+jndex)) = '1';
 #ifdef ANZEIGEN
-    printf("%d", (*(bilder->buf+(index*IMAGE_GRÖẞE+jndex))< SCHWELLE)?0:1);
+    printf("%3d", *(bilder->buf+(index*IMAGE_GRÖẞE+jndex)));
+    // printf("%d", (*(bilder->buf+(index*IMAGE_GRÖẞE+jndex))< SCHWELLE)?0:1);
 #endif
 #else 
             *(post_data+8+(index*IMAGE_GRÖẞE+jndex)) = (char)(*(bilder->buf+(index*IMAGE_GRÖẞE+jndex)));

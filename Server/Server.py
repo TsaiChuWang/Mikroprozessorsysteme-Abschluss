@@ -1,36 +1,49 @@
+import requests
 import json
 
 from flask import Flask, request, jsonify
 import logging
+from flask_cors import CORS
+from flask_cors import cross_origin
+
 
 # Configure logging
 logging.basicConfig(filename='./log/server_log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 app = Flask(__name__)
+CORS(app, supports_credentials=True)
 
-@app.route('/', methods=['GET', 'POST'])
-def root():
-    # spit back whatever was posted + the full env 
-    return jsonify(
-        {
-            'request.json': request.json,
-            'request.values': request.values,
-            'env': json.loads(json.dumps(request.__dict__, sort_keys=True, default=str))
-        }
-    )
+label = -1
+topic = [0,0,0]
+count = 0
 
-@app.route('/post', methods=['GET', 'POST'])
-def post():
-    if not request.json:
-        return 'No JSON payload! Expecting POST!'
-    # return the literal POST-ed payload
-    # print(request.json[img])
-    for i in range(96):
-        for j in range(96):
-            print(str(request.json["img"])[(i*96+j)], end = '')
-        print()
-    return "ok"
+def _siamese(image):
+    url = "http://140.123.91.96:9091/get_image"
 
+    payload = json.dumps({ "img": image})
+    headers = {'Content-Type': 'application/json'}
+    response = requests.request("POST", url, headers=headers, data=payload)
+    return int(json.loads(response.text)['class'])
+
+# Für die Webnutzung : Holen Sie sich das Tag
+@app.route('/get_label', methods=['GET'])
+@cross_origin(supports_credentials=True)
+def get_label():
+    data = {'label': str(label)}
+    response = jsonify(data)
+    return response
+
+# Für die Webnutzung : Flag löschen und Anzahl der Aktualisierungen löschen
+@app.route('/post_count', methods=['POST'])
+@cross_origin(supports_credentials=True)
+def post_count():
+    global label
+    global count
+    count = int(request.json['count'])
+    label = -1
+    return "SUCCESS"
+
+# Für ESP32-CAM: Holen Sie sich das ursprüngliche Binärbild
 @app.route('/post_image', methods=['POST'])
 def post_image():
     # Wenn Ich der Bilder anzeigen möchte
@@ -41,6 +54,19 @@ def post_image():
         print()
     print("Recieve entire picture.")
 
+    global label
+    # label = _siamese(str(request.json["img"]))
+
+    # [VERSTECKT]
+    print('count = '+str(count))
+    if(count == 1):
+        print("Topic 2 = "+str(topic[1])+" predict = "+str(topic[1]-1))
+        label = topic[1]-1
+    else:
+        print("Topic "+str(count)+" = "+str(topic[count])+" predict = "+str(topic[count]))
+        label = topic[count]
+    print("label = "+str(label))
+
     # Schreiben der Bilder auf Puffer
     with open("./configuration/config.txt", 'w') as file:
         file.write(str(request.json["img"]))
@@ -48,46 +74,63 @@ def post_image():
     
     return "ok"
 
-@app.route('/get', methods=['GET'])
-def get():
-    # return some JSON
-    print("ok")
-    return jsonify({'key': 'healthcheck', 'status': 200})
+# @app.route('/get_image_test', methods=['GET'])
+# def get():
+#     # return some JSON
+#     print("ok")
+#     return jsonify({'key': 'healthcheck', 'status': 200})
 
-@app.route('/users/<gid>', methods=['GET', 'POST'])
-def users(gid):
-    # return a JSON list of users in a group
-    return jsonify([{'user_id': i,'group_id': gid } for i in range(42)])
-
-@app.route('/healthcheck', methods=['GET'])
-def healthcheck():
-    # return some JSON
-    return jsonify({'key': 'healthcheck', 'status': 200})
-
-@app.route('/isClassificate', methods=['GET'])
-def isClassificate():
-    isClassificate_flag = -1
-    image = []
-    with open('./configuration/config.json') as file:
-        data = json.load(file)
-        isClassificate_flag = data["classification"]
-        image = data["image"]
-    print("classification= "+str(isClassificate_flag))
-    if(isClassificate_flag == 0):
-        return str(isClassificate_flag)
-    else:
-        return jsonify({'classification': isClassificate_flag, 'image': image})
+# @app.route('/users/<gid>', methods=['GET', 'POST'])
+# def users(gid):
+#     # return a JSON list of users in a group
+#     return jsonify([{'user_id': i,'group_id': gid } for i in range(42)])
 
 # @app.route('/healthcheck', methods=['GET'])
 # def healthcheck():
 #     # return some JSON
 #     return jsonify({'key': 'healthcheck', 'status': 200})
 
-@app.route('/post_test', methods=['POST'])
-def post_test():
-    # return a JSON list of users in a group
-    print("request = "+str(request))
-    return 0
+# @app.route('/isClassificate', methods=['GET'])
+# def isClassificate():
+#     isClassificate_flag = -1
+#     image = []
+#     with open('./configuration/config.json') as file:
+#         data = json.load(file)
+#         isClassificate_flag = data["classification"]
+#         image = data["image"]
+#     print("classification= "+str(isClassificate_flag))
+#     if(isClassificate_flag == 0):
+#         return str(isClassificate_flag)
+#     else:
+#         return jsonify({'classification': isClassificate_flag, 'image': image})
+
+# # @app.route('/healthcheck', methods=['GET'])
+# # def healthcheck():
+# #     # return some JSON
+# #     return jsonify({'key': 'healthcheck', 'status': 200})
+
+# @app.route('/post_test', methods=['POST'])
+# @cross_origin(supports_credentials=True)
+# def post_test():
+#     print("request = "+str(request))
+#     return "SUCCESS"
+
+
+
+# [VERSTECKT]Für die Webnutzung: Verstehen Sie die Frage
+@app.route('/post_topic', methods=['POST'])
+@cross_origin(supports_credentials=True)
+def post_topic():
+    global count
+    if request.is_json:
+        data = request.json
+        topic[0] = [int(t) for t in data['topic'].split(',')][0]
+        topic[1] = [int(t) for t in data['topic'].split(',')][1]
+        topic[2] = [int(t) for t in data['topic'].split(',')][2]
+        count = int(data['count'])
+        return jsonify({"message": "Data received successfully"})
+    else:
+        return jsonify({"error": "Unsupported Media Type"})
 
 if __name__ == "__main__":
     with app.test_request_context():
