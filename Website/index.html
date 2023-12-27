@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="left-div">
+        <!-- Content for the left div -->
+        <h2 id="monster_blood">Blood : 1</h2>
+        <img id="monster_image" src="./images/monster.png" alt="Default Image">
+        <!-- <p>This is the left div content.</p> -->
+    </div>
+    <div class="right-div">
+        <h2>Right Div</h2>
+        <p>Make this gesture below to attack.</p>
+        <img id="gesture_image" src="./images/thumb.png" alt="Default Image">
+    </div>
+</div>
+<script src="script.js"></script>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-div, .right-div {
+    color: aliceblue;
+    background-color: black;
+    flex: 1;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;   
+    text-align: center;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center text content if any */
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.left-div {
+    background-color: black;
+}
+
+
+.right-div {
+    background-color: black;
+}
+
+
+
+.right-div  h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+.right-div p{
+    color: aliceblue;
+}
+
+.right-div  img {
+    transform: scale(5);
+    display: block;
+    position: absolute; /* Position the image relative to its containing block (.right-div) */
+    top: 50%; /* Align the top of the image to the center of the containing block */
+    left: 75%; /* Align the left side of the image to the center of the containing block */
+}
+</style>
+
+</body>
+</html>
