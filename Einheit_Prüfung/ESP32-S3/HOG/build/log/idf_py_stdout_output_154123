@@ -1,0 +1,25 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/bootloader/esp-idf/esptool_py && /home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/bin/python /home/wtsaichu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/bootloader/bootloader.bin
+Bootloader binary size 0x5230 bytes. 0x2dd0 bytes (36%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp_http_client_example.c.obj
+In file included from /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/main/esp_http_client_example.c:36:
+/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/main/../include/histogram.h: In function 'berechnenHOG':
+/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/main/../include/histogram.h:40:25: warning: unused variable 'y' [-Wunused-variable]
+   40 |                     int y = i * CELL_SIZE + m;
+      |                         ^
+/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/main/../include/histogram.h:39:25: warning: unused variable 'x' [-Wunused-variable]
+   39 |                     int x = j * CELL_SIZE + n;
+      |                         ^
+[4/9] Completed 'bootloader'
+[5/9] Linking C static library esp-idf/main/libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable esp_http_client_example.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.7.dev3
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/esp_http_client_example.bin
+[9/9] cd /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/esp-idf/esptool_py && /home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/bin/python /home/wtsaichu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/partition_table/partition-table.bin /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/esp_http_client_example.bin
+esp_http_client_example.bin binary size 0xda8e0 bytes. Smallest app partition is 0x100000 bytes. 0x25720 bytes (15%) free.

@@ -1,0 +1,122 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Skipping optional dependency: esp_stubs
+Processing 2 dependencies:
+[1/2] idf (5.3.0)
+[2/2] protocol_examples_common (*)
+NOTICE: Skipping optional dependency: esp_stubs
+-- Project sdkconfig file /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/sdkconfig
+Loading defaults file /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/sdkconfig.defaults...
+-- Compiler supported targets: xtensa-esp-elf
+-- App "esp_http_client_example" version: b1a9afe9-dirty
+-- Adding linker script /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp32-camera esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_gpio esp_driver_gptimer esp_driver_mcpwm esp_driver_pcnt esp_driver_sdmmc esp_driver_spi esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocol_examples_common protocomm pthread sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/wtsaichu/esp/esp-idf/components/app_trace /home/wtsaichu/esp/esp-idf/components/app_update /home/wtsaichu/esp/esp-idf/components/bootloader /home/wtsaichu/esp/esp-idf/components/bootloader_support /home/wtsaichu/esp/esp-idf/components/bt /home/wtsaichu/esp/esp-idf/components/cmock /home/wtsaichu/esp/esp-idf/components/console /home/wtsaichu/esp/esp-idf/components/cxx /home/wtsaichu/esp/esp-idf/components/driver /home/wtsaichu/esp/esp-idf/components/efuse /home/wtsaichu/esp/esp-idf/components/esp-tls /home/wtsaichu/esp/esp-idf/components/esp32-camera /home/wtsaichu/esp/esp-idf/components/esp_adc /home/wtsaichu/esp/esp-idf/components/esp_app_format /home/wtsaichu/esp/esp-idf/components/esp_bootloader_format /home/wtsaichu/esp/esp-idf/components/esp_coex /home/wtsaichu/esp/esp-idf/components/esp_common /home/wtsaichu/esp/esp-idf/components/esp_driver_gpio /home/wtsaichu/esp/esp-idf/components/esp_driver_gptimer /home/wtsaichu/esp/esp-idf/components/esp_driver_mcpwm /home/wtsaichu/esp/esp-idf/components/esp_driver_pcnt /home/wtsaichu/esp/esp-idf/components/esp_driver_sdmmc /home/wtsaichu/esp/esp-idf/components/esp_driver_spi /home/wtsaichu/esp/esp-idf/components/esp_eth /home/wtsaichu/esp/esp-idf/components/esp_event /home/wtsaichu/esp/esp-idf/components/esp_gdbstub /home/wtsaichu/esp/esp-idf/components/esp_hid /home/wtsaichu/esp/esp-idf/components/esp_http_client /home/wtsaichu/esp/esp-idf/components/esp_http_server /home/wtsaichu/esp/esp-idf/components/esp_https_ota /home/wtsaichu/esp/esp-idf/components/esp_https_server /home/wtsaichu/esp/esp-idf/components/esp_hw_support /home/wtsaichu/esp/esp-idf/components/esp_lcd /home/wtsaichu/esp/esp-idf/components/esp_local_ctrl /home/wtsaichu/esp/esp-idf/components/esp_mm /home/wtsaichu/esp/esp-idf/components/esp_netif /home/wtsaichu/esp/esp-idf/components/esp_netif_stack /home/wtsaichu/esp/esp-idf/components/esp_partition /home/wtsaichu/esp/esp-idf/components/esp_phy /home/wtsaichu/esp/esp-idf/components/esp_pm /home/wtsaichu/esp/esp-idf/components/esp_psram /home/wtsaichu/esp/esp-idf/components/esp_ringbuf /home/wtsaichu/esp/esp-idf/components/esp_rom /home/wtsaichu/esp/esp-idf/components/esp_system /home/wtsaichu/esp/esp-idf/components/esp_timer /home/wtsaichu/esp/esp-idf/components/esp_wifi /home/wtsaichu/esp/esp-idf/components/espcoredump /home/wtsaichu/esp/esp-idf/components/esptool_py /home/wtsaichu/esp/esp-idf/components/fatfs /home/wtsaichu/esp/esp-idf/components/freertos /home/wtsaichu/esp/esp-idf/components/hal /home/wtsaichu/esp/esp-idf/components/heap /home/wtsaichu/esp/esp-idf/components/http_parser /home/wtsaichu/esp/esp-idf/components/idf_test /home/wtsaichu/esp/esp-idf/components/ieee802154 /home/wtsaichu/esp/esp-idf/components/json /home/wtsaichu/esp/esp-idf/components/log /home/wtsaichu/esp/esp-idf/components/lwip /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/main /home/wtsaichu/esp/esp-idf/components/mbedtls /home/wtsaichu/esp/esp-idf/components/mqtt /home/wtsaichu/esp/esp-idf/components/newlib /home/wtsaichu/esp/esp-idf/components/nvs_flash /home/wtsaichu/esp/esp-idf/components/nvs_sec_provider /home/wtsaichu/esp/esp-idf/components/openthread /home/wtsaichu/esp/esp-idf/components/partition_table /home/wtsaichu/esp/esp-idf/components/perfmon /home/wtsaichu/esp/esp-idf/components/protobuf-c /home/wtsaichu/esp/esp-idf/examples/common_components/protocol_examples_common /home/wtsaichu/esp/esp-idf/components/protocomm /home/wtsaichu/esp/esp-idf/components/pthread /home/wtsaichu/esp/esp-idf/components/sdmmc /home/wtsaichu/esp/esp-idf/components/soc /home/wtsaichu/esp/esp-idf/components/spi_flash /home/wtsaichu/esp/esp-idf/components/spiffs /home/wtsaichu/esp/esp-idf/components/tcp_transport /home/wtsaichu/esp/esp-idf/components/touch_element /home/wtsaichu/esp/esp-idf/components/ulp /home/wtsaichu/esp/esp-idf/components/unity /home/wtsaichu/esp/esp-idf/components/usb /home/wtsaichu/esp/esp-idf/components/vfs /home/wtsaichu/esp/esp-idf/components/wear_levelling /home/wtsaichu/esp/esp-idf/components/wifi_provisioning /home/wtsaichu/esp/esp-idf/components/wpa_supplicant /home/wtsaichu/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build
+[1/8] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32s3
+-- Project sdkconfig file /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld
+-- Adding linker script /home/wtsaichu/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /home/wtsaichu/esp/esp-idf/components/bootloader /home/wtsaichu/esp/esp-idf/components/bootloader_support /home/wtsaichu/esp/esp-idf/components/efuse /home/wtsaichu/esp/esp-idf/components/esp_app_format /home/wtsaichu/esp/esp-idf/components/esp_bootloader_format /home/wtsaichu/esp/esp-idf/components/esp_common /home/wtsaichu/esp/esp-idf/components/esp_hw_support /home/wtsaichu/esp/esp-idf/components/esp_rom /home/wtsaichu/esp/esp-idf/components/esp_system /home/wtsaichu/esp/esp-idf/components/esptool_py /home/wtsaichu/esp/esp-idf/components/freertos /home/wtsaichu/esp/esp-idf/components/hal /home/wtsaichu/esp/esp-idf/components/log /home/wtsaichu/esp/esp-idf/components/bootloader/subproject/main /home/wtsaichu/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /home/wtsaichu/esp/esp-idf/components/newlib /home/wtsaichu/esp/esp-idf/components/partition_table /home/wtsaichu/esp/esp-idf/components/soc /home/wtsaichu/esp/esp-idf/components/spi_flash /home/wtsaichu/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/bootloader
+[1/1] cd /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/bootloader/esp-idf/esptool_py && /home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/bin/python /home/wtsaichu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/bootloader/bootloader.bin
+Bootloader binary size 0x5230 bytes. 0x2dd0 bytes (36%) free.
+[2/8] No install step for 'bootloader'
+[3/8] Completed 'bootloader'
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable esp_http_client_example.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.7.dev3
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/esp_http_client_example.bin
+[7/8] cd /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/esp-idf/esptool_py && /home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/bin/python /home/wtsaichu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/partition_table/partition-table.bin /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build/esp_http_client_example.bin
+esp_http_client_example.bin binary size 0xda850 bytes. Smallest app partition is 0x100000 bytes. 0x257b0 bytes (15%) free.
+[7/8] cd /home/wtsaichu/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/wtsaichu/esp/esp-idf -D "SERIAL_TOOL=/home/wtsaichu/.espressif/python_env/idf5.3_py3.11_env/bin/python;;/home/wtsaichu/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/HOG/build -P /home/wtsaichu/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32s3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 8MB 0x0 bootloader/bootloader.bin 0x10000 esp_http_client_example.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev3
+Serial port /dev/ttyACM0
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.1)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: 34:85:18:a6:72:3c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x000eafff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21040 bytes to 13066...
+Writing at 0x00000000... (100 %)
+Wrote 21040 bytes (13066 compressed) at 0x00000000 in 0.6 seconds (effective 284.8 kbit/s)...
+Hash of data verified.
+Compressed 895056 bytes to 551637...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001daa4... (5 %)
+Writing at 0x00026eef... (8 %)
+Writing at 0x0002bd33... (11 %)
+Writing at 0x000348ab... (14 %)
+Writing at 0x0003f9bf... (17 %)
+Writing at 0x00045c18... (20 %)
+Writing at 0x0004bf19... (23 %)
+Writing at 0x00051ffb... (26 %)
+Writing at 0x00057d22... (29 %)
+Writing at 0x0005db21... (32 %)
+Writing at 0x000642ca... (35 %)
+Writing at 0x00069e58... (38 %)
+Writing at 0x0006fb9c... (41 %)
+Writing at 0x00074cfc... (44 %)
+Writing at 0x00079ceb... (47 %)
+Writing at 0x0007ee1f... (50 %)
+Writing at 0x00083f59... (52 %)
+Writing at 0x000893d2... (55 %)
+Writing at 0x0008e684... (58 %)
+Writing at 0x00094769... (61 %)
+Writing at 0x0009a190... (64 %)
+Writing at 0x0009fe3f... (67 %)
+Writing at 0x000a5a9c... (70 %)
+Writing at 0x000ab4a5... (73 %)
+Writing at 0x000b0e9f... (76 %)
+Writing at 0x000b6b93... (79 %)
+Writing at 0x000bd439... (82 %)
+Writing at 0x000c284e... (85 %)
+Writing at 0x000ccb11... (88 %)
+Writing at 0x000d4678... (91 %)
+Writing at 0x000da53d... (94 %)
+Writing at 0x000e0615... (97 %)
+Writing at 0x000e6976... (100 %)
+Wrote 895056 bytes (551637 compressed) at 0x00010000 in 12.4 seconds (effective 577.9 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 544.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
