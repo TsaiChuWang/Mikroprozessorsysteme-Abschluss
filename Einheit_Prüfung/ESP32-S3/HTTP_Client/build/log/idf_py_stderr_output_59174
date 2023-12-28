@@ -1,0 +1,975 @@
+[0;33m--- esp-idf-monitor 1.3.3 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40375afe: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037c6c1: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40383ff1: abort at /home/wtsaichu/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4037558c: call_start_cpu0 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:544
+[0m
+[0;33m0x40045c01: ets_run_flash_bootloader in ROM
+[0m
+[0;33m0x40043ab6: main in ROM
+[0m
+[0;33m0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375a74: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0m

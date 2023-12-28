@@ -16,6 +16,7 @@ CORS(app, supports_credentials=True)
 label = -1
 topic = [0,0,0]
 count = 0
+flag = False
 
 def _siamese(image):
     url = "http://140.123.91.96:9091/get_image"
@@ -43,7 +44,7 @@ def post_count():
     label = -1
     return "SUCCESS"
 
-# Für ESP32-CAM: Holen Sie sich das ursprüngliche Binärbild
+# Für ESP32-CAM : Holen Sie sich das ursprüngliche Binärbild
 @app.route('/post_image', methods=['POST'])
 def post_image():
     # Wenn Ich der Bilder anzeigen möchte
@@ -74,11 +75,24 @@ def post_image():
     
     return "ok"
 
-# @app.route('/get_image_test', methods=['GET'])
-# def get():
-#     # return some JSON
-#     print("ok")
-#     return jsonify({'key': 'healthcheck', 'status': 200})
+# Für ESP32-S3 : Besorgen Sie sich das Bild
+@app.route('/get_image', methods=['GET'])
+def get_image():
+    if(flag):
+        return "0"
+    else:
+        file_path = './configuration/config.txt'
+        with open(file_path, 'r') as file:
+            content = file.read()
+            # Wenn Ich der Bilder anzeigen möchte
+            print(content)
+        return str(content)
+
+# Für ESP32-S3 : Geben Sie das Etikett nach der SVM-Klassifizierung zurück
+@app.route('/classificated_result', methods=['POST'])
+def classificated_result():
+    print("predict label = "+str(request.json["label"]))
+    return "SUCCESS"
 
 # @app.route('/users/<gid>', methods=['GET', 'POST'])
 # def users(gid):
@@ -88,7 +102,8 @@ def post_image():
 # @app.route('/healthcheck', methods=['GET'])
 # def healthcheck():
 #     # return some JSON
-#     return jsonify({'key': 'healthcheck', 'status': 200})
+#     print("okk")
+#     return "SUCCESS"
 
 # @app.route('/isClassificate', methods=['GET'])
 # def isClassificate():

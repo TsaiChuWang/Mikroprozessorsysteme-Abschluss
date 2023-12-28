@@ -1,0 +1,560 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x29 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d84
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.3-dev-422-ga7fbf452fa-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Dec 27 2023 23:33:08[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v0.1[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (41) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (50) boot: Enabling RNG early entropy source...[0m
+[0;32mI (56) boot: Partition Table:[0m
+[0;32mI (59) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (74) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (89) boot: End of partition table[0m
+[0;32mI (93) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=28610h (165392) map[0m
+[0;32mI (131) esp_image: segment 1: paddr=00038638 vaddr=3fc98800 size=049e0h ( 18912) load[0m
+[0;32mI (135) esp_image: segment 2: paddr=0003d020 vaddr=40374000 size=02ff8h ( 12280) load[0m
+[0;32mI (140) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=9ad44h (634180) map[0m
+[0;32mI (259) esp_image: segment 4: paddr=000dad6c vaddr=40376ff8 size=11778h ( 71544) load[0m
+[0;32mI (283) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (284) boot: Disabling RNG early entropy source...[0m
+[0;32mI (295) cpu_start: Multicore app[0m
+[0;32mI (295) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (296) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (299) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (304) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (309) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (315) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (320) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (326) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (331) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (337) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (343) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (348) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (353) esp_psram: Speed: 40MHz[0m
+[0;32mI (1088) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1097) cpu_start: Pro cpu start user code[0m
+[0;32mI (1097) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (1097) cpu_start: Application information:[0m
+[0;32mI (1100) cpu_start: Project name:     esp_http_client_example[0m
+[0;32mI (1107) cpu_start: App version:      de66582d-dirty[0m
+[0;32mI (1112) cpu_start: Compile time:     Dec 27 2023 23:37:17[0m
+[0;32mI (1119) cpu_start: ELF file SHA256:  bf8f7852b...[0m
+[0;32mI (1124) cpu_start: ESP-IDF:          v5.3-dev-422-ga7fbf452fa-dirty[0m
+[0;32mI (1131) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (1136) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (1141) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (1146) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1153) heap_init: At 3FCA1298 len 00048478 (289 KiB): RAM[0m
+[0;32mI (1159) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (1165) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1171) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (1178) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1186) spi_flash: detected chip: gd[0m
+[0;32mI (1190) spi_flash: flash io: dio[0m
+[0;32mI (1194) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1201) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1208) main_task: Started on CPU0[0m
+[0;32mI (1218) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1218) main_task: Calling app_main()[0m
+[0;32mI (1248) example_connect: Start example_connect.[0m
+[0;32mI (1248) pp: pp rom version: e7ae62f[0m
+[0;32mI (1248) net80211: net80211 rom version: e7ae62f[0m
+I (1268) wifi:wifi driver task: 3fcb315c, prio:23, stack:6656, core=0
+I (1268) wifi:wifi firmware version: 639ccf2
+I (1268) wifi:wifi certification version: v7.0
+I (1268) wifi:config NVS flash: enabled
+I (1268) wifi:config nano formating: disabled
+I (1278) wifi:Init data frame dynamic rx buffer num: 32
+I (1278) wifi:Init static rx mgmt buffer num: 5
+I (1288) wifi:Init management short buffer num: 32
+I (1288) wifi:Init static tx buffer num: 16
+I (1298) wifi:Init tx cache buffer num: 32
+I (1298) wifi:Init static tx FG buffer num: 2
+I (1298) wifi:Init static rx buffer size: 1600
+I (1308) wifi:Init static rx buffer num: 10
+I (1308) wifi:Init dynamic rx buffer num: 32
+[0;32mI (1318) wifi_init: rx ba win: 6[0m
+[0;32mI (1318) wifi_init: tcpip mbox: 32[0m
+[0;32mI (1318) wifi_init: udp mbox: 6[0m
+[0;32mI (1328) wifi_init: tcp mbox: 6[0m
+[0;32mI (1328) wifi_init: tcp tx win: 5760[0m
+[0;32mI (1338) wifi_init: tcp rx win: 5760[0m
+[0;32mI (1338) wifi_init: tcp mss: 1440[0m
+[0;32mI (1338) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (1348) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1348) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+I (1408) wifi:mode : sta (34:85:18:a6:72:3c)
+I (1408) wifi:enable tsf
+[0;32mI (1408) example_connect: Connecting to 513handsome_man...[0m
+[0;32mI (1408) example_connect: Waiting for IP(s)[0m
+I (3818) wifi:new:<10,2>, old:<1,0>, ap:<255,255>, sta:<10,2>, prof:1
+I (4368) wifi:state: init -> auth (b0)
+I (4368) wifi:state: auth -> assoc (0)
+I (4368) wifi:state: assoc -> run (10)
+I (4378) wifi:<ba-add>idx:0 (ifx:0, 40:b0:76:c5:4d:48), tid:0, ssn:0, winSize:64
+I (4388) wifi:connected with 513handsome_man, aid = 1, channel 10, 40D, bssid = 40:b0:76:c5:4d:48
+I (4388) wifi:security: WPA2-PSK, phy: bgn, rssi: -31
+I (4388) wifi:pm start, type: 1
+
+I (4398) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (4398) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (4448) wifi:AP's beacon interval = 102400 us, DTIM period = 3
+[0;32mI (5408) esp_netif_handlers: example_netif_sta ip: 192.168.50.121, mask: 255.255.255.0, gw: 192.168.50.1[0m
+[0;32mI (5408) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 192.168.50.121[0m
+[0;32mI (6248) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (6248) example_common: Connected to example_netif_sta[0m
+[0;32mI (6258) example_common: - IPv4 address: 192.168.50.121,[0m
+[0;32mI (6258) example_common: - IPv6 address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (6268) HTTP_CLIENT: Connected to AP, begin http example[0m
+[0;32mI (6278) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (6278) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (6288) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (6288) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (6298) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (6308) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (6308) main_task: Returned from app_main()[0m
+[0;32mI (6438) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (6438) HTTP_CLIENT: HTTP GET Status = 500, content_length = 14957[0m
+[0;32mI (6438) HTTP_CLIENT: 3c 21 64 6f 63 74 79 70 65 20 68 74 6d 6c 3e 0a [0m
+[0;32mI (6448) HTTP_CLIENT: 3c 68 74 6d 6c 20 6c 61 6e 67 3d 65 6e 3e 0a 20 [0m
+[0;32mI (6458) HTTP_CLIENT: 20 3c 68 65 61 64 3e 0a 20 20 20 20 3c 74 69 74 [0m
+[0;32mI (6458) HTTP_CLIENT: 6c 65 3e 54 79 70 65 45 72 72 6f 72 3a 20 54 68 [0m
+[0;32mI (6468) HTTP_CLIENT: 65 20 76 69 65 77 20 66 75 6e 63 74 69 6f 6e 20 [0m
+[0;32mI (6478) HTTP_CLIENT: 66 6f 72 20 26 23 33 39 3b 67 65 74 5f 69 6d 61 [0m
+[0;32mI (6488) HTTP_CLIENT: 67 65 26 23 33 39 3b 20 64 69 64 20 6e 6f 74 20 [0m
+[0;32mI (6488) HTTP_CLIENT: 72 65 74 75 72 6e 20 61 20 76 61 6c 69 64 20 72 [0m
+[0;32mI (6498) HTTP_CLIENT: 65 73 70 6f 6e 73 65 2e 20 54 68 65 20 66 75 6e [0m
+[0;32mI (6508) HTTP_CLIENT: 63 74 69 6f 6e 20 65 69 74 68 65 72 20 72 65 74 [0m
+[0;32mI (6508) HTTP_CLIENT: 75 72 6e 65 64 20 4e 6f 6e 65 20 6f 72 20 65 6e [0m
+[0;32mI (6518) HTTP_CLIENT: 64 65 64 20 77 69 74 68 6f 75 74 20 61 20 72 65 [0m
+[0;32mI (6528) HTTP_CLIENT: 74 75 72 6e 20 73 74 61 74 65 6d 65 6e 74 2e 0a [0m
+[0;32mI (6538) HTTP_CLIENT: 20 2f 2f 20 57 65 72 6b 7a 65 75 67 20 44 65 62 [0m
+[0;32mI (6538) HTTP_CLIENT: 75 67 67 65 72 3c 2f 74 69 74 6c 65 3e 0a 20 20 [0m
+[0;32mI (6548) HTTP_CLIENT: 20 20 3c 6c 69 6e 6b 20 72 65 6c 3d 22 73 74 79 [0m
+[0;32mI (6558) HTTP_CLIENT: 6c 65 73 68 65 65 74 22 20 68 72 65 66 3d 22 3f [0m
+[0;32mI (6558) HTTP_CLIENT: 5f 5f 64 65 62 75 67 67 65 72 5f 5f 3d 79 65 73 [0m
+[0;32mI (6568) HTTP_CLIENT: 26 61 6d 70 3b 63 6d 64 3d 72 65 73 6f 75 72 63 [0m
+[0;32mI (6578) HTTP_CLIENT: 65 26 61 6d 70 3b 66 3d 73 74 79 6c 65 2e 63 73 [0m
+[0;32mI (6588) HTTP_CLIENT: 73 22 3e 0a 20 20 20 20 3c 6c 69 6e 6b 20 72 65 [0m
+[0;32mI (6588) HTTP_CLIENT: 6c 3d 22 73 68 6f 72 74 63 75 74 20 69 63 6f 6e [0m
+[0;32mI (6598) HTTP_CLIENT: 22 0a 20 20 20 20 20 20 20 20 68 72 65 66 3d 22 [0m
+[0;32mI (6608) HTTP_CLIENT: 3f 5f 5f 64 65 62 75 67 67 65 72 5f 5f 3d 79 65 [0m
+[0;32mI (6608) HTTP_CLIENT: 73 26 61 6d 70 3b 63 6d 64 3d 72 65 73 6f 75 72 [0m
+[0;32mI (6618) HTTP_CLIENT: 63 65 26 61 6d 70 3b 66 3d 63 6f 6e 73 6f 6c 65 [0m
+[0;32mI (6628) HTTP_CLIENT: 2e 70 6e 67 22 3e 0a 20 20 20 20 3c 73 63 72 69 [0m
+[0;32mI (6638) HTTP_CLIENT: 70 74 20 73 72 63 3d 22 3f 5f 5f 64 65 62 75 67 [0m
+[0;32mI (6638) HTTP_CLIENT: 67 65 72 5f 5f 3d 79 65 73 26 61 6d 70 3b 63 6d [0m
+[0;32mI (6648) HTTP_CLIENT: 64 3d 72 65 73 6f 75 72 63 65 26 61 6d 70 3b 66 [0m
+[0;32mI (6658) HTTP_CLIENT: 3d 64 65 62 75 67 67 65 72 2e 6a 73 22 3e 3c 2f [0m
+[0;32mI (6668) HTTP_CLIENT: 73 63 72 69 70 74 3e 0a 20 20 20 20 3c 73 63 72 [0m
+[0;32mI (6668) HTTP_CLIENT: 69 70 74 3e 0a 20 20 20 20 20 20 76 61 72 20 43 [0m
+[0;32mI (6678) HTTP_CLIENT: 4f 4e 53 4f 4c 45 5f 4d 4f 44 45 20 3d 20 66 61 [0m
+[0;32mI (6688) HTTP_CLIENT: 6c 73 65 2c 0a 20 20 20 20 20 20 20 20 20 20 45 [0m
+[0;32mI (6688) HTTP_CLIENT: 56 41 4c 45 58 20 3d 20 74 72 75 65 2c 0a 20 20 [0m
+[0;32mI (6698) HTTP_CLIENT: 20 20 20 20 20 20 20 20 45 56 41 4c 45 58 5f 54 [0m
+[0;32mI (6708) HTTP_CLIENT: 52 55 53 54 45 44 20 3d 20 66 61 6c 73 65 2c 0a [0m
+[0;32mI (6718) HTTP_CLIENT: 20 20 20 20 20 20 20 20 20 20 53 45 43 52 45 54 [0m
+[0;32mI (6718) HTTP_CLIENT: 20 3d 20 22 45 4f 54 54 63 70 66 38 6a 48 71 51 [0m
+[0;32mI (6728) HTTP_CLIENT: 6a 4a 79 6b 54 75 48 45 22 3b 0a 20 20 20 20 3c [0m
+[0;32mI (6738) HTTP_CLIENT: 2f 73 63 72 69 70 74 3e 0a 20 20 3c 2f 68 65 61 [0m
+[0;32mI (6738) HTTP_CLIENT: 64 3e 0a 20 20 3c 62 6f 64 79 20 73 74 79 6c 65 [0m
+[0;32mI (6748) HTTP_CLIENT: 3d 22 62 61 63 6b 67 72 6f 75 6e 64 2d 63 6f 6c [0m
+[0;32mI (6758) HTTP_CLIENT: 6f 72 3a 20 23 66 66 66 22 3e 0a 20 20 20 20 3c [0m
+[0;32mI (6768) HTTP_CLIENT: 64 69 76 20 63 6c 61 73 73 3d 22 64 65 62 75 67 [0m
+[0;32mI (6768) HTTP_CLIENT: 67 65 72 22 3e 0a 3c 68 31 3e 54 79 70 65 45 72 [0m
+[0;32mI (6778) HTTP_CLIENT: 72 6f 72 3c 2f 68 31 3e 0a 3c 64 69 76 20 63 6c [0m
+[0;32mI (6788) HTTP_CLIENT: 61 73 73 3d 22 64 65 74 61 69 6c 22 3e 0a 20 20 [0m
+[0;32mI (6788) HTTP_CLIENT: 3c 70 20 63 6c 61 73 73 3d 22 65 72 72 6f 72 6d [0m
+[0;32mI (6798) HTTP_CLIENT: 73 67 22 3e 54 79 70 65 45 72 72 6f 72 3a 20 54 [0m
+[0;32mI (6808) HTTP_CLIENT: 68 65 20 76 69 65 77 20 66 75 6e 63 74 69 6f 6e [0m
+[0;32mI (6818) HTTP_CLIENT: 20 66 6f 72 20 26 23 33 39 3b 67 65 74 5f 69 6d [0m
+[0;32mI (6818) HTTP_CLIENT: 61 67 65 26 23 33 39 3b 20 64 69 64 20 6e 6f 74 [0m
+[0;32mI (6828) HTTP_CLIENT: 20 72 65 74 75 72 6e 20 61 20 76 61 6c 69 64 20 [0m
+[0;32mI (6838) HTTP_CLIENT: 72 65 73 70 6f 6e 73 65 2e 20 54 68 65 20 66 75 [0m
+[0;32mI (6848) HTTP_CLIENT: 6e 63 74 69 6f 6e 20 65 69 74 68 65 72 20 72 65 [0m
+[0;32mI (6848) HTTP_CLIENT: 74 75 72 6e 65 64 20 4e 6f 6e 65 20 6f 72 20 65 [0m
+[0;32mI (6858) HTTP_CLIENT: 6e 64 65 64 20 77 69 74 68 6f 75 74 20 61 20 72 [0m
+[0;32mI (6868) HTTP_CLIENT: 65 74 75 72 6e 20 73 74 61 74 65 6d 65 6e 74 2e [0m
+[0;32mI (6868) HTTP_CLIENT: 0a 3c 2f 70 3e 0a 3c 2f 64 69 76 3e 0a 3c 68 32 [0m
+[0;32mI (6878) HTTP_CLIENT: 20 63 6c 61 73 73 3d 22 74 72 61 63 65 62 61 63 [0m
+[0;32mI (6888) HTTP_CLIENT: 6b 22 3e 54 72 61 63 65 62 61 63 6b 20 3c 65 6d [0m
+[0;32mI (6898) HTTP_CLIENT: 3e 28 6d 6f 73 74 20 72 65 63 65 6e 74 20 63 61 [0m
+[0;32mI (6898) HTTP_CLIENT: 6c 6c 20 6c 61 73 74 29 3c 2f 65 6d 3e 3c 2f 68 [0m
+[0;32mI (6908) HTTP_CLIENT: 32 3e 0a 3c 64 69 76 20 63 6c 61 73 73 3d 22 74 [0m
+[0;32mI (6918) HTTP_CLIENT: 72 61 63 65 62 61 63 6b 22 3e 0a 20 20 3c 68 33 [0m
+[0;32mI (6918) HTTP_CLIENT: 3e 3c 2f 68 33 3e 0a 20 20 3c 75 6c 3e 3c 6c 69 [0m
+[0;32mI (6928) HTTP_CLIENT: 3e 3c 64 69 76 20 63 6c 61 73 73 3d 22 66 72 61 [0m
+[0;32mI (6938) HTTP_CLIENT: 6d 65 22 20 69 64 3d 22 66 72 61 6d 65 2d 31 34 [0m
+[0;32mI (6948) HTTP_CLIENT: 30 36 32 38 33 36 30 33 35 33 30 34 30 22 3e 0a [0m
+[0;32mI (6948) HTTP_CLIENT: 20 20 3c 68 34 3e 46 69 6c 65 20 3c 63 69 74 65 [0m
+[0;32mI (6958) HTTP_CLIENT: 20 63 6c 61 73 73 3d 22 66 69 6c 65 6e 61 6d 65 [0m
+[0;32mI (6968) HTTP_CLIENT: 22 3e 22 2f 68 6f 6d 65 2f 77 74 73 61 69 63 68 [0m
+[0;32mI (6968) HTTP_CLIENT: 75 2f 2e 6c 6f 63 61 6c 2f 6c 69 62 2f 70 79 74 [0m
+[0;32mI (6978) HTTP_CLIENT: 68 6f 6e 33 2e 31 31 2f 73 69 74 65 2d 70 61 63 [0m
+[0;32mI (6988) HTTP_CLIENT: 6b 61 67 65 73 2f 66 6c 61 73 6b 2f 61 70 70 2e [0m
+[0;32mI (6998) HTTP_CLIENT: 70 79 22 3c 2f 63 69 74 65 3e 2c 0a 20 20 20 20 [0m
+[0;32mI (6998) HTTP_CLIENT: 20 20 6c 69 6e 65 20 3c 65 6d 20 63 6c 61 73 73 [0m
+[0;32mI (7008) HTTP_CLIENT: 3d 22 6c 69 6e 65 22 3e 31 34 37 38 3c 2f 65 6d [0m
+[0;32mI (7018) HTTP_CLIENT: 3e 2c 0a 20 20 20 20 20 20 69 6e 20 3c 63 6f 64 [0m
+[0;32mI (7028) HTTP_CLIENT: 65 20 63 6c 61 73 73 3d 22 66 75 6e 63 74 69 6f [0m
+[0;32mI (7028) HTTP_CLIENT: 6e 22 3e 5f 5f 63 61 6c 6c 5f 5f 3c 2f 63 6f 64 [0m
+[0;32mI (7038) HTTP_CLIENT: 65 3e 3c 2f 68 34 3e 0a 20 20 3c 64 69 76 20 63 [0m
+[0;32mI (7048) HTTP_CLIENT: 6c 61 73 73 3d 22 73 6f 75 72 63 65 20 22 3e 3c [0m
+[0;32mI (7048) HTTP_CLIENT: 70 72 65 20 63 6c 61 73 73 3d 22 6c 69 6e 65 20 [0m
+[0;32mI (7058) HTTP_CLIENT: 62 65 66 6f 72 65 22 3e 3c 73 70 61 6e 20 63 6c [0m
+[0;32mI (7068) HTTP_CLIENT: 61 73 73 3d 22 77 73 22 3e 20 20 20 20 3c 2f 73 [0m
+[0;32mI (7078) HTTP_CLIENT: 70 61 6e 3e 64 65 66 20 5f 5f 63 61 6c 6c 5f 5f [0m
+[0;32mI (7078) HTTP_CLIENT: 28 73 65 6c 66 2c 20 65 6e 76 69 72 6f 6e 3a 20 [0m
+[0;32mI (7088) HTTP_CLIENT: 64 69 63 74 2c 20 73 74 61 72 74 5f 72 65 73 70 [0m
+[0;32mI (7098) HTTP_CLIENT: 6f 6e 73 65 3a 20 74 2e 43 61 6c 6c 61 62 6c 65 [0m
+[0;32mI (7098) HTTP_CLIENT: 29 20 2d 26 67 74 3b 20 74 2e 41 6e 79 3a 3c 2f [0m
+[0;32mI (7108) HTTP_CLIENT: 70 72 65 3e 0a 3c 70 72 65 20 63 6c 61 73 73 3d [0m
+[0;32mI (7118) HTTP_CLIENT: 22 6c 69 6e 65 20 62 65 66 6f 72 65 22 3e 3c 73 [0m
+[0;32mI (7128) HTTP_CLIENT: 70 61 6e 20 63 6c 61 73 73 3d 22 77 73 22 3e 20 [0m
+[0;32mI (7128) HTTP_CLIENT: 20 20 20 20 20 20 20 3c 2f 73 70 61 6e 3e 26 23 [0m
+[0;32mI (7138) HTTP_CLIENT: 33 34 3b 26 23 33 34 3b 26 23 33 34 3b 54 68 65 [0m
+[0;32mI (7148) HTTP_CLIENT: 20 57 53 47 49 20 73 65 72 76 65 72 20 63 61 6c [0m
+[0;32mI (7158) HTTP_CLIENT: 6c 73 20 74 68 65 20 46 6c 61 73 6b 20 61 70 70 [0m
+[0;32mI (7158) HTTP_CLIENT: 6c 69 63 61 74 69 6f 6e 20 6f 62 6a 65 63 74 20 [0m
+[0;32mI (7168) HTTP_CLIENT: 61 73 20 74 68 65 3c 2f 70 72 65 3e 0a 3c 70 72 [0m
+[0;32mI (7178) HTTP_CLIENT: 65 20 63 6c 61 73 73 3d 22 6c 69 6e 65 20 62 65 [0m
+[0;32mI (7178) HTTP_CLIENT: 66 6f 72 65 22 3e 3c 73 70 61 6e 20 63 6c 61 73 [0m
+[0;32mI (7188) HTTP_CLIENT: 73 3d 22 77 73 22 3e 20 20 20 20 20 20 20 20 3c [0m
+[0;32mI (7198) HTTP_CLIENT: 2f 73 70 61 6e 3e 57 53 47 49 20 61 70 70 6c 69 [0m
+[0;32mI (7208) HTTP_CLIENT: 63 61 74 69 6f 6e 2e 20 54 68 69 73 20 63 61 6c [0m
+[0;32mI (7208) HTTP_CLIENT: 6c 73 20 3a 6d 65 74 68 3a 60 77 73 67 69 5f 61 [0m
+[0;32mI (7218) HTTP_CLIENT: 70 70 60 2c 20 77 68 69 63 68 20 63 61 6e 20 62 [0m
+[0;32mI (7228) HTTP_CLIENT: 65 3c 2f 70 72 65 3e 0a 3c 70 72 65 20 63 6c 61 [0m
+[0;32mI (7228) HTTP_CLIENT: 73 73 3d 22 6c 69 6e 65 20 62 65 66 6f 72 65 22 [0m
+[0;32mI (7238) HTTP_CLIENT: 3e 3c 73 70 61 6e 20 63 6c 61 73 73 3d 22 77 73 [0m
+[0;32mI (7248) HTTP_CLIENT: 22 3e 20 20 20 20 20 20 20 20 3c 2f 73 70 61 6e [0m
+[0;32mI (7258) HTTP_CLIENT: 3e 77 72 61 70 70 65 64 20 74 6f 20 61 70 70 6c [0m
+[0;32mI (7258) HTTP_CLIENT: 79 20 6d 69 64 64 6c 65 77 61 72 65 2e 3c 2f 70 [0m
+[0;32mI (7268) HTTP_CLIENT: 72 65 3e 0a 3c 70 72 65 20 63 6c 61 73 73 3d 22 [0m
+[0;32mI (7278) HTTP_CLIENT: 6c 69 6e 65 20 62 65 66 6f 72 65 22 3e 3c 73 70 [0m
+[0;32mI (7278) HTTP_CLIENT: 61 6e 20 63 6c 61 73 73 3d 22 77 73 22 3e 20 20 [0m
+[0;32mI (7288) HTTP_CLIENT: 20 20 20 20 20 20 3c 2f 73 70 61 6e 3e 26 23 33 [0m
+[0;32mI (7298) HTTP_CLIENT: 34 3b 26 23 33 34 3b 26 23 33 34 3b 3c 2f 70 72 [0m
+[0;32mI (7308) HTTP_CLIENT: 65 3e 0a 3c 70 72 65 20 63 6c 61 73 73 3d 22 6c [0m
+[0;32mI (7308) HTTP_CLIENT: 69 6e 65 20 63 75 72 72 65 6e 74 22 3e 3c 73 70 [0m
+[0;32mI (7318) HTTP_CLIENT: 61 6e 20 63 6c 61 73 73 3d 22 77 73 22 3e 20 20 [0m
+[0;32mI (7328) HTTP_CLIENT: 20 20 20 20 20 20 3c 2f 73 70 61 6e 3e 72 65 74 [0m
+[0;32mI (7338) HTTP_CLIENT: 75 72 6e 20 73 65 6c 66 2e 77 73 67 69 5f 61 70 [0m
+[0;32mI (7338) HTTP_CLIENT: 70 28 65 6e 76 69 72 6f 6e 2c 20 73 74 61 72 74 [0m
+[0;32mI (7348) HTTP_CLIENT: 5f 72 65 73 70 6f 6e 73 65 29 0a 3c 73 70 61 6e [0m
+[0;32mI (7358) HTTP_CLIENT: 20 63 6c 61 73 73 3d 22 77 73 22 3e 20 20 20 20 [0m
+A=<!doctype html>
+<html lang=en>
+  <head>
+    <title>TypeError: The view function for &#39;get_image&#39; did not return a valid response. The function either returned None or ended without a return statement.
+ // Werkzeug Debugger</title>
+    <link rel="stylesheet" href="?__debugger__=yes&amp;cmd=resource&amp;f=style.css">
+    <link rel="shortcut icon"
+        href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
+    <script>
+      var CONSOLE_MODE = false,
+          EVALEX = true,
+          EVALEX_TRUSTED = false,
+          SECRET = "EOTTcpf8jHqQjJykTuHE";
+    </script>
+  </head>
+  <body style="background-color: #fff">
+    <div class="debugger">
+<h1>TypeError</h1>
+<div class="detail">
+  <p class="errormsg">TypeError: The view function for &#39;get_image&#39; did not return a valid response. The function either returned None or ended without a return statement.
+</p>
+</div>
+<h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  <h3></h3>
+  <ul><li><div class="frame" id="frame-140628360353040">
+  <h4>File <cite class="filename">"/home/wtsaichu/.local/lib/python3.11/site-packages/flask/app.py"</cite>,
+      line <em class="line">1478</em>,
+      in <code class="function">__call__</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">    </span>def __call__(self, environ: dict, start_response: t.Callable) -&gt; t.Any:</pre>
+<pre class="line before"><span class="ws">        </span>&#34;&#34;&#34;The WSGI server calls the Flask application object as the</pre>
+<pre class="line before"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app`, which can be</pre>
+<pre class="line before"><span class="ws">        </span>wrapped to apply middleware.</pre>
+<pre class="line before"><span class="ws">        </span>&#34;&#34;&#34;</pre>
+<pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)
+<span class="ws">    
+[0;32mI (7578) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (7578) HTTP_CLIENT: HTTP POST Status = 200, content_length = 7[0m
+[0;32mI (7578) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (7588) HTTP_CLIENT: Finish http example[0m
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x28 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d84
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.3-dev-422-ga7fbf452fa-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Dec 27 2023 23:33:08[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v0.1[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (41) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (50) boot: Enabling RNG early entropy source...[0m
+[0;32mI (56) boot: Partition Table:[0m
+[0;32mI (59) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (74) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (89) boot: End of partition table[0m
+[0;32mI (93) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=28610h (165392) map[0m
+[0;32mI (131) esp_image: segment 1: paddr=00038638 vaddr=3fc98800 size=049e0h ( 18912) load[0m
+[0;32mI (135) esp_image: segment 2: paddr=0003d020 vaddr=40374000 size=02ff8h ( 12280) load[0m
+[0;32mI (140) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=9ad44h (634180) map[0m
+[0;32mI (259) esp_image: segment 4: paddr=000dad6c vaddr=40376ff8 size=11778h ( 71544) load[0m
+[0;32mI (283) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (284) boot: Disabling RNG early entropy source...[0m
+[0;32mI (295) cpu_start: Multicore app[0m
+[0;32mI (295) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (296) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (299) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (304) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (309) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (315) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (320) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (326) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (331) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (337) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (343) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (348) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (353) esp_psram: Speed: 40MHz[0m
+[0;32mI (1088) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1097) cpu_start: Pro cpu start user code[0m
+[0;32mI (1097) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (1097) cpu_start: Application information:[0m
+[0;32mI (1100) cpu_start: Project name:     esp_http_client_example[0m
+[0;32mI (1107) cpu_start: App version:      de66582d-dirty[0m
+[0;32mI (1112) cpu_start: Compile time:     Dec 27 2023 23:37:17[0m
+[0;32mI (1119) cpu_start: ELF file SHA256:  bf8f7852b...[0m
+[0;32mI (1124) cpu_start: ESP-IDF:          v5.3-dev-422-ga7fbf452fa-dirty[0m
+[0;32mI (1131) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (1136) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (1141) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (1146) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1153) heap_init: At 3FCA1298 len 00048478 (289 KiB): RAM[0m
+[0;32mI (1159) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (1165) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1171) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (1178) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1186) spi_flash: detected chip: gd[0m
+[0;32mI (1190) spi_flash: flash io: dio[0m
+[0;32mI (1194) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1201) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1208) main_task: Started on CPU0[0m
+[0;32mI (1218) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1218) main_task: Calling app_main()[0m
+[0;32mI (1248) example_connect: Start example_connect.[0m
+[0;32mI (1248) pp: pp rom version: e7ae62f[0m
+[0;32mI (1248) net80211: net80211 rom version: e7ae62f[0m
+I (1268) wifi:wifi driver task: 3fcb315c, prio:23, stack:6656, core=0
+I (1268) wifi:wifi firmware version: 639ccf2
+I (1268) wifi:wifi certification version: v7.0
+I (1268) wifi:config NVS flash: enabled
+I (1268) wifi:config nano formating: disabled
+I (1278) wifi:Init data frame dynamic rx buffer num: 32
+I (1278) wifi:Init static rx mgmt buffer num: 5
+I (1288) wifi:Init management short buffer num: 32
+I (1288) wifi:Init static tx buffer num: 16
+I (1298) wifi:Init tx cache buffer num: 32
+I (1298) wifi:Init static tx FG buffer num: 2
+I (1298) wifi:Init static rx buffer size: 1600
+I (1308) wifi:Init static rx buffer num: 10
+I (1308) wifi:Init dynamic rx buffer num: 32
+[0;32mI (1318) wifi_init: rx ba win: 6[0m
+[0;32mI (1318) wifi_init: tcpip mbox: 32[0m
+[0;32mI (1318) wifi_init: udp mbox: 6[0m
+[0;32mI (1328) wifi_init: tcp mbox: 6[0m
+[0;32mI (1328) wifi_init: tcp tx win: 5760[0m
+[0;32mI (1338) wifi_init: tcp rx win: 5760[0m
+[0;32mI (1338) wifi_init: tcp mss: 1440[0m
+[0;32mI (1338) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (1348) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1348) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+I (1408) wifi:mode : sta (34:85:18:a6:72:3c)
+I (1408) wifi:enable tsf
+[0;32mI (1408) example_connect: Connecting to 513handsome_man...[0m
+[0;32mI (1408) example_connect: Waiting for IP(s)[0m
+I (3818) wifi:new:<10,2>, old:<1,0>, ap:<255,255>, sta:<10,2>, prof:1
+I (4368) wifi:state: init -> auth (b0)
+I (4368) wifi:state: auth -> assoc (0)
+I (4368) wifi:state: assoc -> run (10)
+I (4378) wifi:<ba-add>idx:0 (ifx:0, 40:b0:76:c5:4d:48), tid:0, ssn:0, winSize:64
+I (4388) wifi:connected with 513handsome_man, aid = 1, channel 10, 40D, bssid = 40:b0:76:c5:4d:48
+I (4388) wifi:security: WPA2-PSK, phy: bgn, rssi: -38
+I (4388) wifi:pm start, type: 1
+
+I (4398) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (4408) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (4458) wifi:AP's beacon interval = 102400 us, DTIM period = 3
+[0;32mI (5418) esp_netif_handlers: example_netif_sta ip: 192.168.50.121, mask: 255.255.255.0, gw: 192.168.50.1[0m
+[0;32mI (5418) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 192.168.50.121[0m
+[0;32mI (6248) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (6248) example_common: Connected to example_netif_sta[0m
+[0;32mI (6258) example_common: - IPv4 address: 192.168.50.121,[0m
+[0;32mI (6258) example_common: - IPv6 address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (6268) HTTP_CLIENT: Connected to AP, begin http example[0m
+[0;32mI (6278) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (6278) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (6288) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (6298) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (6298) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (6308) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (6308) main_task: Returned from app_main()[0m
+[0;32mI (6478) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (6478) HTTP_CLIENT: HTTP GET Status = 200, content_length = 9216[0m
+[0;32mI (6478) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6488) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6498) HTTP_CLIENT: 30 30 30 30 30 30 30 30 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6498) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6508) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 30 30 30 30 [0m
+[0;32mI (6518) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6528) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6528) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6538) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 31 31 31 31 31 31 31 [0m
+[0;32mI (6548) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6548) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 30 30 30 30 [0m
+[0;32mI (6558) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6568) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6578) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6578) HTTP_CLIENT: 30 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6588) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6598) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 30 30 30 30 [0m
+[0;32mI (6608) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6608) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6618) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6628) HTTP_CLIENT: 30 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6628) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6638) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 30 30 30 30 30 [0m
+[0;32mI (6648) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 31 30 30 30 30 30 30 [0m
+[0;32mI (6658) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6658) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6668) HTTP_CLIENT: 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6678) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6678) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 30 30 30 30 30 [0m
+[0;32mI (6688) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6698) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6708) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6708) HTTP_CLIENT: 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6718) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6728) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 30 30 30 30 30 [0m
+[0;32mI (6728) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6738) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6748) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6758) HTTP_CLIENT: 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6758) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6768) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 30 30 30 30 30 30 [0m
+[0;32mI (6778) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6788) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6788) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6798) HTTP_CLIENT: 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6808) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6808) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 30 30 30 30 30 30 [0m
+[0;32mI (6818) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 31 30 31 30 30 30 30 [0m
+[0;32mI (6828) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6838) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6838) HTTP_CLIENT: 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6848) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6858) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 30 30 30 30 30 30 30 [0m
+[0;32mI (6858) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6868) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6878) HTTP_CLIENT: 30 30 30 30 30 30 30 31 31 31 31 31 30 30 30 30 [0m
+[0;32mI (6888) HTTP_CLIENT: 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6888) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6898) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 30 30 30 30 30 30 30 [0m
+[0;32mI (6908) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6918) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6918) HTTP_CLIENT: 30 30 30 30 30 31 31 31 31 31 31 31 31 30 30 30 [0m
+[0;32mI (6928) HTTP_CLIENT: 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6938) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6938) HTTP_CLIENT: 31 31 31 31 31 31 31 31 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6948) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 31 30 30 31 30 30 30 [0m
+[0;32mI (6958) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6968) HTTP_CLIENT: 30 30 30 31 31 31 31 31 31 31 31 31 31 30 30 30 [0m
+[0;32mI (6968) HTTP_CLIENT: 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6978) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (6988) HTTP_CLIENT: 31 31 31 31 31 31 31 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6988) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (6998) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7008) HTTP_CLIENT: 30 30 30 30 31 31 31 31 31 31 31 31 30 30 30 30 [0m
+[0;32mI (7018) HTTP_CLIENT: 30 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7018) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7028) HTTP_CLIENT: 31 31 31 31 31 31 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7038) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7038) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7048) HTTP_CLIENT: 30 30 31 31 31 31 31 31 31 31 31 31 30 30 30 30 [0m
+[0;32mI (7058) HTTP_CLIENT: 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7068) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7068) HTTP_CLIENT: 31 31 31 31 31 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7078) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 31 31 31 30 30 30 [0m
+[0;32mI (7088) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7098) HTTP_CLIENT: 30 30 31 31 31 31 31 31 31 31 30 30 30 30 30 30 [0m
+[0;32mI (7098) HTTP_CLIENT: 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7108) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7118) HTTP_CLIENT: 31 31 31 31 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7118) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7128) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7138) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 30 30 30 30 30 30 [0m
+[0;32mI (7148) HTTP_CLIENT: 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7148) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7158) HTTP_CLIENT: 31 31 31 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7168) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7168) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 31 [0m
+[0;32mI (7178) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 30 30 30 30 30 30 [0m
+[0;32mI (7188) HTTP_CLIENT: 30 30 30 30 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7198) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7198) HTTP_CLIENT: 31 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7208) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 31 30 30 30 30 30 [0m
+[0;32mI (7218) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7218) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 30 30 30 30 30 30 [0m
+[0;32mI (7228) HTTP_CLIENT: 30 30 30 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7238) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7248) HTTP_CLIENT: 31 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7248) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7258) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 31 31 [0m
+[0;32mI (7268) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 30 30 30 30 30 30 [0m
+[0;32mI (7278) HTTP_CLIENT: 30 30 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7278) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 30 [0m
+[0;32mI (7288) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7298) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7298) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 31 31 [0m
+[0;32mI (7308) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 30 30 30 31 [0m
+[0;32mI (7318) HTTP_CLIENT: 30 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7328) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 30 30 [0m
+[0;32mI (7328) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7338) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 31 30 30 30 30 [0m
+[0;32mI (7348) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 31 31 31 [0m
+[0;32mI (7348) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7358) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+[0;32mI (7368) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 30 30 30 [0m
+[0;32mI (7378) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7378) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 [0m
+[0;32mI (7388) HTTP_CLIENT: 30 30 30 30 30 30 30 30 30 30 30 30 30 31 31 31 [0m
+[0;32mI (7398) HTTP_CLIENT: 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 [0m
+A=00000000000000000000000000000000000000001111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000011111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000011111111111111111111111111111111111100000000000000100000000000000000000000000000000000000000000111111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111000000000000000101000000000000000000000000000000000000000000111111111111111111111111111111111110000000000000000000000000000000000000000000000111110000000000111111111111111111111111111111111110000000000000000000000000000000000000000000011111111000000000111111111111111111111111111111111100000000000000000100100000000000000000000001111111111000000000111111111111111111111111111111111000000000000000000000000000000000000000000000111111110000000000011111111111111111111111111111110000000000000000000000000000000000000000000011111111110000000000111111111111111111111111111111100000000000000000000011100000000000000000000011111111000000000000111111111111111111111111111111000000000000000000000000000000000000000000001111111111000000000001111111111111111111111111111110000000000000000000000000000000000000000000011111111111000000000011111111111111111111111111111000000000000000000000000010000000000000000000001111111111000000000111111111111111111111111111111000000000000000000000000000000000000000000000111111111111000000001111111111111111111111111111100000000000000000000000000000000000000000000000111111111111110001011111111111111111111111111111000000000000000000000000000001000000000000000001111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000001111111111111111111
+[0;32mI (7828) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (7828) HTTP_CLIENT: HTTP POST Status = 200, content_length = 7[0m
+[0;32mI (7828) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (7838) HTTP_CLIENT: Finish http example[0m
