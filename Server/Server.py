@@ -16,7 +16,7 @@ CORS(app, supports_credentials=True)
 label = -1
 topic = [0,0,0]
 count = 0
-flag = False
+flag = 0
 
 def _siamese(image):
     url = "http://140.123.91.96:9091/get_image"
@@ -78,19 +78,28 @@ def post_image():
 # Für ESP32-S3 : Besorgen Sie sich das Bild
 @app.route('/get_image', methods=['GET'])
 def get_image():
-    if(flag):
+    global flag
+    with open('./configuration/flag.txt', 'r') as file:
+        flag = int(file.read())
+        file.close()
+
+    if(flag == 0):
         return "0"
     else:
         file_path = './configuration/config.txt'
         with open(file_path, 'r') as file:
             content = file.read()
-            # Wenn Ich der Bilder anzeigen möchte
             print(content)
-        return str(content)
+        return str(flag)+str(content)
 
 # Für ESP32-S3 : Geben Sie das Etikett nach der SVM-Klassifizierung zurück
 @app.route('/classificated_result', methods=['POST'])
 def classificated_result():
+    global flag
+    with open("./configuration/flag.txt", 'w') as file:
+        file.write("0")
+        file.close()
+    flag = 0
     print("predict label = "+str(request.json["label"]))
     return "SUCCESS"
 
