@@ -6,8 +6,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
-
 int main(int argc, char * argv[]) {
     DATENSATZ ausbildung_daten= erhaltenDatensatz();
     mischen(ausbildung_daten);
@@ -146,6 +144,10 @@ int main(int argc, char * argv[]) {
             }
             printf("Is %d true or %d not = %f\n", type_1, type_2,(__type)sum/4000);
             printf("zmax = %f, zmin = %f, zavg = %f, zvar = %f \n", zmax, zmin, zavg, zvar);
+
+            #ifdef MODEL_STORE
+                FILE *model_file = fopen(WEG_MODELTXT, "w");
+            #endif
         }
     }
 

@@ -102,6 +102,7 @@ float classifySample(__type testHogFeatures[HOG_FEATURE_SIZE], SVM *svm) {
     return sigmoid(score);
 }
 
+char*
 // int main() {
 //     SVM svm;
 //     initializeSVM(&svm);

@@ -63,6 +63,7 @@ float* berechnenHOG(char* bilder) {
             }
         }
     }
+    free(bins); bins = NULL;
     return hogMerkmale;
 }
 

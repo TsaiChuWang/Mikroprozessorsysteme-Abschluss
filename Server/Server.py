@@ -89,7 +89,7 @@ def get_image():
         file_path = './configuration/config.txt'
         with open(file_path, 'r') as file:
             content = file.read()
-            print(content)
+            # print(content)
         return str(flag)+str(content)
 
 # Für ESP32-S3 : Geben Sie das Etikett nach der SVM-Klassifizierung zurück
