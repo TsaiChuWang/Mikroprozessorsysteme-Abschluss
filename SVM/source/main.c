@@ -69,6 +69,15 @@ int main(int argc, char * argv[]) {
         *(tickets+i) = (float*)malloc(sizeof(float)*7);        
         memset(*(tickets+i), 0 ,7);
     }
+
+#ifdef MODEL_STORE
+    FILE *model_file = fopen(WEG_MODELTXT, "w");
+    if (freopen(WEG_MODELTXT, "w", stdout) == NULL) {
+        fprintf(stderr, "Error redirecting stdout to file\n");
+        return 1;
+    }
+#endif
+
     for(int type_1 = 0; type_1 <7;type_1++){
         for(int type_2 = 0; type_2 <7;type_2++){
             if(type_1 == type_2)
@@ -100,6 +109,7 @@ int main(int argc, char * argv[]) {
             }
             
             trainSVM(&svm, trainingData);
+            printf("type_1 = %d type_2 = %d\n", type_1,type_2);
 
             float zmax= -1,zmin = 2, zavg =0, zvar = 0, zcount = 0;
             float* predict = (float*)malloc(sizeof(float)*prufung_daten.dataset_zahl);
@@ -119,7 +129,7 @@ int main(int argc, char * argv[]) {
             zavg = zavg/2000;
             for(int i=0;i<prufung_daten.dataset_zahl;i++){
                 float predictedClass = *(predict+i);
-                zvar += (predictedClass - zavg); 
+                zvar += sqrt((predictedClass - zavg)*(predictedClass - zavg)); 
             }
             zvar = zvar/2000;
             if(zvar<0)
@@ -136,7 +146,7 @@ int main(int argc, char * argv[]) {
 
                 if(predictedClass <(zavg - zvar) && predictedClass > (zavg + zvar) && *(prufung_daten.labels+i)== type_2){
                     sum++;
-                    tickets[i][type_2] += 0.014;
+                    tickets[i][type_1] += 0.14;
                 }
 
                 if(*(prufung_daten.labels+i)== type_2 || *(prufung_daten.labels+i)== type_1)
@@ -144,13 +154,17 @@ int main(int argc, char * argv[]) {
             }
             printf("Is %d true or %d not = %f\n", type_1, type_2,(__type)sum/4000);
             printf("zmax = %f, zmin = %f, zavg = %f, zvar = %f \n", zmax, zmin, zavg, zvar);
-
-            #ifdef MODEL_STORE
-                FILE *model_file = fopen(WEG_MODELTXT, "w");
-            #endif
+            
+            printf("bias = %f\n", svm.bias);
+            for (int i = 0; i < HOG_FEATURE_SIZE; ++i)
+                printf("%f, ",svm.weights[i]);
+            printf("\n\n");
         }
     }
-
+#ifdef MODEL_STORE
+    fclose(model_file);
+    freopen("/dev/tty", "w", stdout);
+#endif
     int o = 0;
     for(int i=0;i<prufung_daten.dataset_zahl;i++){
         printf("for true label : %d :", *(prufung_daten.labels+i));
@@ -163,7 +177,7 @@ int main(int argc, char * argv[]) {
                 mindex = j;
             } 
         }
-        printf("pred = %d\n", mindex);
+        printf("pred = %f\n", mindex);
         if(*(prufung_daten.labels+i)==mindex)
             o++;
     }
