@@ -1,0 +1,134 @@
+[0;33m--- esp-idf-monitor 1.3.3 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x403759be: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037beed: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x403839a9: __assert_func at /home/wtsaichu/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x40381c6c: block_next at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:94 (discriminator 1)
+ (inlined by) block_link_next at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:101 (discriminator 1)
+ (inlined by) block_mark_as_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:109 (discriminator 1)
+ (inlined by) tlsf_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:1121 (discriminator 1)
+[0m
+[0;33m0x40381ad0: multi_heap_free_impl at /home/wtsaichu/esp/esp-idf/components/heap/multi_heap.c:234
+[0m
+[0;33m0x403761f6: heap_caps_free at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:393
+[0m
+[0;33m0x403839d9: free at /home/wtsaichu/esp/esp-idf/components/newlib/heap.c:40
+[0m
+[0;33m0x4200a943: http_rest_with_url at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/main/esp_http_client_example.c:376
+[0m
+[0;33m0x4200a981: http_test_task at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/main/esp_http_client_example.c:389
+[0m
+[0;33m0x4037c9f9: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4037cd55: spinlock_release at /home/wtsaichu/esp/esp-idf/components/esp_hw_support/include/spinlock.h:191
+ (inlined by) vPortExitCritical at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:495
+[0m
+[0;33m0x403759be: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037beed: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x403839a9: __assert_func at /home/wtsaichu/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x40382224: block_trim_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:496 (discriminator 3)
+ (inlined by) block_prepare_used at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:579 (discriminator 3)
+ (inlined by) tlsf_malloc at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:1006 (discriminator 3)
+[0m
+[0;33m0x40381b4d: multi_heap_malloc_impl at /home/wtsaichu/esp/esp-idf/components/heap/multi_heap.c:210
+[0m
+[0;33m0x4037604d: heap_caps_malloc_base at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:179
+[0m
+[0;33m0x403760a8: heap_caps_malloc at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:202
+[0m
+[0;33m0x403760dd: heap_caps_malloc_default at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:228
+[0m
+[0;33m0x40383a20: _calloc_r at /home/wtsaichu/esp/esp-idf/components/newlib/heap.c:66
+[0m
+[0;33m0x4209088d: _Balloc at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdlib/mprec.c:128
+[0m
+[0;33m0x42091073: __d2b at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdlib/mprec.c:783
+[0m
+[0;33m0x4208fc53: _dtoa_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdlib/dtoa.c:292
+[0m
+[0;33m0x4208ac11: cvt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1870
+ (inlined by) _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1307
+[0m
+[0;33m0x4208565b: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+[0m
+[0;33m0x42009e1a: anzeigenBesonderheit at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/main/../include/histogram.h:76
+[0m
+[0;33m0x42009f87: http_rest_with_url at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/main/esp_http_client_example.c:200
+[0m
+[0;33m0x4200a981: http_test_task at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/main/esp_http_client_example.c:389
+[0m
+[0;33m0x4037c9f9: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375934: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0;33m0x403759be: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037beed: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x403839a9: __assert_func at /home/wtsaichu/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x40382224: block_trim_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:496 (discriminator 3)
+ (inlined by) block_prepare_used at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:579 (discriminator 3)
+ (inlined by) tlsf_malloc at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:1006 (discriminator 3)
+[0m
+[0;33m0x40381b4d: multi_heap_malloc_impl at /home/wtsaichu/esp/esp-idf/components/heap/multi_heap.c:210
+[0m
+[0;33m0x4037604d: heap_caps_malloc_base at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:179
+[0m
+[0;33m0x403760a8: heap_caps_malloc at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:202
+[0m
+[0;33m0x403760dd: heap_caps_malloc_default at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:228
+[0m
+[0;33m0x40383a20: _calloc_r at /home/wtsaichu/esp/esp-idf/components/newlib/heap.c:66
+[0m
+[0;33m0x4209088d: _Balloc at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdlib/mprec.c:128
+[0m
+[0;33m0x4208fe4d: _dtoa_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdlib/dtoa.c:431
+[0m
+[0;33m0x4208ac11: cvt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1870
+ (inlined by) _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1307
+[0m
+[0;33m0x4208565b: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+[0m
+[0;33m0x42009e1a: anzeigenBesonderheit at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/main/../include/histogram.h:76
+[0m
+[0;33m0x42009f87: http_rest_with_url at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/main/esp_http_client_example.c:200
+[0m
+[0;33m0x4200a981: http_test_task at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/main/esp_http_client_example.c:389
+[0m
+[0;33m0x4037c9f9: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4037a61e: esp_cpu_wait_for_intr at /home/wtsaichu/esp/esp-idf/components/esp_hw_support/cpu.c:145
+[0m
+[0;33m0x403759be: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037beed: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x403839a9: __assert_func at /home/wtsaichu/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x40381c6c: block_next at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:94 (discriminator 1)
+ (inlined by) block_link_next at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:101 (discriminator 1)
+ (inlined by) block_mark_as_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:109 (discriminator 1)
+ (inlined by) tlsf_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:1121 (discriminator 1)
+[0m
+[0;33m0x40381ad0: multi_heap_free_impl at /home/wtsaichu/esp/esp-idf/components/heap/multi_heap.c:234
+[0m
+[0;33m0x403761f6: heap_caps_free at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:393
+[0m
+[0;33m0x403839d9: free at /home/wtsaichu/esp/esp-idf/components/newlib/heap.c:40
+[0m
+[0;33m0x4200a943: http_rest_with_url at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/main/esp_http_client_example.c:376
+[0m
+[0;33m0x4200a981: http_test_task at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/main/esp_http_client_example.c:389
+[0m
+[0;33m0x4037c9f9: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375934: esp_restart_noos at /home/wtsaichu/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158
+[0m
+[0m

@@ -1,0 +1,1029 @@
+�K��a�ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x29 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d84
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.3-dev-422-ga7fbf452fa-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jan  3 2024 13:49:35[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v0.1[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (41) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (50) boot: Enabling RNG early entropy source...[0m
+[0;32mI (56) boot: Partition Table:[0m
+[0;32mI (59) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (74) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (89) boot: End of partition table[0m
+[0;32mI (93) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=33998h (211352) map[0m
+[0;32mI (139) esp_image: segment 1: paddr=000439c0 vaddr=3fc97d00 size=04724h ( 18212) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=000480ec vaddr=40374000 size=07f2ch ( 32556) load[0m
+[0;32mI (152) esp_image: segment 3: paddr=00050020 vaddr=42000020 size=9c5c0h (640448) map[0m
+[0;32mI (268) esp_image: segment 4: paddr=000ec5e8 vaddr=4037bf2c size=0bda8h ( 48552) load[0m
+[0;32mI (288) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (288) boot: Disabling RNG early entropy source...[0m
+[0;32mI (299) cpu_start: Multicore app[0m
+[0;32mI (309) cpu_start: Pro cpu start user code[0m
+[0;32mI (309) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (309) cpu_start: Application information:[0m
+[0;32mI (312) cpu_start: Project name:     esp_http_client_example[0m
+[0;32mI (318) cpu_start: App version:      29cac527[0m
+[0;32mI (323) cpu_start: Compile time:     Jan  3 2024 13:49:17[0m
+[0;32mI (329) cpu_start: ELF file SHA256:  1f44c6b79...[0m
+[0;32mI (335) cpu_start: ESP-IDF:          v5.3-dev-422-ga7fbf452fa-dirty[0m
+[0;32mI (342) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (346) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (351) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (356) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (363) heap_init: At 3FCA0CA8 len 00048A68 (290 KiB): RAM[0m
+[0;32mI (369) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (375) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (381) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (389) spi_flash: detected chip: gd[0m
+[0;32mI (392) spi_flash: flash io: dio[0m
+[0;32mI (396) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (403) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (410) main_task: Started on CPU0[0m
+[0;32mI (420) main_task: Calling app_main()[0m
+[0;32mI (440) example_connect: Start example_connect.[0m
+[0;32mI (450) pp: pp rom version: e7ae62f[0m
+[0;32mI (450) net80211: net80211 rom version: e7ae62f[0m
+I (460) wifi:wifi driver task: 3fcaab18, prio:23, stack:6656, core=0
+I (460) wifi:wifi firmware version: 639ccf2
+I (460) wifi:wifi certification version: v7.0
+I (460) wifi:config NVS flash: enabled
+I (470) wifi:config nano formating: disabled
+I (470) wifi:Init data frame dynamic rx buffer num: 32
+I (470) wifi:Init static rx mgmt buffer num: 5
+I (480) wifi:Init management short buffer num: 32
+I (480) wifi:Init dynamic tx buffer num: 32
+I (490) wifi:Init static tx FG buffer num: 2
+I (490) wifi:Init static rx buffer size: 1600
+I (500) wifi:Init static rx buffer num: 10
+I (500) wifi:Init dynamic rx buffer num: 32
+[0;32mI (500) wifi_init: rx ba win: 6[0m
+[0;32mI (510) wifi_init: tcpip mbox: 32[0m
+[0;32mI (510) wifi_init: udp mbox: 6[0m
+[0;32mI (510) wifi_init: tcp mbox: 6[0m
+[0;32mI (520) wifi_init: tcp tx win: 5760[0m
+[0;32mI (520) wifi_init: tcp rx win: 5760[0m
+[0;32mI (530) wifi_init: tcp mss: 1440[0m
+[0;32mI (530) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (530) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (540) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+I (590) wifi:mode : sta (34:85:18:a6:72:3c)
+I (590) wifi:enable tsf
+[0;32mI (590) example_connect: Connecting to 513handsome_man...[0m
+[0;32mI (590) example_connect: Waiting for IP(s)[0m
+I (3000) wifi:new:<6,1>, old:<1,0>, ap:<255,255>, sta:<6,1>, prof:1
+I (3510) wifi:state: init -> auth (b0)
+I (3510) wifi:state: auth -> assoc (0)
+I (3510) wifi:state: assoc -> run (10)
+I (3520) wifi:<ba-add>idx:0 (ifx:0, 40:b0:76:c5:4d:48), tid:0, ssn:0, winSize:64
+I (3530) wifi:connected with 513handsome_man, aid = 2, channel 6, 40U, bssid = 40:b0:76:c5:4d:48
+I (3530) wifi:security: WPA2-PSK, phy: bgn, rssi: -28
+I (3540) wifi:pm start, type: 1
+
+I (3540) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (3550) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (3560) wifi:AP's beacon interval = 102400 us, DTIM period = 3
+[0;32mI (4560) esp_netif_handlers: example_netif_sta ip: 192.168.50.121, mask: 255.255.255.0, gw: 192.168.50.1[0m
+[0;32mI (4560) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 192.168.50.121[0m
+[0;32mI (5440) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (5440) example_common: Connected to example_netif_sta[0m
+[0;32mI (5450) example_common: - IPv4 address: 192.168.50.121,[0m
+[0;32mI (5450) example_common: - IPv6 address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (5460) HTTP_CLIENT: Connected to AP, begin http example[0m
+[0;32mI (5470) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5470) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (5480) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (5480) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5490) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (5490) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (5500) main_task: Returned from app_main()[0m
+[0;32mI (5530) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5530) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (7560) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (7560) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (9580) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (9580) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (11610) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (11610) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (13630) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (13630) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (15650) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (15650) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (17680) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (17680) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (19700) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (19700) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (21930) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (21930) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (23950) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (23950) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (25970) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (25970) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (28000) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (28000) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (30020) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (30020) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (32060) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (32060) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (34090) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (34090) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (36110) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (36110) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (38140) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (38140) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (40170) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (40170) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (42210) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (42210) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (44230) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (44230) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (46250) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (46250) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (48270) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (48270) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (50290) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (50290) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (52320) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (52320) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (54340) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (54340) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (56360) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (56360) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (58390) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (58390) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (60410) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (60410) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (62430) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (62430) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (64450) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (64450) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (66470) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (66470) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (68500) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (68500) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (70520) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (70520) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (72540) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (72540) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (74560) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (74560) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (76600) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (76600) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (78620) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (78630) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (80650) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (80650) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (82670) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (82670) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (84690) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (84690) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (86710) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (86710) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (88730) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (88730) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (90750) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (90750) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (92770) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (92770) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (94800) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (94800) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (96820) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (96820) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (98940) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (98950) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (100970) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (100970) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (103000) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (103000) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (105030) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (105030) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (107050) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (107050) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (109070) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (109070) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (111090) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (111100) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (113120) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (113120) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (115140) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (115140) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (117160) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (117160) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (119190) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (119190) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (121210) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (121210) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (123230) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (123230) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (125250) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (125250) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (127280) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (127280) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (129300) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (129300) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (131320) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (131320) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (133340) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (133340) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (135360) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (135370) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (137390) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (137390) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (139420) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (139420) HTTP_CLIENT: HTTP GET Status = 200, content_length = 9217[0m
+
+assert failed: block_locate_free tlsf.c:566 (block_size(block) >= size)
+
+
+Backtrace: 0x403759be:0x3fcb3f90 0x4037beed:0x3fcb3fb0 0x403839a9:0x3fcb3fd0 0x40382188:0x3fcb40f0 0x40381b4d:0x3fcb4110 0x4037604d:0x3fcb4130 0x403760a8:0x3fcb4150 0x403760dd:0x3fcb4170 0x40383a20:0x3fcb4190 0x420902e5:0x3fcb41b0 0x42090acb:0x3fcb41d0 0x4208f6ab:0x3fcb4200 0x4208a669:0x3fcb4290 0x420850b3:0x3fcb45b0 0x42009d86:0x3fcb4600 0x42009ef3:0x3fcb4620 0x4200a3d9:0x3fcb4680 0x4037c9f9:0x3fcb46a0
+
+
+
+
+ELF file SHA256: 1f44c6b79
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x29 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037a61e
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d84
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-422-ga7fbf452fa-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jan  3 2024 13:49:35[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (45) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=33998h (211352) map[0m
+[0;32mI (144) esp_image: segment 1: paddr=000439c0 vaddr=3fc97d00 size=04724h ( 18212) load[0m
+[0;32mI (148) esp_image: segment 2: paddr=000480ec vaddr=40374000 size=07f2ch ( 32556) load[0m
+[0;32mI (157) esp_image: segment 3: paddr=00050020 vaddr=42000020 size=9c5c0h (640448) map[0m
+[0;32mI (274) esp_image: segment 4: paddr=000ec5e8 vaddr=4037bf2c size=0bda8h ( 48552) load[0m
+[0;32mI (293) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (293) boot: Disabling RNG early entropy source...[0m
+[0;32mI (304) cpu_start: Multicore app[0m
+[0;32mI (314) cpu_start: Pro cpu start user code[0m
+[0;32mI (314) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (314) cpu_start: Application information:[0m
+[0;32mI (317) cpu_start: Project name:     esp_http_client_example[0m
+[0;32mI (323) cpu_start: App version:      29cac527[0m
+[0;32mI (328) cpu_start: Compile time:     Jan  3 2024 13:49:17[0m
+[0;32mI (334) cpu_start: ELF file SHA256:  1f44c6b79...[0m
+[0;32mI (340) cpu_start: ESP-IDF:          v5.3-dev-422-ga7fbf452fa-dirty[0m
+[0;32mI (347) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (351) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (356) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (361) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (368) heap_init: At 3FCA0CA8 len 00048A68 (290 KiB): RAM[0m
+[0;32mI (374) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (380) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (387) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (394) spi_flash: detected chip: gd[0m
+[0;32mI (397) spi_flash: flash io: dio[0m
+[0;32mI (401) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (408) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (415) main_task: Started on CPU0[0m
+[0;32mI (425) main_task: Calling app_main()[0m
+[0;32mI (445) example_connect: Start example_connect.[0m
+[0;32mI (455) pp: pp rom version: e7ae62f[0m
+[0;32mI (455) net80211: net80211 rom version: e7ae62f[0m
+I (465) wifi:wifi driver task: 3fcaab18, prio:23, stack:6656, core=0
+I (465) wifi:wifi firmware version: 639ccf2
+I (465) wifi:wifi certification version: v7.0
+I (465) wifi:config NVS flash: enabled
+I (475) wifi:config nano formating: disabled
+I (475) wifi:Init data frame dynamic rx buffer num: 32
+I (475) wifi:Init static rx mgmt buffer num: 5
+I (485) wifi:Init management short buffer num: 32
+I (485) wifi:Init dynamic tx buffer num: 32
+I (495) wifi:Init static tx FG buffer num: 2
+I (495) wifi:Init static rx buffer size: 1600
+I (505) wifi:Init static rx buffer num: 10
+I (505) wifi:Init dynamic rx buffer num: 32
+[0;32mI (505) wifi_init: rx ba win: 6[0m
+[0;32mI (515) wifi_init: tcpip mbox: 32[0m
+[0;32mI (515) wifi_init: udp mbox: 6[0m
+[0;32mI (515) wifi_init: tcp mbox: 6[0m
+[0;32mI (525) wifi_init: tcp tx win: 5760[0m
+[0;32mI (525) wifi_init: tcp rx win: 5760[0m
+[0;32mI (535) wifi_init: tcp mss: 1440[0m
+[0;32mI (535) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (535) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (545) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+I (595) wifi:mode : sta (34:85:18:a6:72:3c)
+I (595) wifi:enable tsf
+[0;32mI (605) example_connect: Connecting to 513handsome_man...[0m
+[0;32mI (605) example_connect: Waiting for IP(s)[0m
+I (3015) wifi:new:<6,1>, old:<1,0>, ap:<255,255>, sta:<6,1>, prof:1
+I (3515) wifi:state: init -> auth (b0)
+I (3525) wifi:state: auth -> assoc (0)
+I (3525) wifi:state: assoc -> run (10)
+I (3525) wifi:<ba-add>idx:0 (ifx:0, 40:b0:76:c5:4d:48), tid:0, ssn:0, winSize:64
+I (3545) wifi:connected with 513handsome_man, aid = 2, channel 6, 40U, bssid = 40:b0:76:c5:4d:48
+I (3545) wifi:security: WPA2-PSK, phy: bgn, rssi: -27
+I (3545) wifi:pm start, type: 1
+
+I (3545) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (3555) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (3565) wifi:AP's beacon interval = 102400 us, DTIM period = 3
+[0;32mI (4575) esp_netif_handlers: example_netif_sta ip: 192.168.50.121, mask: 255.255.255.0, gw: 192.168.50.1[0m
+[0;32mI (4575) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 192.168.50.121[0m
+[0;32mI (5445) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (5445) example_common: Connected to example_netif_sta[0m
+[0;32mI (5455) example_common: - IPv4 address: 192.168.50.121,[0m
+[0;32mI (5455) example_common: - IPv6 address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (5465) HTTP_CLIENT: Connected to AP, begin http example[0m
+[0;32mI (5475) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5475) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (5485) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (5485) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5495) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (5505) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (5505) main_task: Returned from app_main()[0m
+[0;32mI (5555) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5555) HTTP_CLIENT: HTTP GET Status = 200, content_length = 9217[0m
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 270.0 264.0 172.0 0.0 0.0 0.0 0.0 0.0 0.0 171.0 239.0 172.0 0.0 0.0 0.0 0.0 0.0 0.0 160.0 228.0 172.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.0 -0.0 -0.0 1.6 0.0 0.0 1.6 1.6 0.0 1.6 1.6 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.6 0.0 1.6 1.6 0.0 0.0 0.0 -0.0 0.0 0.0 0.0 0.0 -0.0 1458759386330086866664893561387876352.0 -9259972147984446634523099136.0 -535533129605415174144.0 -11993087362465792.0 0.0 -905173954199552.0 -0.5 1.6 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.6 0.0 1.6 1.6 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.0 -0.9 -567111666885117410694430852120576.0 1.6 0.0 0.0 1.6 1.6 0.0 0.0 1.6 1.6 0.0 1.6 0.0 0.0 0.0 0.0 1.6 0.0 1.6 0.0 1.6 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 562036736.0 0.0 -0.0 0.0 0.0 304236144054775056359208769290240.0 0.0 0.0 0.0 0.0 0.0 -0.0 -0.0 210709.8 -3947.0 0.0 0.0 -0.0 -0.0 210709.8 0.0 -52333213417130096692081721344.0 0.0 1463829830274674755742205187121479680.0 -0.0 0.0 -0.0 -0.0 0.0 4287505820379777761017856.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.0 0.0 -0.0 -13238843978947795860980783929884672.0 -1.7 -0.0 -536018054262092861724784002454257664.0 0.0 -0.0 -34193179350443654905856.0 -356838212875073880064.0 12097239116351402079429697060328177664.0 -13621238.0 0.0 -1257475449393851697304818417664.0 -0.0 124.3 0.7 2595993944064.0 -0.0 -0.0 1256258.0 -5049450957401687598609886385012736.0 0.6 -0.0 -28080515422701486080.0 0.0 -420489120177127506900172404686848.0 39643610479202075728993348222976.0 -2526797814580681781903622144.0 -21051.4 0.0 11537175.0 24264196324597956608.0 -4162137829523171835904.0 -0.0 -14503263600640.0 0.0 -0.0 538306.3 3042.2 -72029962085433208324299008675676160.0 0.0 39296184541457945138249588539392.0 -nan 0.0 -3731316852886390568157728169000960.0 1.6 0.0 0.0 1.6 1.6 0.0 0.0 1.6 1.6 0.0 1.6 0.0 0.0 0.0 0.0 1.6 0.0 1.6 0.0 1.6 0.0 0.0 0.0 1.6 
+Predicted Class  0 and 1 =  nan : 1
+Predicted Class  0 and 2 =  nan : 2
+Predicted Class  0 and 3 =  nan : 3
+Predicted Class  0 and 4 =  nan : 4
+Predicted Class  0 and 5 =  nan : 5
+Predicted Class  0 and 6 =  nan : 6
+Predicted Class  1 and 2 =  nan : 2
+Predicted Class  1 and 3 =  nan : 3
+Predicted Class  1 and 3 =  nan : 4
+B = {"label":"0"}
+[0;32mI (6275) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (6275) HTTP_CLIENT: HTTP POST Status = 200, content_length = 7[0m
+
+assert failed: block_next tlsf_block_functions.h:94 (!block_is_last(block))
+
+
+Backtrace: 0x403759be:0x3fcb4440 0x4037beed:0x3fcb4460 0x403839a9:0x3fcb4480 0x40381c6c:0x3fcb45a0 0x40381ad0:0x3fcb45c0 0x403761f6:0x3fcb45e0 0x403839d9:0x3fcb4600 0x4200a39f:0x3fcb4620 0x4200a3d9:0x3fcb4680 0x4037c9f9:0x3fcb46a0
+
+
+
+
+ELF file SHA256: 1f44c6b79
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x29 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375934
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d84
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-422-ga7fbf452fa-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jan  3 2024 13:49:35[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (45) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=33998h (211352) map[0m
+[0;32mI (144) esp_image: segment 1: paddr=000439c0 vaddr=3fc97d00 size=04724h ( 18212) load[0m
+[0;32mI (148) esp_image: segment 2: paddr=000480ec vaddr=40374000 size=07f2ch ( 32556) load[0m
+[0;32mI (157) esp_image: segment 3: paddr=00050020 vaddr=42000020 size=9c5c0h (640448) map[0m
+[0;32mI (273) esp_image: segment 4: paddr=000ec5e8 vaddr=4037bf2c size=0bda8h ( 48552) load[0m
+[0;32mI (292) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (292) boot: Disabling RNG early entropy source...[0m
+[0;32mI (304) cpu_start: Multicore app[0m
+[0;32mI (313) cpu_start: Pro cpu start user code[0m
+[0;32mI (313) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (313) cpu_start: Application information:[0m
+[0;32mI (316) cpu_start: Project name:     esp_http_client_example[0m
+[0;32mI (322) cpu_start: App version:      29cac527[0m
+[0;32mI (328) cpu_start: Compile time:     Jan  3 2024 13:49:17[0m
+[0;32mI (334) cpu_start: ELF file SHA256:  1f44c6b79...[0m
+[0;32mI (339) cpu_start: ESP-IDF:          v5.3-dev-422-ga7fbf452fa-dirty[0m
+[0;32mI (346) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (351) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (355) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (360) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (367) heap_init: At 3FCA0CA8 len 00048A68 (290 KiB): RAM[0m
+[0;32mI (374) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (380) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (386) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (393) spi_flash: detected chip: gd[0m
+[0;32mI (396) spi_flash: flash io: dio[0m
+[0;32mI (401) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (407) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (415) main_task: Started on CPU0[0m
+[0;32mI (425) main_task: Calling app_main()[0m
+[0;32mI (445) example_connect: Start example_connect.[0m
+[0;32mI (455) pp: pp rom version: e7ae62f[0m
+[0;32mI (455) net80211: net80211 rom version: e7ae62f[0m
+I (465) wifi:wifi driver task: 3fcaab18, prio:23, stack:6656, core=0
+I (465) wifi:wifi firmware version: 639ccf2
+I (465) wifi:wifi certification version: v7.0
+I (465) wifi:config NVS flash: enabled
+I (475) wifi:config nano formating: disabled
+I (475) wifi:Init data frame dynamic rx buffer num: 32
+I (475) wifi:Init static rx mgmt buffer num: 5
+I (485) wifi:Init management short buffer num: 32
+I (485) wifi:Init dynamic tx buffer num: 32
+I (495) wifi:Init static tx FG buffer num: 2
+I (495) wifi:Init static rx buffer size: 1600
+I (505) wifi:Init static rx buffer num: 10
+I (505) wifi:Init dynamic rx buffer num: 32
+[0;32mI (505) wifi_init: rx ba win: 6[0m
+[0;32mI (515) wifi_init: tcpip mbox: 32[0m
+[0;32mI (515) wifi_init: udp mbox: 6[0m
+[0;32mI (515) wifi_init: tcp mbox: 6[0m
+[0;32mI (525) wifi_init: tcp tx win: 5760[0m
+[0;32mI (525) wifi_init: tcp rx win: 5760[0m
+[0;32mI (535) wifi_init: tcp mss: 1440[0m
+[0;32mI (535) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (535) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (545) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+I (595) wifi:mode : sta (34:85:18:a6:72:3c)
+I (595) wifi:enable tsf
+[0;32mI (605) example_connect: Connecting to 513handsome_man...[0m
+[0;32mI (605) example_connect: Waiting for IP(s)[0m
+I (3015) wifi:new:<6,1>, old:<1,0>, ap:<255,255>, sta:<6,1>, prof:1
+I (3515) wifi:state: init -> auth (b0)
+I (3515) wifi:state: auth -> assoc (0)
+I (3525) wifi:state: assoc -> run (10)
+I (3535) wifi:<ba-add>idx:0 (ifx:0, 40:b0:76:c5:4d:48), tid:0, ssn:0, winSize:64
+I (3545) wifi:connected with 513handsome_man, aid = 2, channel 6, 40U, bssid = 40:b0:76:c5:4d:48
+I (3545) wifi:security: WPA2-PSK, phy: bgn, rssi: -30
+I (3545) wifi:pm start, type: 1
+
+I (3555) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (3565) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (3645) wifi:AP's beacon interval = 102400 us, DTIM period = 3
+[0;32mI (4575) esp_netif_handlers: example_netif_sta ip: 192.168.50.121, mask: 255.255.255.0, gw: 192.168.50.1[0m
+[0;32mI (4575) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 192.168.50.121[0m
+[0;32mI (5445) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (5445) example_common: Connected to example_netif_sta[0m
+[0;32mI (5455) example_common: - IPv4 address: 192.168.50.121,[0m
+[0;32mI (5455) example_common: - IPv6 address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (5465) HTTP_CLIENT: Connected to AP, begin http example[0m
+[0;32mI (5475) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5475) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (5485) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (5485) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5495) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (5495) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (5505) main_task: Returned from app_main()[0m
+[0;32mI (5535) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5535) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (7555) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (7565) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (9585) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (9585) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (11615) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (11625) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (13705) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (13715) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (15735) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (15735) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (17805) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (17805) HTTP_CLIENT: HTTP GET Status = 200, content_length = 9217[0m
+
+assert failed: block_locate_free tlsf.c:566 (block_size(block) >= size)
+
+
+Backtrace: 0x403759be:0x3fcb3f90 0x4037beed:0x3fcb3fb0 0x403839a9:0x3fcb3fd0 0x40382188:0x3fcb40f0 0x40381b4d:0x3fcb4110 0x4037604d:0x3fcb4130 0x403760a8:0x3fcb4150 0x403760dd:0x3fcb4170 0x40383a20:0x3fcb4190 0x420902e5:0x3fcb41b0 0x42090acb:0x3fcb41d0 0x4208f6ab:0x3fcb4200 0x4208a669:0x3fcb4290 0x420850b3:0x3fcb45b0 0x42009d86:0x3fcb4600 0x42009ef3:0x3fcb4620 0x4200a3d9:0x3fcb4680 0x4037c9f9:0x3fcb46a0
+
+
+
+
+ELF file SHA256: 1f44c6b79
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x29 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375934
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d84
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-422-ga7fbf452fa-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jan  3 2024 13:49:35[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (45) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=33998h (211352) map[0m
+[0;32mI (144) esp_image: segment 1: paddr=000439c0 vaddr=3fc97d00 size=04724h ( 18212) load[0m
+[0;32mI (148) esp_image: segment 2: paddr=000480ec vaddr=40374000 size=07f2ch ( 32556) load[0m
+[0;32mI (157) esp_image: segment 3: paddr=00050020 vaddr=42000020 size=9c5c0h (640448) map[0m
+[0;32mI (273) esp_image: segment 4: paddr=000ec5e8 vaddr=4037bf2c size=0bda8h ( 48552) load[0m
+[0;32mI (292) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (292) boot: Disabling RNG early entropy source...[0m
+[0;32mI (304) cpu_start: Multicore app[0m
+[0;32mI (313) cpu_start: Pro cpu start user code[0m
+[0;32mI (313) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (313) cpu_start: Application information:[0m
+[0;32mI (316) cpu_start: Project name:     esp_http_client_example[0m
+[0;32mI (322) cpu_start: App version:      29cac527[0m
+[0;32mI (328) cpu_start: Compile time:     Jan  3 2024 13:49:17[0m
+[0;32mI (334) cpu_start: ELF file SHA256:  1f44c6b79...[0m
+[0;32mI (339) cpu_start: ESP-IDF:          v5.3-dev-422-ga7fbf452fa-dirty[0m
+[0;32mI (346) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (351) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (355) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (360) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (367) heap_init: At 3FCA0CA8 len 00048A68 (290 KiB): RAM[0m
+[0;32mI (374) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (380) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (386) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (393) spi_flash: detected chip: gd[0m
+[0;32mI (396) spi_flash: flash io: dio[0m
+[0;32mI (401) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (407) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (415) main_task: Started on CPU0[0m
+[0;32mI (425) main_task: Calling app_main()[0m
+[0;32mI (445) example_connect: Start example_connect.[0m
+[0;32mI (455) pp: pp rom version: e7ae62f[0m
+[0;32mI (455) net80211: net80211 rom version: e7ae62f[0m
+I (465) wifi:wifi driver task: 3fcaab18, prio:23, stack:6656, core=0
+I (465) wifi:wifi firmware version: 639ccf2
+I (465) wifi:wifi certification version: v7.0
+I (465) wifi:config NVS flash: enabled
+I (475) wifi:config nano formating: disabled
+I (475) wifi:Init data frame dynamic rx buffer num: 32
+I (475) wifi:Init static rx mgmt buffer num: 5
+I (485) wifi:Init management short buffer num: 32
+I (485) wifi:Init dynamic tx buffer num: 32
+I (495) wifi:Init static tx FG buffer num: 2
+I (495) wifi:Init static rx buffer size: 1600
+I (505) wifi:Init static rx buffer num: 10
+I (505) wifi:Init dynamic rx buffer num: 32
+[0;32mI (505) wifi_init: rx ba win: 6[0m
+[0;32mI (515) wifi_init: tcpip mbox: 32[0m
+[0;32mI (515) wifi_init: udp mbox: 6[0m
+[0;32mI (515) wifi_init: tcp mbox: 6[0m
+[0;32mI (525) wifi_init: tcp tx win: 5760[0m
+[0;32mI (525) wifi_init: tcp rx win: 5760[0m
+[0;32mI (535) wifi_init: tcp mss: 1440[0m
+[0;32mI (535) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (535) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (545) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+I (595) wifi:mode : sta (34:85:18:a6:72:3c)
+I (595) wifi:enable tsf
+[0;32mI (595) example_connect: Connecting to 513handsome_man...[0m
+[0;32mI (595) example_connect: Waiting for IP(s)[0m
+I (3005) wifi:new:<6,1>, old:<1,0>, ap:<255,255>, sta:<6,1>, prof:1
+I (3505) wifi:state: init -> auth (b0)
+I (3515) wifi:state: auth -> assoc (0)
+I (3515) wifi:state: assoc -> run (10)
+I (3525) wifi:<ba-add>idx:0 (ifx:0, 40:b0:76:c5:4d:48), tid:0, ssn:0, winSize:64
+I (3535) wifi:connected with 513handsome_man, aid = 2, channel 6, 40U, bssid = 40:b0:76:c5:4d:48
+I (3535) wifi:security: WPA2-PSK, phy: bgn, rssi: -29
+I (3535) wifi:pm start, type: 1
+
+I (3545) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (3555) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (3625) wifi:AP's beacon interval = 102400 us, DTIM period = 3
+[0;32mI (4565) esp_netif_handlers: example_netif_sta ip: 192.168.50.121, mask: 255.255.255.0, gw: 192.168.50.1[0m
+[0;32mI (4565) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 192.168.50.121[0m
+[0;32mI (5445) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (5445) example_common: Connected to example_netif_sta[0m
+[0;32mI (5455) example_common: - IPv4 address: 192.168.50.121,[0m
+[0;32mI (5455) example_common: - IPv6 address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (5465) HTTP_CLIENT: Connected to AP, begin http example[0m
+[0;32mI (5475) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5475) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (5485) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (5485) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5495) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (5495) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (5505) main_task: Returned from app_main()[0m
+[0;32mI (5545) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5545) HTTP_CLIENT: HTTP GET Status = 200, content_length = 9217[0m
+
+assert failed: block_locate_free tlsf.c:566 (block_size(block) >= size)
+
+
+Backtrace: 0x403759be:0x3fcb3f90 0x4037beed:0x3fcb3fb0 0x403839a9:0x3fcb3fd0 0x40382188:0x3fcb40f0 0x40381b4d:0x3fcb4110 0x4037604d:0x3fcb4130 0x403760a8:0x3fcb4150 0x403760dd:0x3fcb4170 0x40383a20:0x3fcb4190 0x420902e5:0x3fcb41b0 0x42090acb:0x3fcb41d0 0x4208f6ab:0x3fcb4200 0x4208a669:0x3fcb4290 0x420850b3:0x3fcb45b0 0x42009d86:0x3fcb4600 0x42009ef3:0x3fcb4620 0x4200a3d9:0x3fcb4680 0x4037c9f9:0x3fcb46a0
+
+
+
+
+ELF file SHA256: 1f44c6b79
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x29 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375934
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d84
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-422-ga7fbf452fa-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jan  3 2024 13:49:35[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (45) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=33998h (211352) map[0m
+[0;32mI (144) esp_image: segment 1: paddr=000439c0 vaddr=3fc97d00 size=04724h ( 18212) load[0m
+[0;32mI (148) esp_image: segment 2: paddr=000480ec vaddr=40374000 size=07f2ch ( 32556) load[0m
+[0;32mI (157) esp_image: segment 3: paddr=00050020 vaddr=42000020 size=9c5c0h (640448) map[0m
+[0;32mI (273) esp_image: segment 4: paddr=000ec5e8 vaddr=4037bf2c size=0bda8h ( 48552) load[0m
+[0;32mI (292) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (292) boot: Disabling RNG early entropy source...[0m
+[0;32mI (304) cpu_start: Multicore app[0m
+[0;32mI (313) cpu_start: Pro cpu start user code[0m
+[0;32mI (313) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (313) cpu_start: Application information:[0m
+[0;32mI (316) cpu_start: Project name:     esp_http_client_example[0m
+[0;32mI (322) cpu_start: App version:      29cac527[0m
+[0;32mI (328) cpu_start: Compile time:     Jan  3 2024 13:49:17[0m
+[0;32mI (334) cpu_start: ELF file SHA256:  1f44c6b79...[0m
+[0;32mI (339) cpu_start: ESP-IDF:          v5.3-dev-422-ga7fbf452fa-dirty[0m
+[0;32mI (346) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (351) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (355) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (360) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (367) heap_init: At 3FCA0CA8 len 00048A68 (290 KiB): RAM[0m
+[0;32mI (374) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (380) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (386) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (393) spi_flash: detected chip: gd[0m
+[0;32mI (396) spi_flash: flash io: dio[0m
+[0;32mI (401) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (407) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (415) main_task: Started on CPU0[0m
+[0;32mI (425) main_task: Calling app_main()[0m
+[0;32mI (445) example_connect: Start example_connect.[0m
+[0;32mI (455) pp: pp rom version: e7ae62f[0m
+[0;32mI (455) net80211: net80211 rom version: e7ae62f[0m
+I (465) wifi:wifi driver task: 3fcaab18, prio:23, stack:6656, core=0
+I (465) wifi:wifi firmware version: 639ccf2
+I (465) wifi:wifi certification version: v7.0
+I (465) wifi:config NVS flash: enabled
+I (475) wifi:config nano formating: disabled
+I (475) wifi:Init data frame dynamic rx buffer num: 32
+I (475) wifi:Init static rx mgmt buffer num: 5
+I (485) wifi:Init management short buffer num: 32
+I (485) wifi:Init dynamic tx buffer num: 32
+I (495) wifi:Init static tx FG buffer num: 2
+I (495) wifi:Init static rx buffer size: 1600
+I (505) wifi:Init static rx buffer num: 10
+I (505) wifi:Init dynamic rx buffer num: 32
+[0;32mI (505) wifi_init: rx ba win: 6[0m
+[0;32mI (515) wifi_init: tcpip mbox: 32[0m
+[0;32mI (515) wifi_init: udp mbox: 6[0m
+[0;32mI (515) wifi_init: tcp mbox: 6[0m
+[0;32mI (525) wifi_init: tcp tx win: 5760[0m
+[0;32mI (525) wifi_init: tcp rx win: 5760[0m
+[0;32mI (535) wifi_init: tcp mss: 1440[0m
+[0;32mI (535) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (535) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (545) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+I (595) wifi:mode : sta (34:85:18:a6:72:3c)
+I (595) wifi:enable tsf
+[0;32mI (595) example_connect: Connecting to 513handsome_man...[0m
+[0;32mI (605) example_connect: Waiting for IP(s)[0m
+I (3005) wifi:new:<6,1>, old:<1,0>, ap:<255,255>, sta:<6,1>, prof:1
+I (3515) wifi:state: init -> auth (b0)
+I (3515) wifi:state: auth -> assoc (0)
+I (3525) wifi:state: assoc -> run (10)
+I (3525) wifi:<ba-add>idx:0 (ifx:0, 40:b0:76:c5:4d:48), tid:0, ssn:0, winSize:64
+I (3555) wifi:connected with 513handsome_man, aid = 2, channel 6, 40U, bssid = 40:b0:76:c5:4d:48
+I (3555) wifi:security: WPA2-PSK, phy: bgn, rssi: -30
+I (3555) wifi:pm start, type: 1
+
+I (3555) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (3565) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (3575) wifi:AP's beacon interval = 102400 us, DTIM period = 3
+[0;32mI (4575) esp_netif_handlers: example_netif_sta ip: 192.168.50.121, mask: 255.255.255.0, gw: 192.168.50.1[0m
+[0;32mI (4575) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 192.168.50.121[0m
+[0;32mI (5445) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (5445) example_common: Connected to example_netif_sta[0m
+[0;32mI (5455) example_common: - IPv4 address: 192.168.50.121,[0m
+[0;32mI (5455) example_common: - IPv6 address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (5465) HTTP_CLIENT: Connected to AP, begin http example[0m
+[0;32mI (5475) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5475) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (5485) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (5485) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5495) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (5505) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (5505) main_task: Returned from app_main()[0m
+[0;32mI (5545) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5545) HTTP_CLIENT: HTTP GET Status = 200, content_length = 9217[0m
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 270.0 264.0 172.0 0.0 0.0 0.0 0.0 0.0 0.0 171.0 239.0 172.0 0.0 0.0 0.0 0.0 0.0 0.0 160.0 228.0 172.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.6 0.0 1.6 0.0 0.0 -3947.0 -0.0 1.6 0.0 0.0 1.6 1.6 0.0 1.6 0.0 0.0 0.0 0.0 1.6 0.0 1.6 0.0 1.6 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 8781824.0 0.0 -0.0 0.0 0.0 8873554201597605810476922437632.0 0.0 0.0 0.0 0.0 0.0 -0.0 -0.0 210709.8 -3947.0 0.0 0.0 -0.0 -0.0 210709.8 0.0 0.0 0.0 1460850217538838302533987186237243392.0 -0.0 0.0 -0.0 34018212676854890960667075936256.0 0.0 15409253883838464.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.6 0.0 1.6 0.0 0.0 0.0 0.0 1.6 0.0 1.6 1.6 1.6 0.0 1.6 0.0 0.0 0.0 0.0 1.6 0.0 1.6 0.0 1.6 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.0 0.0 0.0 4753689750855860255612637020160.0 0.0 0.0 0.0 0.0 0.0 -0.0 -0.0 210709.8 -3947.0 0.0 0.0 -0.0 -0.0 210709.8 0.0 0.0 0.0 1460971595083810155499180495569158144.0 -0.0 0.0 -0.0 34018212676854890960667075936256.0 0.0 -21837796967132577136640.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.6 0.0 0.0 1.6 1.6 0.0 1.6 0.0 0.0 0.0 0.0 1.6 0.0 1.6 1.6 1.6 0.0 1.6 0.0 0.0 0.0 0.0 1.6 0.0 1.6 0.0 1.6 0.0 0.0 0.0 1.6 
+Predicted Class  0 and 1 =  0.000000 : 0
+Predicted Class  0 and 2 =  0.000000 : 0
+Predicted Class  0 and 3 =  0.000000 : 0
+Predicted Class  0 and 4 =  0.000000 : 0
+Predicted Class  0 and 5 =  0.000000 : 0
+Predicted Class  0 and 6 =  0.000000 : 0
+Predicted Class  1 and 2 =  0.000000 : 1
+Predicted Class  1 and 3 =  1.000000 : 3
+Predicted Class  1 and 3 =  1.000000 : 4
+B = {"label":"0"}
+[0;32mI (6235) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (6235) HTTP_CLIENT: HTTP POST Status = 200, content_length = 7[0m
+
+assert failed: block_next tlsf_block_functions.h:94 (!block_is_last(block))
+
+
+Backtrace: 0x403759be:0x3fcb4440 0x4037beed:0x3fcb4460 0x403839a9:0x3fcb4480 0x40381c6c:0x3fcb45a0 0x40381ad0:0x3fcb45c0 0x403761f6:0x3fcb45e0 0x403839d9:0x3fcb4600 0x4200a39f:0x3fcb4620 0x4200a3d9:0x3fcb4680 0x4037c9f9:0x3fcb46a0
+
+
+
+
+ELF file SHA256: 1f44c6b79
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x29 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375934
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d84
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-422-ga7fbf452fa-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jan  3 2024 13:49:35[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (45) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=33998h (211352) map[0m
+[0;32mI (144) esp_image: segment 1: paddr=000439c0 vaddr=3fc97d00 size=04724h ( 18212) load[0m
+[0;32mI (148) esp_image: segment 2: paddr=000480ec vaddr=40374000 size=07f2ch ( 32556) load[0m
+[0;32mI (157) esp_image: segment 3: paddr=00050020 vaddr=42000020 size=9c5c0h (640448) map[0m
+[0;32mI (273) esp_image: segment 4: paddr=000ec5e8 vaddr=4037bf2c size=0bda8h ( 48552) load[0m
+[0;32mI (292) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (292) boot: Disabling RNG early entropy source...[0m
+[0;32mI (304) cpu_start: Multicore app[0m
+[0;32mI (313) cpu_start: Pro cpu start user code[0m
+[0;32mI (313) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (313) cpu_start: Application information:[0m
+[0;32mI (316) cpu_start: Project name:     esp_http_client_example[0m
+[0;32mI (322) cpu_start: App version:      29cac527[0m
+[0;32mI (328) cpu_start: Compile time:     Jan  3 2024 13:49:17[0m
+[0;32mI (334) cpu_start: ELF file SHA256:  1f44c6b79...[0m
+[0;32mI (339) cpu_start: ESP-IDF:          v5.3-dev-422-ga7fbf452fa-dirty[0m
+[0;32mI (346) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (351) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (355) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (360) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (367) heap_init: At 3FCA0CA8 len 00048A68 (290 KiB): RAM[0m
+[0;32mI (374) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (380) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (386) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (393) spi_flash: detected chip: gd[0m
+[0;32mI (396) spi_flash: flash io: dio[0m
+[0;32mI (401) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (407) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (415) main_task: Started on CPU0[0m
+[0;32mI (425) main_task: Calling app_main()[0m
+[0;32mI (445) example_connect: Start example_connect.[0m
+[0;32mI (455) pp: pp rom version: e7ae62f[0m
+[0;32mI (455) net80211: net80211 rom version: e7ae62f[0m
+I (465) wifi:wifi driver task: 3fcaab18, prio:23, stack:6656, core=0
+I (465) wifi:wifi firmware version: 639ccf2
+I (465) wifi:wifi certification version: v7.0
+I (465) wifi:config NVS flash: enabled
+I (475) wifi:config nano formating: disabled
+I (475) wifi:Init data frame dynamic rx buffer num: 32
+I (475) wifi:Init static rx mgmt buffer num: 5
+I (485) wifi:Init management short buffer num: 32
+I (485) wifi:Init dynamic tx buffer num: 32
+I (495) wifi:Init static tx FG buffer num: 2
+I (495) wifi:Init static rx buffer size: 1600
+I (505) wifi:Init static rx buffer num: 10
+I (505) wifi:Init dynamic rx buffer num: 32
+[0;32mI (505) wifi_init: rx ba win: 6[0m
+[0;32mI (515) wifi_init: tcpip mbox: 32[0m
+[0;32mI (515) wifi_init: udp mbox: 6[0m
+[0;32mI (515) wifi_init: tcp mbox: 6[0m
+[0;32mI (525) wifi_init: tcp tx win: 5760[0m
+[0;32mI (525) wifi_init: tcp rx win: 5760[0m
+[0;32mI (535) wifi_init: tcp mss: 1440[0m
+[0;32mI (535) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (535) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (545) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+I (595) wifi:mode : sta (34:85:18:a6:72:3c)
+I (595) wifi:enable tsf
+[0;32mI (595) example_connect: Connecting to 513handsome_man...[0m
+[0;32mI (605) example_connect: Waiting for IP(s)[0m
+I (3005) wifi:new:<6,1>, old:<1,0>, ap:<255,255>, sta:<6,1>, prof:1
+I (3515) wifi:state: init -> auth (b0)
+I (3525) wifi:state: auth -> assoc (0)
+I (3525) wifi:state: assoc -> run (10)
+I (3525) wifi:<ba-add>idx:0 (ifx:0, 40:b0:76:c5:4d:48), tid:0, ssn:0, winSize:64
+I (3545) wifi:connected with 513handsome_man, aid = 2, channel 6, 40U, bssid = 40:b0:76:c5:4d:48
+I (3545) wifi:security: WPA2-PSK, phy: bgn, rssi: -29
+I (3545) wifi:pm start, type: 1
+
+I (3545) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (3555) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (3605) wifi:AP's beacon interval = 102400 us, DTIM period = 3
+[0;32mI (4565) esp_netif_handlers: example_netif_sta ip: 192.168.50.121, mask: 255.255.255.0, gw: 192.168.50.1[0m
+[0;32mI (4565) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 192.168.50.121[0m
+[0;32mI (5445) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (5445) example_common: Connected to example_netif_sta[0m
+[0;32mI (5455) example_common: - IPv4 address: 192.168.50.121,[0m
+[0;32mI (5455) example_common: - IPv6 address: fe80:0000:0000:0000:3685:18ff:fea6:723c, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (5465) HTTP_CLIENT: Connected to AP, begin http example[0m
+[0;32mI (5475) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5475) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (5485) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (5485) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5495) HTTP_CLIENT: Last esp error code: 0x103[0m
+[0;32mI (5495) HTTP_CLIENT: Last mbedtls failure: 0x0[0m
+[0;32mI (5505) main_task: Returned from app_main()[0m
+[0;32mI (5545) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (5545) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (7565) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (7565) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (9585) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (9585) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (11625) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (11625) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (13645) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (13645) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (15665) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (15675) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (17695) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (17705) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (19725) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (19725) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (21745) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (21745) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (23765) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (23765) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (25785) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (25785) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (27835) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (27835) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (29855) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (29865) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (31885) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (31885) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (33905) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (33905) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (35935) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (35945) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (37975) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (37975) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (39995) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (39995) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (42015) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (42015) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (44035) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (44045) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (46065) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (46065) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (48085) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (48085) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (50105) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (50105) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (52135) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (52135) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (54165) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (54175) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (56215) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (56215) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (58235) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (58235) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (60285) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (60295) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (62325) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (62325) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (64355) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (64355) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (66375) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (66375) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (68395) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (68405) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (70435) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (70435) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (72485) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (72485) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (74515) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (74515) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (76535) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (76545) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (78565) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (78565) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (80595) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (80595) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (82615) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (82615) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (84635) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (84645) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (86675) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (86675) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (88695) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (88695) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (90715) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (90725) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (92745) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (92745) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (94815) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (94825) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (96845) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (96845) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (98865) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (98865) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (100905) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (100905) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (102925) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (102925) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (104945) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (104955) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (106975) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (106975) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (108995) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (109005) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (111045) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (111045) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (113085) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (113085) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (115115) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (115115) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (117145) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (117155) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (119175) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (119175) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (121205) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (121205) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (123225) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (123225) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (125245) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (125245) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (127265) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (127265) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m
+[0;32mI (129285) HTTP_CLIENT: HTTP_EVENT_DISCONNECTED[0m
+[0;32mI (129295) HTTP_CLIENT: HTTP GET Status = 200, content_length = 1[0m

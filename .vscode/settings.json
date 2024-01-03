@@ -8,7 +8,8 @@
         "string.h": "c",
         "dataset.h": "c",
         "math.h": "c",
-        "configuration.h": "c"
+        "configuration.h": "c",
+        "histogram.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
