@@ -72,7 +72,11 @@ def post_image():
     with open("./configuration/config.txt", 'w') as file:
         file.write(str(request.json["img"]))
     print("Write to the buffer.")
-    
+
+    global flag
+    with open("./configuration/flag.txt", 'w') as file:
+        file.write("1")
+        file.close()
     return "ok"
 
 # Für ESP32-S3 : Besorgen Sie sich das Bild
