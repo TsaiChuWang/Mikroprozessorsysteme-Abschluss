@@ -1,0 +1,281 @@
+[0;33m--- esp-idf-monitor 1.3.3 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081470: call_start_cpu1 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:182
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m0x400ee258: _GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_alloc.cc:462
+[0m
+[0;33m0x400edccc: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m0x400ea6b8: check_i2c_driver_conflict at /home/wtsaichu/esp/esp-idf/components/driver/i2c/i2c.c:1679
+[0m
+[0;33m0x400e8018: esp_ipc_init at /home/wtsaichu/esp/esp-idf/components/esp_system/esp_ipc.c:114
+[0m
+[0;33m0x4008bb60: enable_timer_group0_for_calibration at /home/wtsaichu/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:194
+[0m
+[0;33m0x400d25ac: __esp_stack_guard_setup at /home/wtsaichu/esp/esp-idf/components/esp_system/stack_check.c:21
+[0m
+[0;33m0x400d1d70: esp_app_format_init_elf_sha256 at /home/wtsaichu/esp/esp-idf/components/esp_app_format/esp_app_desc.c:68
+[0m
+[0;33m0x400d6224: __esp_system_init_fn_esp_timer_startup_init at /home/wtsaichu/esp/esp-idf/components/esp_timer/src/esp_timer.c:578
+[0m
+[0;33m0x400f9cb4: __esp_system_init_fn_init_components0 at /home/wtsaichu/esp/esp-idf/components/esp_system/startup.c:470
+[0m
+[0;33m0x40093e76: remove_free_block at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:332
+ (inlined by) block_locate_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:567
+ (inlined by) tlsf_malloc at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:1005
+[0m
+[0;33m0x40089b28: memcpy at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/memcpy.S:162
+[0m
+[0;33m0x40089b44: memcpy at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/memcpy.S:197
+[0m
+[0;33m0x40093e73: remove_free_block at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:331 (discriminator 1)
+ (inlined by) block_locate_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:567 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+[0m
+[0;33m0x400936e1: multi_heap_malloc_impl at /home/wtsaichu/esp/esp-idf/components/heap/multi_heap.c:210
+[0m
+[0;33m0x40082925: heap_caps_malloc_base at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:179
+[0m
+[0;33m0x40082ab6: heap_caps_malloc_default at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:236
+[0m
+[0;33m0x40095180: malloc at /home/wtsaichu/esp/esp-idf/components/newlib/heap.c:25
+[0m
+[0;33m0x400dc101: berechnenHOG at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_ohne_Netz/main/../include/histogram.h:12
+[0m
+[0;33m0x400dc382: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_ohne_Netz/main/main.c:89
+[0m
+[0;33m0x400fadf8: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4008df96: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081470: call_start_cpu1 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:182
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m0x400ee258: _GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_alloc.cc:462
+[0m
+[0;33m0x400edccc: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m0x400ea6b8: check_i2c_driver_conflict at /home/wtsaichu/esp/esp-idf/components/driver/i2c/i2c.c:1679
+[0m
+[0;33m0x400e8018: esp_ipc_init at /home/wtsaichu/esp/esp-idf/components/esp_system/esp_ipc.c:114
+[0m
+[0;33m0x4008bb60: enable_timer_group0_for_calibration at /home/wtsaichu/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:194
+[0m
+[0;33m0x400d25ac: __esp_stack_guard_setup at /home/wtsaichu/esp/esp-idf/components/esp_system/stack_check.c:21
+[0m
+[0;33m0x400d1d70: esp_app_format_init_elf_sha256 at /home/wtsaichu/esp/esp-idf/components/esp_app_format/esp_app_desc.c:68
+[0m
+[0;33m0x400d6224: __esp_system_init_fn_esp_timer_startup_init at /home/wtsaichu/esp/esp-idf/components/esp_timer/src/esp_timer.c:578
+[0m
+[0;33m0x400f9cb4: __esp_system_init_fn_init_components0 at /home/wtsaichu/esp/esp-idf/components/esp_system/startup.c:470
+[0m
+[0;33m0x40093e76: remove_free_block at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:332
+ (inlined by) block_locate_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:567
+ (inlined by) tlsf_malloc at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:1005
+[0m
+[0;33m0x40089b28: memcpy at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/memcpy.S:162
+[0m
+[0;33m0x40089b44: memcpy at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/memcpy.S:197
+[0m
+[0;33m0x40093e73: remove_free_block at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:331 (discriminator 1)
+ (inlined by) block_locate_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:567 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+[0m
+[0;33m0x400936e1: multi_heap_malloc_impl at /home/wtsaichu/esp/esp-idf/components/heap/multi_heap.c:210
+[0m
+[0;33m0x40082925: heap_caps_malloc_base at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:179
+[0m
+[0;33m0x40082ab6: heap_caps_malloc_default at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:236
+[0m
+[0;33m0x40095180: malloc at /home/wtsaichu/esp/esp-idf/components/newlib/heap.c:25
+[0m
+[0;33m0x400dc101: berechnenHOG at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_ohne_Netz/main/../include/histogram.h:12
+[0m
+[0;33m0x400dc382: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_ohne_Netz/main/main.c:89
+[0m
+[0;33m0x400fadf8: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4008df96: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081470: call_start_cpu1 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:182
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m0x400ee258: _GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_alloc.cc:462
+[0m
+[0;33m0x400edccc: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m0x400ea6b8: check_i2c_driver_conflict at /home/wtsaichu/esp/esp-idf/components/driver/i2c/i2c.c:1679
+[0m
+[0;33m0x400e8018: esp_ipc_init at /home/wtsaichu/esp/esp-idf/components/esp_system/esp_ipc.c:114
+[0m
+[0;33m0x4008bb60: enable_timer_group0_for_calibration at /home/wtsaichu/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:194
+[0m
+[0;33m0x400d25ac: __esp_stack_guard_setup at /home/wtsaichu/esp/esp-idf/components/esp_system/stack_check.c:21
+[0m
+[0;33m0x400d1d70: esp_app_format_init_elf_sha256 at /home/wtsaichu/esp/esp-idf/components/esp_app_format/esp_app_desc.c:68
+[0m
+[0;33m0x400d6224: __esp_system_init_fn_esp_timer_startup_init at /home/wtsaichu/esp/esp-idf/components/esp_timer/src/esp_timer.c:578
+[0m
+[0;33m0x400f9cb4: __esp_system_init_fn_init_components0 at /home/wtsaichu/esp/esp-idf/components/esp_system/startup.c:470
+[0m
+[0;33m0x40093e76: remove_free_block at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:332
+ (inlined by) block_locate_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:567
+ (inlined by) tlsf_malloc at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:1005
+[0m
+[0;33m0x40089b28: memcpy at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/memcpy.S:162
+[0m
+[0;33m0x40089b44: memcpy at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/memcpy.S:197
+[0m
+[0;33m0x40093e73: remove_free_block at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:331 (discriminator 1)
+ (inlined by) block_locate_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:567 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+[0m
+[0;33m0x400936e1: multi_heap_malloc_impl at /home/wtsaichu/esp/esp-idf/components/heap/multi_heap.c:210
+[0m
+[0;33m0x40082925: heap_caps_malloc_base at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:179
+[0m
+[0;33m0x40082ab6: heap_caps_malloc_default at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:236
+[0m
+[0;33m0x40095180: malloc at /home/wtsaichu/esp/esp-idf/components/newlib/heap.c:25
+[0m
+[0;33m0x400dc101: berechnenHOG at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_ohne_Netz/main/../include/histogram.h:12
+[0m
+[0;33m0x400dc382: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_ohne_Netz/main/main.c:89
+[0m
+[0;33m0x400fadf8: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4008df96: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081470: call_start_cpu1 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:182
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m0x400ee258: _GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_alloc.cc:462
+[0m
+[0;33m0x400edccc: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m0x400ea6b8: check_i2c_driver_conflict at /home/wtsaichu/esp/esp-idf/components/driver/i2c/i2c.c:1679
+[0m
+[0;33m0x400e8018: esp_ipc_init at /home/wtsaichu/esp/esp-idf/components/esp_system/esp_ipc.c:114
+[0m
+[0;33m0x4008bb60: enable_timer_group0_for_calibration at /home/wtsaichu/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:194
+[0m
+[0;33m0x400d25ac: __esp_stack_guard_setup at /home/wtsaichu/esp/esp-idf/components/esp_system/stack_check.c:21
+[0m
+[0;33m0x400d1d70: esp_app_format_init_elf_sha256 at /home/wtsaichu/esp/esp-idf/components/esp_app_format/esp_app_desc.c:68
+[0m
+[0;33m0x400d6224: __esp_system_init_fn_esp_timer_startup_init at /home/wtsaichu/esp/esp-idf/components/esp_timer/src/esp_timer.c:578
+[0m
+[0;33m0x400f9cb4: __esp_system_init_fn_init_components0 at /home/wtsaichu/esp/esp-idf/components/esp_system/startup.c:470
+[0m
+[0;33m0x40081df2: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4008d141: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40095141: __assert_func at /home/wtsaichu/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x40093e4c: block_locate_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+[0m
+[0;33m0x400936e1: multi_heap_malloc_impl at /home/wtsaichu/esp/esp-idf/components/heap/multi_heap.c:210
+[0m
+[0;33m0x40082925: heap_caps_malloc_base at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:179
+[0m
+[0;33m0x40082ab6: heap_caps_malloc_default at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:236
+[0m
+[0;33m0x40095180: malloc at /home/wtsaichu/esp/esp-idf/components/newlib/heap.c:25
+[0m
+[0;33m0x400dc101: berechnenHOG at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_ohne_Netz/main/../include/histogram.h:12
+[0m
+[0;33m0x400dc382: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_ohne_Netz/main/main.c:89
+[0m
+[0;33m0x400fadf8: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4008df96: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081470: call_start_cpu1 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:182
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40080000: _WindowOverflow4 at /home/wtsaichu/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m0x400ee258: _GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_alloc.cc:462
+[0m
+[0;33m0x400edccc: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m0x400ea6b8: check_i2c_driver_conflict at /home/wtsaichu/esp/esp-idf/components/driver/i2c/i2c.c:1679
+[0m
+[0;33m0x400e8018: esp_ipc_init at /home/wtsaichu/esp/esp-idf/components/esp_system/esp_ipc.c:114
+[0m
+[0;33m0x4008bb60: enable_timer_group0_for_calibration at /home/wtsaichu/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:194
+[0m
+[0;33m0x400d25ac: __esp_stack_guard_setup at /home/wtsaichu/esp/esp-idf/components/esp_system/stack_check.c:21
+[0m
+[0;33m0x400d1d70: esp_app_format_init_elf_sha256 at /home/wtsaichu/esp/esp-idf/components/esp_app_format/esp_app_desc.c:68
+[0m
+[0;33m0x400d6224: __esp_system_init_fn_esp_timer_startup_init at /home/wtsaichu/esp/esp-idf/components/esp_timer/src/esp_timer.c:578
+[0m
+[0;33m0x400f9cb4: __esp_system_init_fn_init_components0 at /home/wtsaichu/esp/esp-idf/components/esp_system/startup.c:470
+[0m
+[0;33m0x40081df2: panic_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4008d141: esp_system_abort at /home/wtsaichu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40095141: __assert_func at /home/wtsaichu/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x40093e4c: block_locate_free at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/wtsaichu/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+[0m
+[0;33m0x400936e1: multi_heap_malloc_impl at /home/wtsaichu/esp/esp-idf/components/heap/multi_heap.c:210
+[0m
+[0;33m0x40082925: heap_caps_malloc_base at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:179
+[0m
+[0;33m0x40082ab6: heap_caps_malloc_default at /home/wtsaichu/esp/esp-idf/components/heap/heap_caps.c:236
+[0m
+[0;33m0x40095180: malloc at /home/wtsaichu/esp/esp-idf/components/newlib/heap.c:25
+[0m
+[0;33m0x400dc101: berechnenHOG at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_ohne_Netz/main/../include/histogram.h:12
+[0m
+[0;33m0x400dc382: app_main at /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-CAM/Photo_ohne_Netz/main/main.c:89
+[0m
+[0;33m0x400fadf8: main_task at /home/wtsaichu/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4008df96: vPortTaskWrapper at /home/wtsaichu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081470: call_start_cpu1 at /home/wtsaichu/esp/esp-idf/components/esp_system/port/cpu_start.c:182
+[0m
+[0m

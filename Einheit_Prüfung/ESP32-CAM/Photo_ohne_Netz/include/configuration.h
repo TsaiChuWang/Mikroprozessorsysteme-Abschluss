@@ -1,0 +1,9 @@
+#define CELL_SIZE 8
+#define ZAHL_BINS 9
+#define BILDGRÖSSE 96
+#define BESONDERHEIT_ZAHL (BILDGRÖSSE /CELL_SIZE)*(BILDGRÖSSE/CELL_SIZE)*ZAHL_BINS
+#include <math.h>
+
+#define SCHWELLE 100
+
+#define BINÄR_ANZEIGEN
