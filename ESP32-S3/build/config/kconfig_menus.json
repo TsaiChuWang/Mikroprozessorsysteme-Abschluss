@@ -5923,6 +5923,24 @@
             {
                 "children": [],
                 "depends_on": null,
+                "help": "Target endpoint host-name for the example to use.",
+                "id": "EXAMPLE_HTTP_ENDPOINT",
+                "name": "EXAMPLE_HTTP_ENDPOINT",
+                "range": null,
+                "title": "Example HTTP Endpoint",
+                "type": "string"
+            }
+        ],
+        "depends_on": null,
+        "id": "example-configuration",
+        "title": "Example Configuration",
+        "type": "menu"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "depends_on": null,
                 "help": null,
                 "id": "ENV_GPIO_RANGE_MIN",
                 "name": "ENV_GPIO_RANGE_MIN",

@@ -1,4 +1,4 @@
-/* * Data converted from /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/ESP32-S3/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
