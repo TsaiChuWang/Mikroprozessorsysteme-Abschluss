@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/build/esp-idf/esp_system/port/soc/esp32s3/cmake_install.cmake")
+  include("/home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/ESP32-S3/build/esp-idf/esp_system/port/soc/esp32s3/cmake_install.cmake")
 endif()
 

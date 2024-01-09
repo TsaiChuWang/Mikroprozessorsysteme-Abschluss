@@ -193,6 +193,7 @@ static void http_rest_with_url(void *pvParameters)
         }
         // ESP_LOG_BUFFER_HEX(TAG, local_response_buffer, strlen(local_response_buffer));
         // printf("len=%d, first bit = %c\n", strlen(local_response_buffer), *local_response_buffer);
+        
         if(*local_response_buffer=='1'){
             FLAGGE = 1;
             // POST

@@ -1,4 +1,4 @@
-/* * Data converted from /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/Einheit_Prüfung/ESP32-S3/Model_einundzweitig/main/howsmyssl_com_root_cert.pem
+/* * Data converted from /home/wtsaichu/Dokumente/Arbeitsplatz/Mikroprozessorsysteme-Abschluss/ESP32-S3/main/howsmyssl_com_root_cert.pem
  * (null byte appended)
  */
 .data

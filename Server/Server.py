@@ -18,18 +18,12 @@ topic = [0,0,0]
 count = 0
 flag = 0
 
-def _siamese(image):
-    url = "http://140.123.91.96:9091/get_image"
-
-    payload = json.dumps({ "img": image})
-    headers = {'Content-Type': 'application/json'}
-    response = requests.request("POST", url, headers=headers, data=payload)
-    return int(json.loads(response.text)['class'])
 
 # Für die Webnutzung : Holen Sie sich das Tag
 @app.route('/get_label', methods=['GET'])
 @cross_origin(supports_credentials=True)
 def get_label():
+    global label
     data = {'label': str(label)}
     response = jsonify(data)
     return response
@@ -56,17 +50,16 @@ def post_image():
     print("Recieve entire picture.")
 
     global label
-    # label = _siamese(str(request.json["img"]))
 
     # [VERSTECKT]
-    print('count = '+str(count))
-    if(count == 1):
-        print("Topic 2 = "+str(topic[1])+" predict = "+str(topic[1]-1))
-        label = topic[1]-1
-    else:
-        print("Topic "+str(count)+" = "+str(topic[count])+" predict = "+str(topic[count]))
-        label = topic[count]
-    print("label = "+str(label))
+    # print('count = '+str(count))
+    # if(count == 1):
+    #     print("Topic 2 = "+str(topic[1])+" predict = "+str(topic[1]-1))
+    #     label = topic[1]-1
+    # else:
+    #     print("Topic "+str(count)+" = "+str(topic[count])+" predict = "+str(topic[count]))
+    #     label = topic[count]
+    # print("label = "+str(label))
 
     # Schreiben der Bilder auf Puffer
     with open("./configuration/config.txt", 'w') as file:
@@ -105,6 +98,8 @@ def classificated_result():
         file.close()
     flag = 0
     print("predict label = "+str(request.json["label"]))
+    global label
+    label = int(request.json["label"])
     return "SUCCESS"
 
 # @app.route('/users/<gid>', methods=['GET', 'POST'])

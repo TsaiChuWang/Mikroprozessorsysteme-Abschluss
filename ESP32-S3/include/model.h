@@ -32,7 +32,7 @@ void anzeigenWahlurne(u_int8_t* wahlurne){
 }
 
 u_int8_t findenMax(u_int8_t* wahlurne){
-    u_int8_t max = -1;
+    int8_t max = -1;
     u_int8_t ret_index = 0;
     for(int index=0;index<7;index++){
         if(*(wahlurne+index)>max){
